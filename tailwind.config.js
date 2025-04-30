@@ -8,14 +8,7 @@ module.exports = {
     ],
     theme: {
       extend: {
-        screens: {
-          xs: '375px',  // Custom extra-small breakpoint
-          sm: '640px',  // Default small breakpoint
-          md: '768px',  // Default medium breakpoint
-          lg: '1024px', // Default large breakpoint
-          xl: '1280px', // Default extra-large breakpoint
-          '2xl': '1440px', // Custom double extra-large breakpoint
-        },
+        
         
             fontFamily: {
                 chivo: ["'Chivo'", "sans-serif"],

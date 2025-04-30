@@ -7,7 +7,7 @@ export default function ContactUs(){
         <>
          <div className="w-full h-[639px] bg-[url('/Images/contact-bg.png')] bg-cover bg-center ">
          <div className='w-[1440px] mx-auto '>
-            <div className='w-[1197px]  mx-auto pt-[91px] flex'>
+            <div className='w-[1244px]  mx-auto pt-[91px] flex'>
                 <div className='w-[536px]'>
                     <h1 className='text-[48px] font-bold text-[#FFFFFF] leading-[70px] tracking-[-0.7px]'>CONTACT US</h1>
                     <p className='text-[20px] font-normal leading-[28px] tracking-[0px] text-[#FFFFFF]'>Let’s Talk About Your Fulfillment Needs</p>

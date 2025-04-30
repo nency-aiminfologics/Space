@@ -1,15 +1,18 @@
-import Blog from "../Components/Blog/Blog";
-import ContactUs from "../Components/Contact Us/Contact Us";
 import Footer from "../Components/Footer/Footer";
-import Navbar from "../Components/Navbar/Navbar";
+import NavbarWhite from "../Components/Navbar/NavbarWhite";
+import Blogcard from "./Blog card";
+import Home from "./Home";
+
 
 export default function BlogPage() {
   return (
     <>
-    
-      
-    
-      
+
+      <NavbarWhite />
+      <Home />
+      <Blogcard />
+      <Footer />
+
     </>
   );
 }

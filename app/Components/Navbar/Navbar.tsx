@@ -50,10 +50,10 @@ export default function Navbar() {
                   }`}
                 >
                   <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[142px] h-[172px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded">Fulfillment</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Prep</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Warehousing</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">3PL</li>
+                 <li className="py-1 px-2 hover:bg-gray-100 rounded"><Link href="/fulfilment">Fulfillment</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/prep">Prep</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/warehousing">Warehousing</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/3pl">3PL</Link></li>
                   </ul>
                 </div>
               </li>
@@ -74,9 +74,9 @@ export default function Navbar() {
                   }`}
                 >
                   <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[160px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded">Plan A</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Plan B</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Plan C</li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded"><Link href="/pricefulfilment">Fullfillment</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/pricefba">FBA/WFS Prep</Link></li>
+                    
                   </ul>
                 </div>
               </li>

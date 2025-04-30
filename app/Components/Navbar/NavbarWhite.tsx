@@ -1,6 +1,3 @@
-
-
-
 'use client'
 
 import { useState } from "react";
@@ -35,28 +32,26 @@ export default function NavbarWhite() {
           {/* Navigation */}
           <div className="w-[548px] mt-[21.5px]">
             <ul className="text-[18px] text-[#FFFFFF] font-normal tracking-[1px] font-sora flex justify-between">
-              <li className="text-center">About us</li>
+              <li className="text-center"><Link href='/aboutus'>About us</Link></li>
 
               {/* Services Dropdown */}
               <li className="relative flex flex-col items-start cursor-pointer">
                 <div onClick={toggleServices} className="flex items-center gap-[1px]">
                   Services
                   <IoIosArrowDown
-                    className={`w-[24px] h-[24px] mt-1 transition-transform duration-300 ${
-                      isServicesOpen ? "rotate-180" : ""
-                    }`}
+                    className={`w-[24px] h-[24px] mt-1 transition-transform duration-300 ${isServicesOpen ? "rotate-180" : ""
+                      }`}
                   />
                 </div>
                 <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    isServicesOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${isServicesOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[142px] h-[172px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded">Fulfillment</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Prep</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Warehousing</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">3PL</li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded"><Link href="/fulfilment">Fulfillment</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/prep">Prep</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/warehousing">Warehousing</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/3pl">3PL</Link></li>
                   </ul>
                 </div>
               </li>
@@ -66,20 +61,18 @@ export default function NavbarWhite() {
                 <div onClick={togglePricing} className="flex items-center gap-[1px]">
                   Pricing
                   <IoIosArrowDown
-                    className={`w-[24px] h-[24px] mt-1 transition-transform duration-300 ${
-                      isPricingOpen ? "rotate-180" : ""
-                    }`}
+                    className={`w-[24px] h-[24px] mt-1 transition-transform duration-300 ${isPricingOpen ? "rotate-180" : ""
+                      }`}
                   />
                 </div>
                 <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    isPricingOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${isPricingOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[160px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded">Plan A</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Plan B</li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]">Plan C</li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded"><Link href="/pricefulfilment">Fullfillment</Link></li>
+                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/pricefba">FBA/WFS Prep</Link></li>
+                    
                   </ul>
                 </div>
               </li>
