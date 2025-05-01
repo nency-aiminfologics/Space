@@ -52,7 +52,7 @@ export default function Services() {
           alt="fba"
           width={223}
           height={223}
-          className="absolute mt-[600px] ml-[1430px] z-10"
+          className="absolute mt-[600px] ml-[1430px] z-20"
         />
         <div className="w-[1440px] mx-auto">
           <div className="mx-[80px] pt-[127px]">

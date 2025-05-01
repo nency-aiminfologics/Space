@@ -14,7 +14,7 @@ export default function Home(){
 
                 </div>
                 <div>
-                    <Image src="/Images/fulfilment-bg.png" alt=""
+                    <Image src="/Images/prep-bg.png" alt=""
                     width={1794}
                     height={650}
                     className="h-[750px] rounded-br-[50px] " style={{boxShadow:" 0px 10px 20px #FFFFFF7D"}}/>

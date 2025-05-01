@@ -19,25 +19,25 @@ export default function ContactUs(){
                         <div className='w-[615px] mt-[48px]'>
                             <div className='gap-[16px] flex'>
                             <input type='name' placeholder='Name' className='border border-[#fffff8] rounded-[10px] w-[300px] h-[48px] text-[#ffffff] 
-                           placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
+                           placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]  outline-none '/>
                             <input type='name' placeholder='Company Name' className='border border-[#ffffff] rounded-[10px] w-[300px] h-[48px] text-[#ffffff] 
-                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
+                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px] outline-none'/>
                             </div>
                             <div className='gap-[16px] flex mt-[12px]'>
                             <input type='name' placeholder='E-mail' className='border border-[#ffffff] rounded-[10px] w-[300px] h-[48px] text-[#ffffff] 
-                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
+                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px] outline-none'/>
                             <input type='name' placeholder='Phone' className='border border-[#ffffff] rounded-[10px] w-[300px] h-[48px] text-[#ffffff] 
-                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
+                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px] outline-none'/>
                             </div>
                             <div className='gap-[16px] flex mt-[12px]'>
                             <input type='name' placeholder='How did you heard about us?' className='border border-[#ffffff] rounded-[10px] w-[300px] h-[48px] text-[#ffffff] 
-                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
+                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px] outline-none'/>
                             <input type='name' placeholder='What service are you looking for?' className='border border-[#ffffff] rounded-[10px] w-[300px] h-[48px] text-[#ffffff]
-                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
+                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px] outline-none'/>
                             </div>
                             <input type='description' placeholder='Additional information' className='w-[615px] h-[96px] border border-[#ffffff] rounded-[10px] mt-[17px] text-[#ffffff]
-                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px]'/>
-                            <button className='bg-[#FFFFFF] w-[615px] h-[61px] rounded-[50px] text-[18px] text-[#0084FF] font-bold leading-[32px] mt-[25px]'>Submit</button>
+                            placeholder-white text-[14px] pl-[16px] bg-[#ffffff2f] backdrop-blur-[4px] outline-none'/>
+                            <button className='bg-[#FFFFFF] w-[615px] h-[61px] rounded-[50px] text-[18px] text-[#0084FF] font-bold leading-[32px] mt-[25px] outline-none'>Submit</button>
 
                         </div>
                         
