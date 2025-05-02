@@ -27,7 +27,7 @@ export default function Whyus() {
             </div>
 
             {/* Right Side Cards */}
-            <div className="flex flex-col gap-[30px] w-[584px] pt-[93px] pb-[30px†]">
+            <div className="flex flex-col gap-[30px] w-[584px] pt-[93px] pb-[30px]">
               {/* First Card */}
               <div
                 className="w-[584px] h-[311px] rounded-[28px] bg-[#FFFFFF] shadow-lg transition-all transform duration-500 ease-in-out"
