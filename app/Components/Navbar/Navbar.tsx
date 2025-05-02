@@ -6,6 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
 
 export default function Navbar() {
+  
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isPricingOpen, setIsPricingOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);

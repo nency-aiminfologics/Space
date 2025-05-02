@@ -21,7 +21,9 @@ export default function page(){
         <WhyChoosing/>
         <WarehousingService/>
         <Frequently/>
+        <div id="contact-us">
         <ContactUs/>
+        </div>
         <Footer/>
         </>
     )

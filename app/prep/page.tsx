@@ -23,7 +23,10 @@ export default function PrepPage() {
         <FBAWFSPrep/>
         <PrepServices/>
         <Frequently/>
+        <div id="contact-us">
         <ContactUs/>
+        </div>
+
         <Footer/>
         
         </>

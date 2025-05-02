@@ -1,47 +1,33 @@
 'use client'
 
-import { useState, useEffect } from "react";
+
 import Image from "next/image";
 
 export default function Whyus() {
-  const [isSticky, setIsSticky] = useState(true);
-
-  const handleScroll = () => {
-    const sectionTop = document.getElementById("why-us-section")?.getBoundingClientRect().top;
-    if (sectionTop && sectionTop < 100) {
-      setIsSticky(false);  // Unlock sticky when scrolled past
-    } else {
-      setIsSticky(true); // Keep sticky
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  
 
   return (
     <>
       <div
-        className="bg-cover bg-center bg-no-repeat w-full h-[867px] overflow-hidden mx-auto"
+        className="bg-cover bg-center bg-no-repeat w-full h-[867px]  mx-auto overflow-y-auto scrollbar-hide"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
         <div className="w-[1440px] mx-auto">
           <div className="flex justify-between" id="why-us-section">
             {/* Left Side Title */}
-            <div className={`pt-[93px] ${isSticky ? 'sticky top-[100px]' : ''}`}>
-              <h1 className="text-[#0084FF] text-[20px] font-semibold leading-[28px]">
+            <div className="pt-[93px]   relative">
+              <div className="sticky top-[100px]">
+              <h1 className="text-[#0084FF] text-[20px] font-semibold leading-[28px] ">
                 Why us
               </h1>
               <h1 className="w-[594px] font-bold text-[48px] leading-[100%] tracking-[1px] uppercase text-[#020C12]">
                 Why Choose Space City Prep?
               </h1>
+              </div>
             </div>
 
             {/* Right Side Cards */}
-            <div className="flex flex-col gap-[30px] w-[584px] pt-[93px]">
+            <div className="flex flex-col gap-[30px] w-[584px] pt-[93px] pb-[30px†]">
               {/* First Card */}
               <div
                 className="w-[584px] h-[311px] rounded-[28px] bg-[#FFFFFF] shadow-lg transition-all transform duration-500 ease-in-out"

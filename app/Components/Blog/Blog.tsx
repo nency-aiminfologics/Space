@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function Blog () {
@@ -12,12 +13,14 @@ export default function Blog () {
                     <h1 className='text-[20px] text-[#0084FF] font-semibold leading-[28px] font-sora tracking-[0px] '>Blog & Insights</h1>
                     <div className='flex justify-between mt-[14px]'>
                     <h1 className='w-[474px] text-[48px] leading-[48px] tracking-[1%] font-extrabold   text-[#020C12] '>FBA TIPS, TRICKS & BEST PRACTICES</h1>
+                    <Link href="/blog">
                     <div className="flex gap-[18px] mt-[51px]">
                                 <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} />
                                 <span className="text-[20px] text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold mt-3">
                                 View More
                                 </span>
                               </div>
+                              </Link>
                 </div>
             </div>
             <div className=' h-[490px] mt-[68px]  flex justify-between relative'>

@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
 
 .scrollbar-hide::-webkit-scrollbar{
   display: none;
@@ -11,3 +18,30 @@
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+[id]::before {
+  content: '';
+  display: block;
+}
+
+.orbit-dot {
+  transform-origin: center;
+}
+
+
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-container {
+  animation: orbit 8s linear infinite;
+}

@@ -3,6 +3,7 @@
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Aboutus() {
   const ref = useRef(null);
@@ -19,7 +20,7 @@ export default function Aboutus() {
 
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat w-full h-[883px] mx-auto"
+      className="bg-cover bg-center bg-no-repeat w-full h-[883px] mx-auto "
       style={{ backgroundImage: `url("/Images/aboutbg.png")` }}
     >
       <div className="flex gap-[300px]  ml-[280px] w-[1440px]">
@@ -53,7 +54,7 @@ export default function Aboutus() {
           </div>
         </div>
         <div className="w-[512px] h-[381px] my-[248px]">
-          <h1 className="text-[#0084FF] text-[20px] font-semibold leading-[28px] tracking-[0px]">
+          <h1 className="text-[#0084FF] text-[20px] font-semibold leading-[28px] tracking-[0px] ">
             About us
           </h1>
           <h2 className="text-[#020C12] text-[48px] font-extrabold leading-[70px] tracking-[1px] font-sora mt-[14px]">
@@ -64,12 +65,14 @@ export default function Aboutus() {
             fulfillment process easy and efficient. Our goal is to give online sellers like you the
             tools and support to grow your business in today’s fast-moving market.
           </p>
-          <div className="flex gap-[18px] mt-[51px]">
+          <Link href="/aboutus">
+          <div className="flex gap-[18px] mt-[51px] cursor-pointer">
             <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} />
             <span className="text-[20px] text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold mt-3">
               Learn more
             </span>
           </div>
+          </Link>
         </div>
       </div>
     </div>

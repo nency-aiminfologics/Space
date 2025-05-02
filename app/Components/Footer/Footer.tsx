@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 
@@ -18,17 +19,18 @@ export default function Footer(){
                     <div className='flex justify-between w-[575px]'>
                         <ul className='text-[#020C12] text-[16px] leading-[24px] '>
                             <li className='font-semibold'>Company</li>
-                            <li className='mt-[8px]'>About</li>
-                            <li className='mt-[8px]'>Blogs</li>
-                            <li className='mt-[8px]'>Faqs</li>
-                            <li className='mt-[8px] '>Contact</li>
+                            
+                            <Link href="/aboutus"><li className='mt-[8px]'>About</li></Link>
+                            <Link href="/blog"><li className='mt-[8px]'>Blogs</li></Link>
+                            <Link href="/Faq"><li className='mt-[8px]'>Faqs</li></Link>
+                            <Link href="/contactus"><li className='mt-[8px] '>Contact</li></Link>
                         </ul>
                         <ul className='text-[#020C12] text-[16px] leading-[24px]'>
                             <li className='font-semibold'>Services</li>
-                            <li className='mt-[8px]'>Fulfillment</li>
-                            <li className='mt-[8px]'>Warehousing</li>
-                            <li className='mt-[8px]'>Prep</li>
-                            <li className='mt-[8px]'>3PL</li>
+                            <Link href="/fulfilment"><li className='mt-[8px]'>Fulfillment</li></Link>
+                            <Link href="/warehousing"><li className='mt-[8px]'>Warehousing</li></Link>
+                            <Link href="/prep"><li className='mt-[8px]'>Prep</li></Link>
+                            <Link href="/3pl"><li className='mt-[8px]'>3PL</li></Link>
                         </ul>
                         <ul>
                             <li className='font-semibold'>Social links</li>
@@ -55,7 +57,7 @@ export default function Footer(){
                 </div>
                 <div className='w-[1247px] h-[1px] bg-[#000000] mx-auto mt-[68px]'></div>
                 <div  className='w-[1247px] mx-auto text-[#020C12] text-[16px] flex justify-between mt-[30px] leading-[24px] tracking-[0px]'>
-                    <p>© 2024 Space City Prep </p>
+                    <p>© 2025 Space City Prep </p>
                     <ul className='flex gap-[25px]'>
                         <li>Terms & conditions</li>
                         <li>Privacy policy</li>

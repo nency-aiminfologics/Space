@@ -11,6 +11,7 @@ import Whyus from "./Why us";
 export default function AboutUsPage() {
   return (
     <>
+   
       <NavbarWhite />
      
         <Home />
@@ -21,7 +22,7 @@ export default function AboutUsPage() {
         <Frequently/>
         <ContactUs/>
         <Footer/>
-     
+        
     </>
   );
 }

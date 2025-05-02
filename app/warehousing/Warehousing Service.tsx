@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 const services = [
@@ -75,7 +77,9 @@ export default function WarehousingService() {
                 </h1>
                 <h1 className="text-[#606060] text-[16px] mt-[10px]">/per week</h1>
                 </div>
-                <button
+                <button onClick={() => {
+                                            document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
+                                        }} 
                   className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
                   leading-[100%] tracking-[1px] mt-[17px]"
                   style={{ boxShadow: "0px 10px 20px #FFFFFF7D" }}

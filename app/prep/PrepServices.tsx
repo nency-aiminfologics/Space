@@ -1,4 +1,7 @@
+'use client'
+
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -30,7 +33,9 @@ export default function PrepServices() {
                                     <h1 className="text-[#606060] text-[16px] font-bold mt-[17px]">Started from</h1>
                                     <h1 className="text-[#000000] text-[28px] font-bold leading-[34px] mt-[8px]">$0.40</h1>
 
-                                    <button className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
+                                    <button onClick={() => {
+                                            document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
+                                        }}  className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
                                     leading-[100%] tracking-[1px] mt-[17px]" style={{ boxShadow: "0px 10px 20px #FFFFFF7D" }}>
                                         Get Started
                                     </button>
@@ -47,7 +52,9 @@ export default function PrepServices() {
                                     <h1 className="text-[#606060] text-[16px] font-bold mt-[17px]">Started from</h1>
                                     <h1 className="text-[#000000] text-[28px] font-bold leading-[34px] mt-[8px]">$0.40</h1>
 
-                                    <button className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
+                                    <button onClick={() => {
+                                            document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
+                                        }} className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
                                     leading-[100%] tracking-[1px] mt-[17px]" style={{ boxShadow: "0px 10px 20px #FFFFFF7D" }}>
                                         Get Started
                                     </button>
@@ -63,7 +70,9 @@ export default function PrepServices() {
                                     <h1 className="text-[#606060] text-[16px] font-bold mt-[17px]">Started from</h1>
                                     <h1 className="text-[#000000] text-[28px] font-bold leading-[34px] mt-[8px]">$0.40</h1>
 
-                                    <button className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
+                                    <button onClick={() => {
+                                            document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
+                                        }} className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
                                     leading-[100%] tracking-[1px] mt-[17px]" style={{ boxShadow: "0px 10px 20px #FFFFFF7D" }}>
                                         Get Started
                                     </button>
@@ -76,12 +85,14 @@ export default function PrepServices() {
 
 
                         </div>
+                        <Link href="/pricefulfilment">
                         <div className="flex gap-[15px] mt-[69px] justify-center">
                             <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} />
                             <span className="text-[20px] text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold mt-3">
                                 See All Prices
                             </span>
                         </div>
+                        </Link>
 
                     </div>
 

@@ -11,10 +11,15 @@ module.exports = {
         
         
             fontFamily: {
-                chivo: ["'Chivo'", "sans-serif"],
-                sora: ["'Sora'", "sans-serif"],
-                inter: ["'Inter'", "sans-serif"],
+              sora: ['Sora', 'sans-serif'],
+              inter: ['Inter', 'sans-serif'],
+              chivo: ['Chivo', 'sans-serif'],
+              'chivo-mono': ['Chivo Mono', 'monospace'],
               },     
+
+              animation: {
+                'spin-slow': 'spin 8s linear infinite',
+              },
        
       },
     },

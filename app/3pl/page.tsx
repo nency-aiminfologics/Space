@@ -20,7 +20,9 @@ export default function plpage (){
         <WhyChoosing/>
         <ThirdParty/>
         <Frequently/>
+        <div id="contact-us">
         <ContactUs/>
+        </div>
         <Footer/>
         </>
     )

@@ -7,6 +7,7 @@ import FulfillmentService from "./Fulfillment Service";
 import FulfillmentServices from "./Fulfillment Services";
 import Home from "./Home";
 import OurBenefits from "./Our Benefits";
+
 import WhyChoosing from "./Why Choosing";
 
 
@@ -20,8 +21,11 @@ export default function  Fulfilmentpage (){
         <WhyChoosing/>
         <FulfillmentServices/>
         <OurBenefits/>
+        
         <Frequently/>
+        <div id="contact-us">
         <ContactUs/>
+        </div>
         <Footer/>
         </>
     )
