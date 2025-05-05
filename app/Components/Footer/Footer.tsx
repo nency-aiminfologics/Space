@@ -44,7 +44,7 @@ export default function Footer(){
                                  <Image src="/Images/Small-components/Icons/twitter.svg" alt='insta'
                                 width={40}
                                 height={40}/>
-                                <Image src="/Images/Small-components/Icons/tiktok.png" alt='insta'
+                                <Image src="/Images/Small-components/Icons/tiktok.svg" alt='insta'
                                 width={40}
                                 height={40} className='mt-[10px]'/>
                                 <Image src="/Images/Small-components/Icons/facebook.svg" alt='insta'

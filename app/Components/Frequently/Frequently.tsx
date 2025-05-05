@@ -95,7 +95,7 @@ export default function Frequently() {
   };
 
   return (
-    <div className="w-full h-[857px] bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center ">
+    <div className="w-full h-[700px]  bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center  ">
       <div className="w-[1440px] mx-auto pt-[111px]">
         <div className='w-[1272px] mx-auto'>
         <h1 className="text-[48px]  font-bold text-center mb-16 text-[#020C12]">
@@ -125,9 +125,7 @@ export default function Frequently() {
           </div>
         </div>
       </div>
-      <div className='w-[604px] h-[66px] rounded-[10px] bg-[#D3E7FE] mt-[100px] mx-auto'>
-            <h1 className='text-[20px] font-semibold leading-[28px] tracking-[0px] text-[#0084FF] text-center py-[20px]'>Still have a question? Get in Touch Now!</h1>
-        </div>
+      
         </div>
     </div>
   );

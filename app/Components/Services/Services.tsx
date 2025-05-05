@@ -26,7 +26,7 @@ export default function Services() {
       whiteicon: "/Images/Frame3-white.png",
       icon: "/Images/Frame3.svg",
       group: "/Images/Group 14.png",
-      description: "Ensure your products meet Amazon FBA and Walmart standards with our accurate prep services—labeling, quality checks, and efficient packaging.",
+      description: "Ensure your products meet Amazon FBA and Walmart standards with our accurate prep services,labeling, quality checks, and efficient packaging.",
       readMoreLink: "/prep", // <-- custom link
       hoverImage: "/Images/prepcard.jpg", 
     },

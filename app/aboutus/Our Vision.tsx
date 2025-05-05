@@ -8,7 +8,7 @@ export default function OurVision(){
         className="bg-cover bg-center bg-no-repeat w-full h-[936px] overflow-hidden lmx-auto" // <- increased height
         style={{ backgroundImage: `url("/Images/ourvision-bg.png")` }}
       >
-        <div className="w-[1440px] mx-auto">
+        <div className="w-[1440px] mx-[320px]">
             
             <div className="flex justify-between">
                 <h1 className="uppercase text-[#020C12] text-[48px] font-bold leading-[100%] tracking-[1px] mt-[108px]">Our Vision</h1>

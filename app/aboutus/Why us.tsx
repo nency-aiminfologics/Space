@@ -12,10 +12,11 @@ export default function Whyus() {
         className="bg-cover bg-center bg-no-repeat w-full h-[867px]  mx-auto overflow-y-auto scrollbar-hide"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
-        <div className="w-[1440px] mx-auto">
-          <div className="flex justify-between" id="why-us-section">
+        <div className="w-[1440px] mx-[300px]">
+         
+          <div className="flex justify-between">
             {/* Left Side Title */}
-            <div className="pt-[93px]   relative">
+            <div className=" w-[594px] relative">
               <div className="sticky top-[100px]">
               <h1 className="text-[#0084FF] text-[20px] font-semibold leading-[28px] ">
                 Why us
@@ -75,8 +76,8 @@ export default function Whyus() {
                     </h1>
                     <Image src="/Images/Custom.svg" alt="handshake" width={80} height={80} />
                   </div>
-                  <div className="w-[467px]">
-                    <p className="text-[#020C12] text-right text-[18px] ml-[57px] mt-[18px]">
+                  <div className="w-[467px] ml-[50px]">
+                    <p className="text-[#020C12] text-right text-[18px] ml-[60px] mt-[18px]">
                       No two businesses are exactly the same, and that’s why we offer flexible solutions to match your size and needs. Whether you’re shipping 100 units or 10,000, we’ve got your back.
                     </p>
                   </div>
@@ -100,8 +101,9 @@ export default function Whyus() {
               </div>
             </div>
           </div>
+          </div>
         </div>
-      </div>
+     
     </>
   );
 }

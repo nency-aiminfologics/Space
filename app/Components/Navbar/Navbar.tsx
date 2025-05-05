@@ -6,7 +6,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
 
 export default function Navbar() {
-  
+
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isPricingOpen, setIsPricingOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,11 +53,41 @@ export default function Navbar() {
                   <IoIosArrowDown className={`w-[24px] h-[24px] mt-1 transition-transform duration-300 ${isServicesOpen ? "rotate-180" : ""}`} />
                 </div>
                 <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isServicesOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"}`}>
-                  <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[142px] h-[172px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded"><Link href="/fulfilment">Fulfillment</Link></li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/prep">Prep</Link></li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/warehousing">Warehousing</Link></li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/3pl">3PL</Link></li>
+                <ul className="absolute top-full mt-2 left-0 bg-white  shadow-md rounded-md py-2  w-[142px]  z-10 text-[#020C12] text-[16px]">
+                    <Link
+                      href="/fulfilment"
+
+                    >
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]   rounded">
+
+                          Fulfillment
+
+                        </li>
+                      </div>
+                    </Link>
+                    <Link href="/prep"
+                    >
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full  rounded">Prep</li>
+
+                      </div>
+                    </Link>
+                    <Link href="/warehousing"
+                    >
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+
+                        <li className="ml-[10px]  w-full  rounded ">Warehousing</li>
+                      </div>
+                    </Link>
+
+                    <Link href="/3pl"
+                    >
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full   rounded  ">
+                          3PL</li>
+                      </div>
+                    </Link>
                   </ul>
                 </div>
               </li>
@@ -70,8 +100,20 @@ export default function Navbar() {
                 </div>
                 <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isPricingOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"}`}>
                   <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[160px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded"><Link href="/pricefulfilment">Fullfillment</Link></li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/pricefba">FBA/WFS Prep</Link></li>
+                  <Link href="/pricefulfilment"
+                      >
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full   rounded  ">
+                        Fullfillment</li>
+                      </div>
+                    </Link>
+                    <Link href="/pricefba"
+                      >
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full   rounded  ">
+                        FBA/WFS Prep</li>
+                      </div>
+                    </Link>
                   </ul>
                 </div>
               </li>
@@ -90,8 +132,12 @@ export default function Navbar() {
                 : "0px 10px 20px #ffffff49"
             }}
           >
-            <button
-              className={`text-[18px] w-[194px] h-[61px]   transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"}`}
+
+            <button onClick={() => {
+              document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
+            }}
+              className={`text-[18px] w-[194px] cursor-pointer h-[61px] transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"
+                }`}
             >
               Get Started
             </button>

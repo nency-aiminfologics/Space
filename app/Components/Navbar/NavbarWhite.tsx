@@ -79,21 +79,41 @@ export default function NavbarWhite() {
                   className={`overflow-hidden transition-all duration-300 ease-in-out ${isServicesOpen ? "max-h-96 opacity-100 mt-2" : "max-h-0 opacity-0"
                     }`}
                 >
-                  <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[142px] h-[172px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded">
-                      <Link
-                        href="/fulfilment"
-                        className={`${pathname === "/fulfilment" ? "font-semibold text-[#0084FF]" : ""}`}
-                      >
-                        Fulfillment
+                  <ul className="absolute top-full mt-2 left-0 bg-white  shadow-md rounded-md py-2  w-[142px]  z-10 text-[#020C12] text-[16px]">
+                  <Link
+                          href="/fulfilment"
+                          className={`${pathname === "/fulfilment" ? "font-semibold text-[#0084FF]" : ""}`}
+                        >
+                    <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                      <li className=" ml-[10px]   rounded">
+                        
+                          Fulfillment
+                       
+                      </li>
+                    </div>
+                    </Link>
+                    <Link href="/prep"
+                        className={`${pathname === "/prep" ? "font-semibold text-[#0084FF]" : ""}`}>
+                    <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                      <li className=" ml-[10px]  w-full  rounded">Prep</li>
+
+                    </div>
+                    </Link>
+                    <Link href="/warehousing"
+                      className={`${pathname === "/warehousing" ? "font-semibold text-[#0084FF]" : ""}`}>
+                    <div className="w-[142px] h-[43px] hover:bg-gray-100">
+
+                    <li className="ml-[10px]  w-full  rounded ">Warehousing</li>
+                      </div>
                       </Link>
-                    </li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/prep" 
-                    className={`${pathname === "/prep" ? "font-semibold text-[#0084FF]" : ""}`}>Prep</Link></li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/warehousing" 
-                    className={`${pathname === "/warehousing" ? "font-semibold text-[#0084FF]" : ""}`}>Warehousing</Link></li>
-                    <li className="py-1 px-2 hover:bg-gray-100 rounded mt-[11px]"><Link href="/3pl" 
-                    className={`${pathname === "/3pl" ? "font-semibold text-[#0084FF]" : ""}`}>3PL</Link></li>
+
+                    <Link href="/3pl"
+                      className={`${pathname === "/3pl" ? "font-semibold text-[#0084FF]" : ""}`}>
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full   rounded  ">
+                          3PL</li>
+                      </div>
+                    </Link>
                   </ul>
                 </div>
               </li>
@@ -112,18 +132,31 @@ export default function NavbarWhite() {
                     }`}
                 >
                   <ul className="absolute top-full mt-2 left-0 bg-white shadow-md rounded-md py-2 px-3 w-[160px] z-10 text-[#020C12] text-[16px]">
-                    <li className="py-1 px-1 hover:bg-gray-100 rounded"><Link href="/pricefulfilment" 
-                    className={`${pathname === "/pricefulfilment" ? "font-semibold text-[#0084FF]" : ""}`}>Fullfillment</Link></li>
-                    <li className="py-1 px-1 hover:bg-gray-100 rounded mt-[11px]"><Link href="/pricefba" 
-                    className={`${pathname === "/pricefba" ? "font-semibold text-[#0084FF]" : ""}`}>FBA/WFS Prep</Link></li>
+                   
+                      <Link href="/pricefulfilment"
+                      className={`${pathname === "/3pl" ? "font-semibold text-[#0084FF]" : ""}`}>
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full   rounded  ">
+                        Fullfillment</li>
+                      </div>
+                    </Link>
+                    <Link href="/pricefba"
+                      className={`${pathname === "/pricefba" ? "font-semibold text-[#0084FF]" : ""}`}>
+                      <div className="w-[142px] h-[43px] hover:bg-gray-100">
+                        <li className=" ml-[10px]  w-full   rounded  ">
+                        FBA/WFS Prep</li>
+                      </div>
+                    </Link>
+                      
+                    
                   </ul>
                 </div>
               </li>
 
-              <li><Link href="/blog" 
-              className={`${pathname === "/blog" ? "font-semibold" : ""}`}>Blog</Link></li>
+              <li><Link href="/blog"
+                className={`${pathname === "/blog" ? "font-semibold" : ""}`}>Blog</Link></li>
               <li><Link href="/contactus"
-              className={`${pathname === "/contactus" ? "font-semibold" : ""}`}>Contact us</Link></li>
+                className={`${pathname === "/contactus" ? "font-semibold" : ""}`}>Contact us</Link></li>
             </ul>
           </div>
 
@@ -137,8 +170,10 @@ export default function NavbarWhite() {
                 : "0px 10px 20px #ffffff49"
             }}
           >
-            <button
-              className={`text-[18px] w-[194px] h-[61px] transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"
+            <button onClick={() => {
+              document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
+            }}
+              className={`text-[18px] w-[194px] cursor-pointer h-[61px] transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"
                 }`}
             >
               Get Started

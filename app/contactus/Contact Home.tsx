@@ -25,15 +25,15 @@ export default function ContactHome(){
                             <h1 className="text-[20px] font-semibold text-[#020C12] leading-[28px]">Main Information</h1>
 
                             <div className="flex gap-[8px] mt-[26px]">
-                                <Image src="/Images/Small-components/icons/call.svg" alt="call" width={24} height={24}/>
+                                <Image src="/Images/vuesax/outline/call.svg" alt="call" width={24} height={24}/>
                                 <p className="text-[#020C12] text-[18px] font-normal leading-[28px]">(+962) 7 8780 0078</p>
                             </div>
                             <div className="flex gap-[8px] mt-[12px]">
-                                <Image src="/Images/Small-components/icons/sms.svg" alt="call" width={24} height={24}/>
+                                <Image src="/Images/vuesax/outline/sms.svg" alt="call" width={24} height={24}/>
                                 <p className="text-[#020C12] text-[18px] font-normal leading-[28px]">hello@spacecityprep.com</p>
                             </div>
                             <div className="flex gap-[8px] mt-[12px]">
-                                <Image src="/Images/Small-components/icons/clock.svg" alt="call" width={24} height={24}/>
+                                <Image src="/Images/vuesax/outline/clock.svg" alt="call" width={24} height={24}/>
                                 <p className="text-[#020C12] text-[18px] font-normal leading-[28px]">Mon - Fri, 8 am - 4 pm EST</p>
                             </div>
 
@@ -51,11 +51,11 @@ export default function ContactHome(){
                             <h1 className="text-[20px] font-semibold text-[#020C12] leading-[28px]">Location</h1>
 
                             <div className="flex gap-[8px] mt-[26px]">
-                                <Image src="/Images/Small-components/icons/location.svg" alt="call" width={24} height={24}/>
+                                <Image src="/Images/vuesax/outline/location.svg" alt="call" width={24} height={24}/>
                                 <p className="text-[#020C12] text-[18px] font-normal leading-[28px]">2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
                             </div>
                             <div className="flex gap-[8px] mt-[12px]">
-                                <Image src="/Images/Small-components/icons/location.svg" alt="call" width={24} height={24}/>
+                                <Image src="/Images/vuesax/outline/location.svg" alt="call" width={24} height={24}/>
                                 <p className="text-[#020C12] text-[18px] font-normal leading-[28px]">Houston, TX – Just minutes from NASA HQ</p>
                             </div>
                            

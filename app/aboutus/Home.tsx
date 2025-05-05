@@ -7,7 +7,7 @@ export default function Home(){
         <>
         <div>
         
-        <h1 className="text-[#ffffff] z-10 text-[64px] absolute ml-[290px] mt-[495px] font-bold leading-[100%] tracking-[0px]  ">About us</h1>
+        <h1 className="text-[#ffffff] z-10 text-[64px] absolute ml-[320px] mt-[495px] font-bold leading-[100%] tracking-[0px]  ">About us</h1>
         <div>
             <Image src="/Images/about-bg.png" alt=""
             width={1794}

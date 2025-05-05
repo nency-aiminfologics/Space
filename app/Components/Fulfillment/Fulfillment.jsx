@@ -10,7 +10,7 @@ export default function Fulfillment(){
             
             <div className="w-[532px] h-[409px] mt-[342px] ml-[200px]  ">
                 <h1 className="text-[64px] font-bold font-sora text-[#020c12] w-[532px] leading-[100%]">Fulfillment & FBA Processing Center</h1>
-                <p className="text-[20px] w-[425px] text-[#020c12] font-normal mt-[15px] leading-[28px]">Space City Center: Fast, reliable prep and shipping for Amazon sellers."</p>
+                <p className="text-[20px] w-[425px] text-[#020c12] font-normal mt-[15px] leading-[28px]">Space City Center: Fast, reliable prep and shipping for Amazon sellers.</p>
                 <div className="mt-[34px] flex gap-[20px] ">
                    <Link href='/pricefulfilment'>
                     <button className="text-[18px]  w-[217px] h-[61px] cursor-pointer bg-[#0084ff] rounded-[35px] text-[#ffffff] font-semibold tracking-[1px] font-sora" 
