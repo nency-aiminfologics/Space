@@ -170,7 +170,7 @@ export default function NavbarWhite() {
                 : "0px 10px 20px #ffffff49"
             }}
           >
-           <Link href="/contactus#getintouch">
+           <Link href="/contactus">
   <button
     className={`text-[18px] w-[194px] cursor-pointer h-[61px] transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"}`}
   >
