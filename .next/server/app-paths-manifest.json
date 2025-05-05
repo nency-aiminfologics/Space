@@ -1,7 +1,4 @@
 {
-  "/prep/page": "app/prep/page.js",
-  "/3pl/page": "app/3pl/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
   "/warehousing/page": "app/warehousing/page.js",
-  "/fulfilment/page": "app/fulfilment/page.js"
+  "/3pl/page": "app/3pl/page.js"
 }

@@ -44,12 +44,12 @@ export default function Warehousfuture() {
       style={{ backgroundImage: `url("/Images/background.png")` }}
     >
       <div className="w-[1440px] mx-auto">
-        <div className="w-[1244px] mx-auto mt-[120px]">
+        <div className="w-[1244px] mx-auto mt-[120px] ">
           <h1 className="text-[48px] text-[#020C12] font-bold leading-[100%] uppercase tracking-[1px]">
             Our Features
           </h1>
 
-          <div className="flex gap-[35px] my-[100px]">
+          <div className="flex gap-[35px] my-[100px]  w-[1060px] mx-auto">
             {features.map((feature, index) => {
               const isExpanded =
                 hoveredIndex === index ||
