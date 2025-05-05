@@ -9,7 +9,7 @@ export default function Getintouch() {
     return (
         <>
 
-            <div  className="pt-[95px] border border-black">
+            <div  className=" border border-black">
                 <div className="w-[1440px] mx-auto ">
                     <div className="w-[1244px] mx-auto mt-[95px] gap-[35px] flex mb-[95px] ">
                         <div className=" h-[506px] w-[615px]">

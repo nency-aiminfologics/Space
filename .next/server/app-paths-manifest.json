@@ -1,7 +1,3 @@
 {
-  "/blog/page": "app/blog/page.js",
-  "/contactus/page": "app/contactus/page.js",
-  "/fulfilment/page": "app/fulfilment/page.js",
-  "/aboutus/page": "app/aboutus/page.js",
-  "/pricefba/page": "app/pricefba/page.js"
+  "/contactus/page": "app/contactus/page.js"
 }
