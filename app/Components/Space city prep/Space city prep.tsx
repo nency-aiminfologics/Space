@@ -27,7 +27,7 @@ export default function Spacecityprep() {
         <div className="absolute left-[655px] top-[613px]">
           <div className="relative bg-white w-[148px] h-[70px] px-4 py-2 rounded-lg shadow-md flex items-center gap-3 z-10">
             <Image
-              src="/images/flag.png"
+              src="/images/flag.svg"
               alt="Texas flag"
               width={31}
               height={31}
