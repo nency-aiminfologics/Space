@@ -49,7 +49,7 @@ export default function Warehousfuture() {
             Our Features
           </h1>
 
-          <div className="flex gap-[35px] mt-[90px]">
+          <div className="flex gap-[35px] my-[100px]">
             {features.map((feature, index) => {
               const isExpanded =
                 hoveredIndex === index ||

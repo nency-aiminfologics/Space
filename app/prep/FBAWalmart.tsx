@@ -42,9 +42,9 @@ export default function FBAWalmart(){
       >
         <div className=" ml-[320px]  flex justify-between min-h-screen">
           <div className="relative">
-            <div className="sticky top-[100px] ">
+            <div className="sticky top-[100px] pt-[0px]">
           
-            <h1 className="text-[#020C12] w-[406px] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] pt-[100px]">
+            <h1 className="text-[#020C12] w-[406px] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] border border-black">
             FBA/Walmart Prep Service includes
             </h1>
             </div>

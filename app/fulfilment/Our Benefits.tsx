@@ -41,7 +41,7 @@ export default function OurBenefits() {
     
     {/* Sticky Title Section */}
     <div className="relative">
-      <div className="sticky top-[100px] ">
+      <div className="sticky top-[100px] pt-[0px]">
         <h1 className="text-[#020C12] w-full text-[48px] font-bold uppercase leading-[100%] tracking-[1px]">
           OUR BENEFITS
         </h1>
