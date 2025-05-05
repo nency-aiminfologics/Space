@@ -37,14 +37,18 @@ export default function FBAWalmart(){
         <>
 
 <div
-        className="bg-cover bg-center bg-no-repeat w-full h-[890px] mx-auto"
+        className="bg-cover bg-center bg-no-repeat w-full h-[890px] mx-auto overflow-y-auto scrollbar-hide"
         style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
       >
-        <div className=" ml-[320px]  flex justify-between ">
+        <div className=" ml-[320px]  flex justify-between min-h-screen">
+          <div className="relative">
+            <div className="sticky top-[100px] ">
           
             <h1 className="text-[#020C12] w-[406px] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] pt-[100px]">
             FBA/Walmart Prep Service includes
             </h1>
+            </div>
+            </div>
             <div className="pt-[100px] space-y-[30px] h-[890px] overflow-hidden ">
               {slides.map((slide, index) => (
                 <div key={index}>

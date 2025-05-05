@@ -1,7 +1,7 @@
 import Footer from "../Components/Footer/Footer";
 import NavbarWhite from "../Components/Navbar/NavbarWhite";
 import ContactHome from "./Contact Home";
-import Getintouch from "./Get in touch";
+import Getintouch from "./Getintouch";
 
 
 export default function Contactpage(){

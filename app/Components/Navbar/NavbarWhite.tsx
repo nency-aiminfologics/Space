@@ -170,14 +170,13 @@ export default function NavbarWhite() {
                 : "0px 10px 20px #ffffff49"
             }}
           >
-            <button onClick={() => {
-              document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
-            }}
-              className={`text-[18px] w-[194px] cursor-pointer h-[61px] transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"
-                }`}
-            >
-              Get Started
-            </button>
+           <Link href="/contactus#getintouch">
+  <button
+    className={`text-[18px] w-[194px] cursor-pointer h-[61px] transition-colors duration-300 font-semibold ${isScrolled ? "text-white" : "text-[#020C12]"}`}
+  >
+    Get Started
+  </button>
+</Link>
           </div>
         </div>
       </div>

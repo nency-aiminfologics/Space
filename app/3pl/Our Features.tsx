@@ -18,7 +18,7 @@ export default function OurFeatures() {
       number: 2,
       title: "Smart Warehousing",
       description:
-        "Our modern, strategically located warehouses keep your inventory secure and ready for fast fulfillment. We customize storage solutions to meet your business needs.",
+        "Our modern, strategically located warehouses keep your inventory secure and ready for fast fulfillment.",
       image: "/Images/3plcard2.png",
     },
     {
@@ -88,10 +88,10 @@ export default function OurFeatures() {
                   >
                     <div className="flex flex-col justify-between h-full">
                       <div>
-                        <h2 className="text-[20px] font-bold text-[#020C12] leading-[28px] w-[348px]">
+                        <h2 className="text-[20px] font-bold text-[#020C12] leading-[28px] w-[448px]">
                           {feature.title}
                         </h2>
-                        <p className="text-[18px] w-[397px] leading-[28px] mt-[15px] font-normal text-[#020C12]">
+                        <p className="text-[18px] w-[397px] h-[90px] leading-[28px] mt-[15px] font-normal text-[#020C12]">
                           {feature.description}
                         </p>
                         <Image

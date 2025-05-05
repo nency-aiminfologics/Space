@@ -13,7 +13,8 @@ export default function WhyChoosing (){
             <div className="w-[1244px] mx-auto z-10 absolute ml-[330px]">
                  <div className="w-[702px] mx-auto py-[209px]">
                     <h1 className="text-center text-[#020C12] text-[48px] font-extrabold uppercase leading-[100%] tracking-[1px] ">Why Choosing Us?</h1>
-                    <p className="w-[702px] text-[18px] font-normal leading-[28px]  text-[#020C12] text-center mt-[15px] ">Choose Space City Prep for FBA and Walmart Prep Services that go beyond the ordinary. 
+                    <p className="w-[702px] text-[18px] font-normal leading-[28px]  text-[#020C12] text-center mt-[15px] ">Choose Space City Prep for FBA and Walmart Prep 
+                      Services that go beyond the ordinary. 
                         Our focus on precision and full compliance helps
                          you stand out on top e-commerce platforms. Partner with us to showcase your 
                          products with confidence and boost your success.</p>

@@ -40,7 +40,8 @@ export default function Whyus() {
                     Industry Expertise
                   </h1>
                   <p className="text-[#020C12] text-[18px] font-normal w-[497px] mt-[18px]">
-                    Our team has years of hands-on experience in e-commerce fulfillment and logistics. We know what works and what doesn’t, especially when it comes to Amazon FBA, Walmart prep, 3PL, and storage operations.
+                    Our team has years of hands-on experience in e-commerce fulfillment and logistics. We know what works and what doesn’t, 
+                    especially when it comes to Amazon FBA, Walmart prep, 3PL, and storage operations.
                   </p>
                 </div>
               </div>

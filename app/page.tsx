@@ -23,9 +23,9 @@ export default function Home() {
   <Blog/>
   <Frequently/>
   <Spacecityprep/>
-  <div id="contact-us">
+ 
   <ContactUs/>
-  </div>
+  
   <Footer/>
 
  </section>

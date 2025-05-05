@@ -18,7 +18,7 @@ export default function Warehousfuture() {
       number: 2,
       title: "Simplified Operations",
       description:
-        "Our advanced systems give you live updates and complete control over your stock — helping you manage operations more efficiently.",
+        "Our advanced systems give you live updates and complete control over your stock helping you manage operations more efficiently.",
       image: "/Images/3plcard3.png",
     },
     {
@@ -82,7 +82,7 @@ export default function Warehousfuture() {
                   >
                     <div className="flex flex-col justify-between h-full">
                       <div>
-                        <h2 className="text-[20px] font-bold text-[#020C12] leading-[28px] w-[348px]">
+                        <h2 className="text-[20px] font-bold text-[#020C12] leading-[28px] w-[448px]">
                           {feature.title}
                         </h2>
                         <p className="text-[18px] w-[397px] leading-[28px] mt-[15px] font-normal text-[#020C12]">
