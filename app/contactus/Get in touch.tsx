@@ -55,7 +55,7 @@ export default function Getintouch() {
                             <div className="absolute left-[1237px] top-[1160px]">
                                 <div className="relative bg-white w-[107px] h-[41px] px-4 py-2 rounded-lg shadow-md flex items-center gap-[3px] z-10">
                                     <Image
-                                        src="/images/flag.svg"
+                                        src="/images/flag.png"
                                         alt="Texas flag"
                                         width={21}
                                         height={21}
