@@ -44,7 +44,7 @@ export default function FBAWalmart(){
           <div className="relative">
             <div className="sticky top-[100px] pt-[0px]">
           
-            <h1 className="text-[#020C12] w-[406px] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] border border-black">
+            <h1 className="text-[#020C12] w-[406px] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] ">
             FBA/Walmart Prep Service includes
             </h1>
             </div>
