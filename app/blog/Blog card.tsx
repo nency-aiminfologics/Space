@@ -7,31 +7,31 @@ import { blogData } from "./data/blogdata";
 
 export default function Blogcard() {
   return (
-    <div className="pt-[63px]"> 
-      <div className="w-[1440px] h-[1546px] mx-auto">
-        <div className="w-[1244px] mx-auto">
+    <div className=" "> 
+      <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[142px] xl:py-[128px] mx-auto">
+        <div className="2xl:w-[1244px] xl:w-[1092px]  mx-auto">
             
-          <div className="grid grid-cols-3 gap-[35px] mt-[79px]">
+          <div className="grid 2xl:grid-cols-3 xl:grid-cols-3 2xl:gap-[35px] xl:gap-[30px]">
           {blogData.map((blog, index) => (
                 <Link href={`/blog/${blog.id}`} key={index}>
-              <div key={index} className="w-[391px]">
+              <div key={index} className="2xl:w-[391px] xl:w-[343px]">
                 <Image
                   src={blog.image}
                   alt="blog card"
                   width={391}
                   height={417}
-                  className="h-[417px] object-cover rounded-[20px]"
+                  className="2xl:h-[417px] 2xl:w-[391px] xl:w-[343px] xl:h-[365px] object-cover 2xl:rounded-[20px] xl:rounded-[18px]"
                 />
-                <div className="w-[361px] mt-[20px]">
-                  <h1 className="text-[#020C12] text-[24px] font-bold leading-[32px] tracking-[1px]">
+                <div className="2xl:w-[361px] xl:w-[316.27px] 2xl:mt-[20px] xl:mt-[17.86px]">
+                  <h1 className="text-[#020C12] 2xl:text-[24px] xl:text-[20px] font-bold 2xl:leading-[32px] xl:leading-[28.04px] 2xl:tracking-[1px] xl:tracking-[0.88px]">
                     {blog.title}
                   </h1>
-                  <p className="text-[#020C12] text-[18px] font-normal leading-[28px] mt-[10px]">
+                  <p className="text-[#020C12] 2xl:text-[18px] xl:text-[16px] font-normal 2xl:leading-[28px] xl:leading-[24.53px] 2xl:mt-[10px] xl:mt-[7.83px]">
                     {blog.excerpt}
                   </p>
-                  <div className="w-[183px] flex justify-between text-[#020C1299] text-[16px] font-normal mt-[15px] leading-[24px]">
+                  <div className="2xl:w-[183px] xl:w-[180.52px] flex justify-between text-[#020C1299] 2xl:text-[16px] xl:text-[16px] font-normal 2xl:mt-[15px] xl:mt-[13.14px] 2xl:leading-[24px] xl:leading-[21.03px]">
                     <p>{blog.date}</p>
-                    <p className="h-[13.29px] w-[1px] my-[5.35px] bg-[#D6D6D6]"></p>
+                    <p className="2xl:h-[13.29px] xl:h-[17px] w-[1px] 2xl:my-[5.35px] xl:my-[2.5px] bg-[#D6D6D6]"></p>
                     <p>{blog.timeAgo}</p>
                   </div>
                 </div>

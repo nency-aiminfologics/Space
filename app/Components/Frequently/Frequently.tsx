@@ -55,10 +55,10 @@ type CardProps = {
 const Card = ({ item, isActive, onClick }: CardProps) => (
   <div
     onClick={onClick}
-    className="cursor-pointer w-[619px] h-auto bg-white p-5 rounded-[15px] shadow-md transition-all duration-300"
+    className="cursor-pointer 2xl:w-[619px] xl:w-[550px] h-auto bg-white p-5 rounded-[15px] shadow-md transition-all duration-300"
   >
     <div className="flex justify-between items-center">
-      <h3  className="text-[20px] font-semibold text-[#020C12]">
+      <h3  className="2xl:text-[20px] xl:text-[18px] font-semibold text-[#020C12]">
         {item.title}
       </h3>
 
@@ -78,7 +78,7 @@ const Card = ({ item, isActive, onClick }: CardProps) => (
           animate={{ opacity: 1, height: 'auto' }}
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
-          className="overflow-hidden mt-2 text-[16px] text-[#020C12]"
+          className="overflow-hidden mt-2 2xl:text-[16px] xl:text-[14px] text-[#020C12]"
         >
           {item.description}
         </motion.div>
@@ -95,15 +95,15 @@ export default function Frequently() {
   };
 
   return (
-    <div className="w-full h-[700px]  bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center  ">
-      <div className="w-[1440px] mx-auto pt-[111px]">
-        <div className='w-[1272px] mx-auto'>
-        <h1 className="text-[48px]  font-bold text-center mb-16 text-[#020C12]">
+    <div className="2xl:w-full 2xl:h-[700px] xl:w-[1280px] xl:h-[603.11px]  bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center  ">
+      <div className="2xl:w-[1440px] xl:w-[1280px] mx-auto 2xl:pt-[111px] xl:pt-[99px]">
+        <div className='2xl:w-[1272px] xl:w-[1130px] mx-auto'>
+        <h1 className="2xl:text-[48px] xl:text-[42px]  font-bold text-center  text-[#020C12]">
           FREQUENTLY ASKED QUESTIONS
         </h1>
 
-        <div className="grid grid-cols-2 gap-[100px]">
-          <div className="flex flex-col gap-[45px] w-[619px] h-[138px]">
+        <div className="grid grid-cols-2 2xl:gap-[34px] xl:gap-[30px] 2xl:mt-[80px] xl:mt-[70px]">
+          <div className="flex flex-col 2xl:gap-[42px] xl:gap-[20px] 2xl:w-[619px]   xl:w-[550px]  ">
             {leftColumn.map((item) => (
               <Card
                 key={item.id}
@@ -113,7 +113,7 @@ export default function Frequently() {
               />
             ))}
           </div>
-          <div className="flex flex-col gap-[45px]">
+          <div className="flex flex-col 2xl:gap-[42px] xl:gap-[20px] 2xl:w-[619px]   xl:w-[550px] ">
             {rightColumn.map((item) => (
               <Card
                 key={item.id}

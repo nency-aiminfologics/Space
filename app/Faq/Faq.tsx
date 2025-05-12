@@ -129,7 +129,7 @@ type CardProps = {
 const Card = ({ item, isActive, onClick }: CardProps) => (
   <div
     onClick={onClick}
-    className="cursor-pointer w-full max-w-[827px] mx-auto bg-white p-5 rounded-[15px] shadow transition-all duration-300"
+    className="cursor-pointer w-full 2xl:max-w-[827px] xl:max-w-[827px] mx-auto bg-white p-5 rounded-[15px] shadow transition-all duration-300"
   >
     <div className="flex justify-between items-center">
       <h3 className="text-[18px] font-semibold text-[#020C12] text-left leading-[24px]">{item.title}</h3>
@@ -172,22 +172,23 @@ export default function Faq() {
       : allFAQs.filter(faq => faq.category === selectedCategory);
 
   return (
-    <div className="bg-[#F5F5F5] py-[60px] px-4">
-      <div className="max-w-[1000px] mx-auto">
-        <h1 className="text-[36px] sm:text-[48px] font-extrabold text-[#020C12] uppercase text-center leading-tight tracking-[1px]">
+    <div className="bg-[#F5F5F5] 2xl:py-[74px] xl:py-[60px] ">
+      <div className="2xl:max-w-[827px] xl:max-w-[827px] mx-auto ">
+        <h1 className="2xl:text-[48px] xl:text-[48px]  font-extrabold text-[#020C12] uppercase text-center 2xl:leading-[100%] xl:leading-[100%] 2xl:tracking-[1%] xl:tracking-[1%]">
           Frequently Asked Questions
         </h1>
-        <p className="text-[#020C12] text-[18px] sm:text-[20px] font-normal leading-[28px] text-center mt-4">
+        <p className="text-[#020C12] 2xl:text-[20px] xl:text-[20px] font-normal 2xl:leading-[28px] xl:leading-[28px] text-center 2xl:mt-[12px] xl:mt-[12px] 2xl:w-[748px] xl:w-[748px] mx-auto"> 
           These FAQs offer key insights into each of our services, making it easier to understand what we offer.
         </p>
 
         {/* Category Buttons */}
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
+        <div className="2xl:mt-[30px] xl:mt-[30px] flex flex-wrap justify-center 2xl:gap-[15px] xl:gap-[15px]">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`h-[48px] px-6 rounded-[30px] text-[16px] sm:text-[20px] leading-[28px] font-medium transition-all duration-200 ${
+              className={`2xl:h-[48px] xl:h-[48px] 2xl:px-[28px] xl:px-[28px] 2xl:rounded-[30px] xl:rounded-[30px] 2xl:text-[20px] xl:text-[20px]'
+                 2xl:leading-[28px] xl:leading-[28px] font-medium transition-all duration-200 ${
                 selectedCategory === cat
                   ? 'bg-[#0084FF] text-white'
                   : 'bg-[#B1B1B140] text-[#020C12]'
@@ -199,7 +200,7 @@ export default function Faq() {
         </div>
 
         {/* FAQ Cards */}
-        <div className="mt-10 flex flex-col gap-5">
+        <div className="2xl:mt-[40px] xl:mt-[40px] flex flex-col 2xl:gap-[20px] xl:gap-[20px]">
           {filteredFAQs.map((item) => (
             <Card
               key={item.id}

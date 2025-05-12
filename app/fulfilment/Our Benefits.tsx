@@ -33,37 +33,42 @@ export default function OurBenefits() {
   return (
     <>
       <div
-  className="bg-cover bg-center bg-no-repeat w-full h-[890px] mx-auto overflow-y-auto scrollbar-hide"
+  className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px]   
+  mx-auto overflow-y-auto scrollbar-hide"
   style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
 >
   <div>
-  <div className="ml-[320px] flex justify-between min-h-screen">
+  <div className="2xl:pl-[320px] xl:pl-[65px]  flex justify-between min-h-screen">
     
     {/* Sticky Title Section */}
     <div className="relative">
-      <div className="sticky top-[100px] pt-[0px]">
-        <h1 className="text-[#020C12] w-full text-[48px] font-bold uppercase leading-[100%] tracking-[1px]">
+      <div className="sticky 2xl:top-[100px] xl:top-[89px] ">
+        <h1 className="text-[#020C12] w-full 2xl:text-[48px] xl:text-[42px] font-bold 
+        uppercase leading-[100%] tracking-[1px]">
           OUR BENEFITS
         </h1>
       </div>
     </div>
 
     {/* Scrollable Benefits */}
-    <div className="pt-[100px] space-y-[30px] h-[890px]  pr-6">
+    <div className="2xl:py-[100px] xl:py-[89px]  space-y-[30px] 2xl:h-[890px] xl:h-[791px]  pr-6 ">
       {slides.map((slide, index) => (
         <div key={index}>
-          <h2 className="text-[#020C12] text-[32px] font-bold leading-[36px] tracking-[1px]">
+          <h2 className="text-[#020C12] 2xl:text-[32px] xl:text-[28px] font-bold 2xl:leading-[36px] 
+          xl:leading-[32px] 2xl:tracking-[1px] xl:tracking-[0.89px]">
             {slide.title}
           </h2>
-          <p className="text-[#020C12CC] text-[18px] mt-[18px] leading-[28px] w-[641px] font-normal">
+          <p className="text-[#020C12CC] 2xl:text-[18px] xl:text-[18px] 2xl:mt-[18px] 
+          xl:mt-[22.11px] leading-[28px] 2xl:w-[641px] xl:w-[617px] font-normal">
             {slide.description}
           </p>
           {index !== slides.length - 1 && (
-      <div className="w-[788px] bg-[#000000] h-[1px] mt-[40px]"></div>
+      <div className="2xl:w-[788px] xl:w-[700px] bg-[#000000] h-[1px] 2xl:mt-[40px] xl:mt-[36px]"></div>
     )}
   </div>
        
       ))}
+       <div className="hidden xl:block 2xl:h-[100px] xl:h-[89px]"></div>
     </div>
   </div>
   </div>

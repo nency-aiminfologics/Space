@@ -34,12 +34,9 @@ export default function NavbarWhite() {
   }, []);
 
   return (
-    <section
-      className={`w-full z-50 transition-all duration-300 ${isScrolled ? "fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]" : "absolute"
-        }`}
-    >
-      <div className="max-w-[1440px] mx-auto">
-        <div className="mx-[80px] flex justify-between my-[30px]">
+    <section className={`2xl:w-full xl:w-[1280px] z-50 transition-all duration-300 ${isScrolled ? '2xl:fixed top-0 xl:fixed bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'} `}>
+      <div className="2xl:w-[1440px] xl:w-[1280px] mx-auto ">
+        <div className="2xl:mx-[80px] xl:mx-[50px] xl:my-[34px] flex justify-between 2xl:my-[30px]">
           {/* Logo */}
           <div>
             <Link href="/">
@@ -48,12 +45,12 @@ export default function NavbarWhite() {
                 alt="Logo"
                 width={291.5}
                 height={65}
-              />
+              className="2xl:w-[291.5px] 2xl:h-[65px] xl:w-[243px] xl:h-[54.19px] xl:mt-[6px] 2xl:mt-0"/>
             </Link>
           </div>
 
           {/* Navigation */}
-          <div className="w-[548px] mt-[21.5px]">
+          <div className="2xl:w-[548px] xl:w-[548px] 2xl:h-[24px] xl:h-[24px] 2xl:mt-[21.5px] xl:mt-[21.5px]">
             <ul
               className={`text-[18px] ${isScrolled ? "text-[#020C12]" : "text-white"
                 } font-normal tracking-[1px] font-sora flex justify-between`}

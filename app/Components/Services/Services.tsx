@@ -44,7 +44,7 @@ export default function Services() {
   return (
     <>
       <div
-        className="bg-cover bg-center bg-no-repeat w-full h-[867px] relative"
+        className="bg-cover bg-center bg-no-repeat 2xl:w-full 2xl:h-[867px] xl:w-[1280px] xl:h-[770.67px] relative"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
         <Image
@@ -52,19 +52,19 @@ export default function Services() {
           alt="fba"
           width={223}
           height={223}
-          className="absolute mt-[600px] ml-[1430px] z-20"
+          className="absolute 2xl:mt-[600px] 2xl:ml-[1430px] z-20 2xl:w-[223px] 2xl:h-[223px] xl:w-[180px] xl:h-[180px] xl:mt-[560px] xl:ml-[1080px]"
         />
-        <div className="w-[1440px] mx-auto">
-          <div className="mx-[80px] pt-[127px]">
-            <div className="w-[513px] mx-auto text-[#020c12] font-sora font-semibold">
-              <h1 className="tracking-[1%] leading-[100%] text-[20px] text-center text-[#0084FF]">Services</h1>
-              <h1 className="text-[48px] tracking-[1%] leading-[100%] mt-[12px] text-center">Services We Offer</h1>
+        <div className="2xl:w-[1440px] xl:w-[1280px]  mx-auto">
+          <div className="2xl:mx-[80px] xl:mx-[0px]  2xl:pt-[127px] xl:pt-[113px]">
+            <div className="2xl:w-[513px] xl:w-[499px]  mx-auto text-[#020c12] font-sora font-semibold">
+              <h1 className="tracking-[1%] leading-[100%] 2xl:text-[20px] xl:text-[18px] text-center text-[#0084FF]">Services</h1>
+              <h1 className="2xl:text-[48px] xl:text-[42px] tracking-[1%] leading-[100%] 2xl:mt-[12px] xl:mt-[12px] text-center">Services We Offer</h1>
             </div>
-            <div className="mt-[50px] flex justify-center gap-[36px] flex-wrap bg-cover">
+            <div className="mt-[50px] flex 2xl:mx-0 xl:pl-[65px] 2xl:pl-[0px]  2xl:gap-[36px] xl:gap-[37px] flex-wrap bg-cover">
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className={`w-[291px] h-[400px] rounded-[20px] overflow-hidden relative group ${index === 0 || index === 3 ? "mt-[50px]" : "mt-[90px]"
+                  className={`2xl:w-[291px] 2xl:h-[400px] xl:w-[258px] xl:h-[355px] rounded-[20px] overflow-hidden relative group ${index === 0 || index === 3 ? "mt-[50px]" : "mt-[90px]"
                     }`}
                 >
                   {/* Default Card Content */}
@@ -72,11 +72,11 @@ export default function Services() {
                     <Image
                       src={service.icon}
                       alt="carticon"
-                      width={94.14}
-                      height={81.86}
-                      className="absolute pt-[39.07px] ml-[32.93px]"
+                      width={100}
+                      height={100}
+                      className="absolute 2xl:mt-[39.07px] 2xl:ml-[32.93px] 2xl:w-[100px] 2xl:h-[100px] xl:w-[88.66px] xl:h-[88.66px] xl:mt-[26.67px] xl:ml-[26.6px]"
                     />
-                    <h1 className="text-[20px] leading-[28px] tracking-[0px] font-bold font-sora pt-[165px] ml-[30px]">
+                    <h1 className="2xl:text-[20px] xl:text-[18px] leading-[28px] tracking-[0px] font-bold font-sora 2xl:mt-[165px] 2xl:ml-[30px] xl:ml-[26.67px] xl:mt-[146.67px]">
                       {service.title}
                     </h1>
                     <Image
@@ -84,12 +84,12 @@ export default function Services() {
                       alt="group"
                       width={180.3}
                       height={173}
-                      className="pt-[43px] ml-[153.35px]"
+                      className="2xl:mt-[43px] 2xl:ml-[153.35px] 2xl:w-[180.3px] 2xl:h-[173px] xl:w-[160.26px] xl:h-[153.78px] xl:mt-[44.33px] xl:ml-[136.71px]"
                     />
                   </div>
 
                   {/* Hover Content */}
-                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100  transition-opacity duration-300 z-10">
                     {/* Background Image */}
                     <div
                       style={{ backgroundImage: `url("${service.hoverImage}")` }}

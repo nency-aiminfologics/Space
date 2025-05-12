@@ -3,28 +3,31 @@
 
 export default function FbaWfsPrep() {
     return (
-        <div className="pt-[63px] h-[3097px] ">
-            <div className="w-[1440px]     mx-auto">
-                <div className="w-[1128px] mx-auto">
-                    <div className="mt-[55px]">
-                        <h2 className="text-[48px] font-bold uppercase leading-[100%] tracking-[1px] text-center text-[#020C12]">
+        <div className="2xl:py-[118px] xl:py-[98px] ">
+            <div className="2xl:w-[1440px] xl:w-[1280px]  mx-auto">
+                <div className="2xl:w-[1128px] xl:w-[1150px] mx-auto">
+                    <div className="">
+                        <h2 className="2xl:text-[48px] xl:text-[42px] font-bold uppercase leading-[100%] 
+            2xl:tracking-[1px] xl:tracking-[0.89px] text-center text-[#020C12]">
                             FBA/WFS PREP
                         </h2>
-                        <p className="text-center text-[20px] text-[#020C12] font-normal leading-[28px] mt-[12px]">
+                        <p className="text-center 2xl:text-[20px] xl:text-[18px] text-[#020C12] font-normal 
+            2xl:leading-[28px] xl:leading-[24.89px] 2xl:mt-[12px] xl:mt-[12px]">
                             *Up to 4 lbs in weight and up to 12 inches in length, width and height
                         </p>
                     </div>
 
                     {/* FBA/WFS PREP TABLE */}
-                    <div className="w-[1128px] h-[694px] mt-[30px] overflow-hidden rounded-[10px] "
+                    <div className="2xl:w-[1128px] xl:w-[1003px] 2xl:h-[694px] xl:h-[616px] 
+          2xl:mt-[30px] xl:mt-[31px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] mx-auto"
                         style={{
                             boxShadow: "0px 4px 6px #020C120F",
                         }}>
                         <table className="w-full  text-center border-none">
-                            <thead className="bg-[#0084FF] h-[74px] text-white rounded-t-[10px]">
-                                <tr className="text-[20px] font-semibold leading-[28px]">
-                                    <th className="px-4 py-2 ">Units per Month / Service Type</th>
-                                    <th className="px-4 py-2">Pricing Details</th>
+                            <thead className="bg-[#0084FF] 2xl:h-[74px] xl:h-[65px] text-white 2xl:rounded-t-[10px] xl:rounded-t-[8.89px]">
+                                <tr className="2xl:text-[20px] xl:text-[17.78px] font-semibold leading-[28px]">
+                                    <th className=" ">Units per Month / Service Type</th>
+                                    <th className="">Pricing Details</th>
 
                                 </tr>
                             </thead>
@@ -44,7 +47,8 @@ export default function FbaWfsPrep() {
                                     <tr
                                         key={unit}
                                         className={`${i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#D6D6D633]"
-                                            } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} h-[62px] text-[#020C12] text-[18px] font-semibold leading-[28px]`}
+                                            } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} 2xl:h-[62px] xl:h-[55.11px] text-[#020C12] 
+                    text-[18px] font-semibold leading-[28px]`}
                                     >
                                         <td >{unit}</td>
                                         <td >{price}</td>
@@ -60,17 +64,19 @@ export default function FbaWfsPrep() {
                     {/* RECEIVING TABLE */}
 
 
-                    <div className="w-[1128px] h-[480px] mt-[70px]">
-                        <h1 className="text-[#020C12] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] text-center">RECEIVING</h1>
-                        <div className=" overflow-hidden rounded-[10px] mt-[30px]"
+                    <div className="2xl:w-[1128px] 2xl:h-[480px] xl:w-[1003px] xl:h-[430px] mx-auto  mt-[70px] ">
+                        <h1 className="2xl:text-[48px] xl:text-[42px] font-bold uppercase leading-[100%] 
+            2xl:tracking-[1px] xl:tracking-[0.89px] text-center text-[#020C12]">RECEIVING</h1>
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[350px] 
+          2xl:mt-[30px] xl:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
                             }}>
                             <table className="w-full  text-center border-none">
-                                <thead className="bg-[#0084FF] h-[74px] text-white rounded-t-[10px]">
-                                    <tr className="text-[20px] font-semibold leading-[28px]">
-                                        <th className="px-4 py-2 ">Units per Month / Service Type</th>
-                                        <th className="px-4 py-2">Pricing Details</th>
+                                <thead className="bg-[#0084FF] 2xl:h-[74px] xl:h-[65px] text-white 2xl:rounded-t-[10px] xl:rounded-t-[8.89px]">
+                                    <tr className="2xl:text-[20px] xl:text-[17.78px] font-semibold leading-[28px]">
+                                        <th className=" ">Units per Month / Service Type</th>
+                                        <th className="">Pricing Details</th>
 
                                     </tr>
                                 </thead>
@@ -85,7 +91,8 @@ export default function FbaWfsPrep() {
                                         <tr
                                             key={unit}
                                             className={`${i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#D6D6D633]"
-                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} h-[62px] text-[#020C12] text-[18px] font-semibold leading-[28px]`}
+                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} 2xl:h-[62px] xl:h-[55.11px] text-[#020C12] 
+                    text-[18px] font-semibold leading-[28px]`}
                                         >
                                             <td >{unit}</td>
                                             <td >{price}</td>
@@ -99,17 +106,19 @@ export default function FbaWfsPrep() {
 
                     {/* BOX FORWARDING table */}
 
-                    <div className="w-[1128px] h-[412px] mt-[70px]">
-                        <h1 className="text-[#020C12] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] text-center">BOX FORWARDING</h1>
-                        <div className=" overflow-hidden rounded-[10px] mt-[30px]"
+                    <div className="2xl:w-[1128px] 2xl:h-[412px] xl:w-[1003px] xl:h-[365px] 2xl:mt-[70px] xl:mt-[50px] mx-auto ">
+                        <h1 className="2xl:text-[48px] xl:text-[42px] font-bold uppercase leading-[100%] 
+            2xl:tracking-[1px] xl:tracking-[0.89px] text-center text-[#020C12]">BOX FORWARDING</h1>
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[280px] 
+          2xl:mt-[30px] xl:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
                             }}>
                             <table className="w-full  text-center border-none">
-                                <thead className="bg-[#0084FF] h-[74px] text-white rounded-t-[10px]">
-                                    <tr className="text-[20px] font-semibold leading-[28px]">
-                                        <th className="px-4 py-2 ">Units per Month / Service Type</th>
-                                        <th className="px-4 py-2">Pricing Details</th>
+                                <thead className="bg-[#0084FF] 2xl:h-[74px] xl:h-[65px] text-white 2xl:rounded-t-[10px] xl:rounded-t-[8.89px]">
+                                    <tr className="2xl:text-[20px] xl:text-[17.78px] font-semibold leading-[28px]">
+                                        <th className=" ">Units per Month / Service Type</th>
+                                        <th className="">Pricing Details</th>
 
                                     </tr>
                                 </thead>
@@ -124,7 +133,8 @@ export default function FbaWfsPrep() {
                                         <tr
                                             key={unit}
                                             className={`${i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#D6D6D633]"
-                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} h-[62px] text-[#020C12] text-[18px] font-semibold leading-[28px]`}
+                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} 2xl:h-[62px] xl:h-[55.11px] text-[#020C12] 
+                    text-[18px] font-semibold leading-[28px]`}
                                         >
                                             <td >{unit}</td>
                                             <td >{price}</td>
@@ -139,17 +149,19 @@ export default function FbaWfsPrep() {
 
                     {/* SETS TABLE  */}
 
-                    <div className="w-[1128px] h-[412px] mt-[70px]">
-                        <h1 className="text-[#020C12] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] text-center">SETS</h1>
-                        <div className=" overflow-hidden rounded-[10px] mt-[30px]"
+                    <div className="2xl:w-[1128px] 2xl:h-[412px] xl:w-[1003px] xl:h-[365px] 2xl:mt-[70px] xl:mt-[50px] mx-auto ">
+                        <h1 className="2xl:text-[48px] xl:text-[42px] font-bold uppercase leading-[100%] 
+            2xl:tracking-[1px] xl:tracking-[0.89px] text-center text-[#020C12]">SETS</h1>
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[280px] 
+          2xl:mt-[30px] xl:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
                             }}>
                             <table className="w-full  text-center border-none">
-                                <thead className="bg-[#0084FF] h-[74px] text-white rounded-t-[10px]">
-                                    <tr className="text-[20px] font-semibold leading-[28px]">
-                                        <th className="px-4 py-2 ">Units per Month / Service Type</th>
-                                        <th className="px-4 py-2">Pricing Details</th>
+                                <thead className="bg-[#0084FF] 2xl:h-[74px] xl:h-[65px] text-white 2xl:rounded-t-[10px] xl:rounded-t-[8.89px]">
+                                    <tr className="2xl:text-[20px] xl:text-[17.78px] font-semibold leading-[28px]">
+                                        <th className=" ">Units per Month / Service Type</th>
+                                        <th className="">Pricing Details</th>
 
                                     </tr>
                                 </thead>
@@ -158,13 +170,14 @@ export default function FbaWfsPrep() {
                                         ["2 units", "$1.2",],
                                         ["3-5 units", "$1.5",],
                                         ["6-10 units", "$1.8",],
-                                        ["10+′", "by request",],
+                                        ["10+", "by request",],
 
                                     ].map(([unit, price], i, arr) => (
                                         <tr
                                             key={unit}
                                             className={`${i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#D6D6D633]"
-                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} h-[62px] text-[#020C12] text-[18px] font-semibold leading-[28px]`}
+                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} 2xl:h-[62px] xl:h-[55.11px] text-[#020C12] 
+                    text-[18px] font-semibold leading-[28px]`}
                                         >
                                             <td >{unit}</td>
                                             <td >{price}</td>
@@ -180,17 +193,19 @@ export default function FbaWfsPrep() {
 
 
 
-                    <div className="w-[1128px] h-[356px] mt-[70px]">
-                        <h1 className="text-[#020C12] text-[48px] font-bold uppercase leading-[100%] tracking-[1px] text-center">BUYBACK FROM US SUPPLIERS</h1>
-                        <div className=" overflow-hidden rounded-[10px] mt-[30px]"
+                    <div className="2xl:w-[1128px] 2xl:h-[412px] xl:w-[1003px] xl:h-[310px] 2xl:mt-[70px] xl:mt-[50px] mx-auto">
+                        <h1 className="2xl:text-[48px] xl:text-[42px] font-bold uppercase leading-[100%] 
+            2xl:tracking-[1px] xl:tracking-[0.89px] text-center text-[#020C12]">BUYBACK FROM US SUPPLIERS</h1>
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[235px] 
+          2xl:mt-[30px] xl:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
                             }}>
                             <table className="w-full  text-center border-none">
-                                <thead className="bg-[#0084FF] h-[74px] text-white rounded-t-[10px]">
-                                    <tr className="text-[20px] font-semibold leading-[28px]">
-                                        <th className="px-4 py-2 ">Units per Month / Service Type</th>
-                                        <th className="px-4 py-2">Pricing Details</th>
+                                <thead className="bg-[#0084FF] 2xl:h-[74px] xl:h-[65px] text-white 2xl:rounded-t-[10px] xl:rounded-t-[8.89px]">
+                                    <tr className="2xl:text-[20px] xl:text-[17.78px] font-semibold leading-[28px]">
+                                        <th className=" ">Units per Month / Service Type</th>
+                                        <th className="">Pricing Details</th>
 
                                     </tr>
                                 </thead>
@@ -205,7 +220,8 @@ export default function FbaWfsPrep() {
                                         <tr
                                             key={unit}
                                             className={`${i % 2 === 0 ? "bg-[#FFFFFF]" : "bg-[#D6D6D633]"
-                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} h-[62px]  text-[#020C12] text-[18px] font-semibold leading-[28px]`}
+                                                } ${i === arr.length - 1 ? "rounded-b-[10px]" : ""} 2xl:h-[62px] xl:h-[55.11px] text-[#020C12] 
+                    text-[18px] font-semibold leading-[28px]`}
                                         >
                                             <td >{unit}</td>
                                             <td >{price}</td>
@@ -218,16 +234,17 @@ export default function FbaWfsPrep() {
                     </div>
 
 
-
-                    <div className="bg-[#27C9FF] h-[74px] w-[1128px] text-white  font-semibold rounded-[10px] mt-[30px]   py-[23px] flex justify-between px-[100px] ">
-                        <h1 className="text-[18px] text-[#FFFFFF] leading-[28px] font-semibold text-center">Removals</h1>
-                        <h1 className="text-[18px] text-[#FFFFFF] leading-[28px] font-semibold">FBA price x2</h1>
+                    <div className="bg-[#27C9FF] 2xl:h-[74px] xl:h-[66px] 2xl:w-[1128px] xl:w-[1003px] mx-auto text-white  font-semibold rounded-[10px] 2xl:mt-[20px] xl:mt-[18px]  flex justify-between">
+                        <h1 className="2xl:text-[18px] xl:text-[16px] text-[#FFFFFF] leading-[28px] font-semibold 2xl:py-[23px] xl:py-[20px] 2xl:pl-[230px] xl:pl-[220px]">Removals</h1>
+                        <h1 className="2xl:text-[18px] xl:text-[16px] text-[#FFFFFF] leading-[28px] font-semibold 2xl:py-[23px] xl:py-[20px] 2xl:pr-[130px] xl:pr-[110px]">FBA price x2</h1>
                     </div>
 
-                    <div className="bg-[#27C9FF] h-[74px] w-[1128px] text-white  font-semibold rounded-[10px] mt-[12px]   py-[23px] flex justify-between px-[100px] ">
-                        <h1 className="text-[18px] text-[#FFFFFF] leading-[28px] font-semibold text-center">Custom work *0.5 hour minimum</h1>
-                        <h1 className="text-[18px] text-[#FFFFFF] leading-[28px] font-semibold">$40/hour</h1>
+                    <div className="bg-[#27C9FF] 2xl:h-[74px] xl:h-[66px] 2xl:w-[1128px] xl:w-[1003px] mx-auto text-white  font-semibold rounded-[10px] 2xl:mt-[20px] xl:mt-[18px]  flex justify-between">
+                        <h1 className="2xl:text-[18px] xl:text-[16px] text-[#FFFFFF] leading-[28px] font-semibold 2xl:py-[23px] xl:py-[20px] 2xl:pl-[230px] xl:pl-[220px]">Custom work *0.5 hour minimum</h1>
+                        <h1 className="2xl:text-[18px] xl:text-[16px] text-[#FFFFFF] leading-[28px] font-semibold 2xl:py-[23px] xl:py-[20px] 2xl:pr-[130px] xl:pr-[110px]">$40/hour</h1>
                     </div>
+
+                    
 
                 </div>
             </div>

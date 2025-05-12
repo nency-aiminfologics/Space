@@ -91,27 +91,35 @@ export default function FBAWFSPrep(){
     return(
         <>
 
- <div className="pt-[119px] bg-[#D6D6D64D]">
-      <div className="w-[1440px] h-[1043px] mx-auto">
-      <div className="w-[1244px] mx-auto">
+ <div className="bg-[#D6D6D64D] xl:h-[972px] 2xl:h-[1043px]">
+      <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[119px] xl:py-[106px] mx-auto">
+      <div className="2xl:w-[1244px] xl:w-[1150px] 2xl:mx-auto xl:mx-[65px]">
         <div className="flex justify-between">
-          <h1 className="uppercase text-[48px] text-[#020C12] font-bold w-[622px] leading-[100%] tracking-[1px]">FBA/WFS Prep Process: Step-by-Step Guide</h1>
-          <p className="w-[506px]  text-[18px] text-[#020C12] leading-[28px] tracking-[0px] font-normal">Our step-by-step FBA and Walmart Prep Process is built to 
+          <h1 className="uppercase 2xl:text-[48px] xl:text-[42px] text-[#020C12] 
+          font-bold 2xl:w-[622px] xl:w-[553px] leading-[100%] tracking-[1px]">FBA/WFS Prep Process: Step-by-Step Guide</h1>
+          <p className="2xl:w-[506px] xl:w-[436px]  2xl:text-[18px] xl:text-[18px] 
+          text-[#020C12] 2xl:leading-[28px] xl:leading-[24.89px] tracking-[0px] font-normal">Our step-by-step FBA and Walmart Prep Process is built to 
             ensure precision, compliance, 
             and efficiency, making it easier for your brand to shine and succeed online.</p>
         </div>
-      <div className="mt-[438px] ml-[425px] absolute z-10 w-[810px] ">
-        <div className="h-[203px] ">
+      <div className="2xl:mt-[438px] 2xl:ml-[425px] xl:mt-[378px] xl:ml-[400px] absolute
+       z-10 2xl:w-[810px] xl:w-[740px] ">
+        <div className="2xl:h-[203px] xl:h-[180px] ">
         <div className="flex justify-between">
-          <h1 className="text-[20px] text-[#020C12] font-semibold leading-[28px]">
+          <h1 className="2xl:text-[20px] xl:text-[18px] text-[#020C12] font-semibold 
+          2xl:leading-[28px] xl:leading-[24.89px]">
           Step-{(currentSlide % slides.length) + 1}
           </h1>
-          <p className="text-[16px] text-[#020C1299]  leading-[24px]">
+          <p className="2xl:text-[16px] xl:text-[16px] text-[#020C1299]  
+          2xl:leading-[24px] xl:leading-[21.33px]">
           {(currentSlide % slides.length) + 1}/{slides.length}
           </p>
         </div>
-        <h2 className="text-[24px] text-[#020C12] leading-[32px] tracking-[1px] font-bold mt-[10px]">{slides[currentSlide].title}</h2>
-        <ul className="text-[#020C12] text-[18px] leading-[28px] w-[531px] mt-[21px] list-disc pl-5 space-y-1">
+        <h2 className="2xl:text-[24px] xl:text-[24px] text-[#020C12] 
+        2xl:leading-[32px] xl:leading-[28.44px]
+         tracking-[1px] font-bold 2xl:mt-[10px] xl:mt-[8.73px]">{slides[currentSlide].title}</h2>
+        <ul className="text-[#020C12] 2xl:text-[18px] xl:text-[16px] 2xl:leading-[28px] xl:leading-[24.89px] 2xl:w-[531px] xl:w-[472px]
+         2xl:mt-[21px] xl:mt-[18.02px] list-disc 2xl:pl-5 xl:pl-4 space-y-1">
   {slides[currentSlide].points.map((point, index) => (
     <li key={index}>{point}</li>
   ))}
@@ -119,12 +127,14 @@ export default function FBAWFSPrep(){
         </div>
 
        
-        <div className="flex justify-end gap-[12px]">
+        <div className="flex justify-end 2xl:gap-[12px] xl:gap-[11px]">
           <button onClick={() => sliderRef.current?.slickPrev()}>
-            <Image src="/Images/left-arrow.png" alt="Previous" width={60} height={60} />
+            <Image src="/Images/left-arrow.png" alt="Previous" width={60} height={60} 
+            className="2xl:w-[60px] 2xl:h-[60px] xl:w-[53px] xl:h-[53px] "/>
           </button>
           <button onClick={() => sliderRef.current?.slickNext()}>
-            <Image src="/Images/right-arrow.png" alt="Next" width={60} height={60} />
+            <Image src="/Images/right-arrow.png" alt="Next" width={60} height={60}
+            className="2xl:w-[60px] 2xl:h-[60px] xl:w-[53px] xl:h-[53px]" />
           </button>
         </div>
       </div>
@@ -135,11 +145,12 @@ export default function FBAWFSPrep(){
           const isActive = index === currentSlide;
 
           return (
-            <div key={index} className="  mt-[84px]  ">
+            <div key={index} className="  2xl:mt-[84px] xl:mt-[75px]  ">
 
             <div
           className={`transition-all duration-700  rounded-[20px] overflow-hidden ${
-            isActive ? "h-[602px] w-[380px]" : "h-[303px] w-[390px]"
+            isActive ? "2xl:h-[602px] 2xl:w-[380px] xl:h-[535px] xl:w-[338px]" : 
+            "2xl:h-[303px] 2xl:w-[390px] xl:w-[356px] xl:h-[269px]"
           } mx-auto`}
         >
               <div
@@ -152,7 +163,9 @@ export default function FBAWFSPrep(){
                     src={slide.image}
                     alt={slide.title}
                     fill
-                    className="object-cover transition-all duration-500 rounded-[20px]"
+                    className={`object-cover transition-all duration-500 rounded-[20px] ${
+                      isActive ? "2xl:h-[602px] 2xl:w-[380px] xl:h-[535px] xl:w-[338px]" : "2xl:h-[303px] 2xl:w-[390px] xl:w-[356px] xl:h-[269px]"
+                    } mx-auto`}
                   />
                 </div>
               </div>

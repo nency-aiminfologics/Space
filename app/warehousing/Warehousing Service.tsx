@@ -32,56 +32,57 @@ const services = [
 
 export default function WarehousingService() {
   return (
-    <div className="w-[1440px] h-[1264px] mx-auto">
-      <div className="w-[1244px] mx-auto">
-        <div className="w-[871px]  mx-auto">
-          <h1 className="text-[#0084FF] text-[20px] font-semibold leading-[28px] mt-[127px] text-center">
+    <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[127px] xl:py-[113px]  mx-auto">
+      <div className="2xl:w-[1244px] xl:w-[1150px] mx-auto">
+        <div className="2xl:w-[871px] xl:w-[730px]  mx-auto">
+          <h1 className="text-[#0084FF] 2xl:text-[20px] xl:text-[18px] font-semibold 2xl:leading-[28px] xl:leading-[24.89px]  text-center">
             Services
           </h1>
-          <h1 className="text-[48px] text-[#020C12] font-extrabold text-center uppercase leading-[100%] tracking-[1px] mt-[14px]">
+          <h1 className="2xl:text-[48px] xl:text-[42px] text-[#020C12] font-extrabold text-center uppercase leading-[100%] tracking-[1px] 2xl:mt-[14px] xl:mt-[12.29px]">
           Storage That Grows With You
           </h1>
-          <p className="text-[#020C12] text-[18px] font-normal leading-[28px] w-[704px] text-center mx-[83px] mt-[20px]">
+          <p className="text-[#020C12] 2xl:text-[18px] xl:text-[18px] font-normal 2xl:leading-[28px] xl:leading-[24.89px] 2xl:w-[704px] xl:w-[714px] 
+          text-center 2xl:mx-[83px]  xl:px-[60px] 2xl:mt-[20px] xl:mt-[20px]">
           Our storage and inventory systems are designed to grow with your business. We assign SKUs to 
           storage locations based on product size, quantity, and turnover rate, ensuring 
           more inventory can be stored at a lower cost
           </p>
         </div>
 
-        <div className="w-[925px]  mt-[57px] flex gap-[25px] flex-row">
+        <div className="2xl:w-[1241px] xl:w-[1150px]   mt-[57px] flex gap-[25px] flex-row mx-auto">
           {services.map((service, index) => (
             <div
               key={index}
-              className={`w-[291px] h-[422px] bg-gradient-to-b from-[#D6D6D6] to-[#FFFFFF] rounded-[20px] ${
-                (index === 1 || index === 3) ? "mt-[45px]" : ""
+              className={`2xl:w-[291px] 2xl:h-[422px] xl:w-[258px] xl:h-[375px] bg-gradient-to-b from-[#D6D6D6] to-[#FFFFFF] 2xl:rounded-[20px] xl:rounded-[20px] ${
+                (index === 1 || index === 3) ? "2xl:mt-[45px] xl:mt-[40px]" : ""
               }`}
             >
-              <div className="mx-[20px]">
+              <div className="2xl:mx-[20px] xl:mx-[18px]">
                 <Image
                   src={service.image}
                   alt="prepservice"
                   width={251}
                   height={184}
-                  className="rounded-[20px] pt-[20px]"
+                  className="2xl:rounded-[20px] xl:rounded-[18px] 2xl:pt-[20px] xl:pt-[18px] 2xl:w-[251px] 2xl:h-[184px] xl:w-[223px] xl:h-[163px]"
                 />
-                <div className="flex mt-[20px] justify-between">
-                <h1 className="text-[#000000] text-[20px] font-semibold leading-[28px] ">
+                <div className="flex 2xl:mt-[20px] xl:mt-[15px] justify-between">
+                <h1 className="text-[#000000] 2xl:text-[20px] xl:tex-[18px] font-semibold 2xl:leading-[28px] xl:leading-[24.89px] ">
                   {service.title}
                 </h1>
-                <h1 className="text-[#020C1299] text-[16px] font-normal leading-[24px]">{service.size}</h1>
+                <h1 className="text-[#020C1299] 2xl:text-[16px] xl:text-[16px] font-normal 2xl:leading-[24px] xl:leading-[24px]">{service.size}</h1>
                 </div>
-                <h1 className="text-[#606060] text-[16px] font-bold mt-[17px]">Storage</h1>
+                <h1 className="text-[#606060] 2xl:text-[16px] xl:text-[14px]  font-normal 2xl:mt-[17px] xl:mt-[15px]">Storage</h1>
                 <div className="mt-[8px] flex gap-[5px]">
-                <h1 className="text-[#000000] text-[28px] font-bold leading-[34px] ">
+                <h1 className="text-[#000000] 2xl:text-[28px] xl:text-[24px] font-bold 2xl:leading-[34px] xl:leading-[35px] ">
                   {service.price}
                 </h1>
-                <h1 className="text-[#606060] text-[16px] mt-[10px]">/per week</h1>
+                <h1 className="text-[#606060] 2xl:text-[16px] xl:text-[16px] 2xl:mt-[10px] xl:mt-[6px]">/per week</h1>
                 </div>
                 <button onClick={() => {
                                             document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
                                         }} 
-                  className="w-[251px] h-[50px] border border-[#020C12] rounded-[35px] text-[#020C12] text-[18px] font-semibold 
-                  leading-[100%] tracking-[1px] mt-[17px]"
+                  className="2xl:w-[251px] 2xl:h-[50px] xl:w-[223px] xl:h-[44px] border border-[#020C12] xl:rounded-[30px] 2xl:rounded-[35px] text-[#020C12] 2xl:text-[18px] xl:text-[16px] font-semibold 
+                  leading-[100%] tracking-[1px] 2xl:mt-[17px] xl:mt-[20px]"
                   style={{ boxShadow: "0px 10px 20px #FFFFFF7D" }}
                 >
                   Get Started
@@ -90,14 +91,14 @@ export default function WarehousingService() {
             </div>
           ))}
         </div>
-<div className="w-[676px]   mx-auto mt-[100px]">
-    <h1 className="text-[#020C12] text-[32px] font-bold leading-[36px] tracking-[1px] text-center">Discounted shipping rates</h1>
-    <p className="w-[676px]  text-[#020C12] font-normal text-[18px] text-center mt-[25px]">We help reduce your shipping costs and labor. By serving a wide range of
+<div className="2xl:w-[676px] xl:w-[580px]   mx-auto mt-[100px]">
+    <h1 className="text-[#020C12] 2xl:text-[32px] xl:text-[28px] font-bold leading-[36px] tracking-[1px] text-center">Discounted shipping rates</h1>
+    <p className="2xl:w-[676px] xl:w-[580px]   text-[#020C12] font-normal 2xl:text-[18px] xl:text-[16px] text-center 2xl:mt-[25px] xl:mt-[20px]">We help reduce your shipping costs and labor. By serving a wide range of
          small businesses, we pass on our bulk shipping discounts directly to 
          you: no markups, no hidden fees, just pure savings.</p>
-        <div className="flex gap-[15px] mt-[45px] justify-center">
-          <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} />
-          <span className="text-[20px] text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold mt-3">
+        <div className="flex 2xl:gap-[15px] xl:gap-[13px] mt-[45px] justify-center">
+          <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} className="2xl:w-[68px] 2xl:h-[45px] xl:w-[60px] xl:h-[40px]"/>
+          <span className="2xl:text-[20px] xl:text-[18px] text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold mt-3">
             See All Prices
           </span>
         </div>
