@@ -1,10 +1,5 @@
 {
-  "/blog/page": "app/blog/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
-  "/contactus/page": "app/contactus/page.js",
-  "/Faq/page": "app/Faq/page.js",
-  "/3pl/page": "app/3pl/page.js",
-  "/prep/page": "app/prep/page.js",
-  "/warehousing/page": "app/warehousing/page.js",
-  "/aboutus/page": "app/aboutus/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/page": "app/page.js"
 }
