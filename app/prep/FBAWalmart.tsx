@@ -57,7 +57,7 @@ export default function FBAWalmart() {
               )}
             </div>
           ))}
-          <div className="hidden xl:block 2xl:h-[100px] xl:h-[89px]"></div>
+          <div className="hidden xl:block 2xl:h-[20px] xl:h-[10px]"></div>
         </div>
       </div>
     </div>
