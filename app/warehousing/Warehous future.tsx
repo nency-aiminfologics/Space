@@ -85,7 +85,7 @@ export default function Warehousfuture() {
                   >
                     <div className="flex flex-col justify-between ">
                       <div>
-                        <h2 className="2xl:text-[20px] xl:text-[18px] font-bold text-[#020C12] 2xl:leading-[28px] xl:leading-[24.89px] 2xl:w-[448px] xl:w-[227px] ">
+                        <h2 className="2xl:text-[20px] xl:text-[18px] font-bold text-[#020C12] 2xl:leading-[28px] xl:leading-[24.89px] 2xl:w-[448px] xl:w-[290px] ">
                           {feature.title}
                         </h2>
                         <p className="2xl:text-[18px] xl:text-[16px] 2xl:w-[397px] xl:w-[353px] 2xl:leading-[28px] xl:leading-[24.89px] 

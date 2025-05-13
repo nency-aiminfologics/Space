@@ -55,7 +55,7 @@ type CardProps = {
 const Card = ({ item, isActive, onClick }: CardProps) => (
   <div
     onClick={onClick}
-    className="cursor-pointer 2xl:w-[619px] xl:w-[550px] h-auto bg-white p-5 rounded-[15px] shadow-md transition-all duration-300"
+    className="cursor-pointer 2xl:w-[619px] xl:w-[550px] w-[330px] h-auto bg-white p-5 rounded-[15px] shadow-md transition-all duration-300"
   >
     <div className="flex justify-between items-center">
       <h3  className="2xl:text-[20px] xl:text-[18px] font-semibold text-[#020C12]">
@@ -95,7 +95,7 @@ export default function Frequently() {
   };
 
   return (
-    <div className="2xl:w-full 2xl:h-[700px] xl:w-[1280px] xl:h-[603.11px]  bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center  ">
+    <div className="2xl:w-full 2xl:h-[700px] xl:w-[1280px] xl:h-[603.11px] w-[375px]  bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center  ">
       <div className="2xl:w-[1440px] xl:w-[1280px] mx-auto 2xl:pt-[111px] xl:pt-[99px]">
         <div className='2xl:w-[1272px] xl:w-[1130px] mx-auto'>
         <h1 className="2xl:text-[48px] xl:text-[42px]  font-bold text-center  text-[#020C12]">

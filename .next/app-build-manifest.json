@@ -9,18 +9,35 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/page.css",
       "static/chunks/app/page.js"
+    ],
+    "/3pl/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/3pl/page.css",
+      "static/chunks/app/3pl/page.js"
+    ],
+    "/pricefulfilment/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pricefulfilment/page.js"
+    ],
+    "/warehousing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/warehousing/page.js"
     ],
     "/aboutus/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/aboutus/page.js"
     ],
-    "/prep/page": [
+    "/fulfilment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/prep/page.css",
-      "static/chunks/app/prep/page.js"
+      "static/chunks/app/fulfilment/page.js",
+      "static/css/app/fulfilment/page.css"
     ]
   }
 }

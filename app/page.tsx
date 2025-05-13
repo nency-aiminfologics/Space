@@ -1,5 +1,9 @@
+'use client';
+
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Navbar from "./Components/Navbar/Navbar";
+import NavbarWhite from "./Components/Navbar/NavbarWhite"; // Import the white navbar
 import Fulfillment from "./Components/Fulfillment/Fulfillment";
 import Services from "./Components/Services/Services";
 import Aboutus from "./Components/About us/About us";
@@ -9,25 +13,38 @@ import Spacecityprep from "./Components/Space city prep/Space city prep";
 import ContactUs from "./Components/Contact Us/Contact Us";
 import Footer from "./Components/Footer/Footer";
 
-
-
 export default function Home() {
-  return (
- <section className="bg-[#ffffff] " id="#">
-  <div className="h-[1078px] ">
-  <Navbar/>
-  <Fulfillment/>
-  </div>
-  <Services/>
-  <Aboutus/>
-  <Blog/>
-  <Frequently/>
-  <Spacecityprep/>
- 
-  <ContactUs/>
-  
-  <Footer/>
+  const [isMobile, setIsMobile] = useState(false);
 
- </section>
+  useEffect(() => {
+    // Function to check screen size
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1280); // Use 1280px as the breakpoint (matches xl:)
+    };
+
+    // Run on initial load
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return (
+    <section className="bg-[#ffffff]" id="#">
+      <div className="2xl:h-[1078px] xl:h-[965px]">
+        {isMobile ? <NavbarWhite /> : <Navbar />} {/* Conditionally render Navbar or NavbarWhite */}
+        <Fulfillment />
+      </div>
+      <Services />
+      <Aboutus />
+      <Blog />
+      <Frequently />
+      <Spacecityprep />
+      <ContactUs />
+      <Footer />
+    </section>
   );
 }

@@ -1,5 +1,8 @@
 {
+  "/page": "app/page.js",
+  "/warehousing/page": "app/warehousing/page.js",
+  "/pricefulfilment/page": "app/pricefulfilment/page.js",
+  "/3pl/page": "app/3pl/page.js",
   "/aboutus/page": "app/aboutus/page.js",
-  "/prep/page": "app/prep/page.js",
-  "/page": "app/page.js"
+  "/fulfilment/page": "app/fulfilment/page.js"
 }
