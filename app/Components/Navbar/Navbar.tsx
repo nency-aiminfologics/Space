@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <section
-      className={`w-full z-50 transition-all duration-300 ${
+      className={`w-full z-50 transition-all duration-300 border border-black ${
         isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'
       }`}
     >

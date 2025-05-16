@@ -33,12 +33,12 @@ export default function OurBenefits() {
   return (
     <>
       <div
-  className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] w-[375px]  
+  className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] w-full 
   mx-auto overflow-y-auto scrollbar-hide"
   style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
 >
   <div>
-  <div className="2xl:pl-[320px] xl:pl-[65px] ml-[24px]  flex xl:flex-row 2xl:flex-row flex-col justify-between min-h-screen">
+  <div className="2xl:pl-[320px] xl:pl-[65px] w-[325px] mx-auto  2xl:w-full xl:w-full  flex xl:flex-row 2xl:flex-row flex-col justify-between min-h-screen">
     
     {/* Sticky Title Section */}
     <div className="relative">

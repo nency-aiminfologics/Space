@@ -90,7 +90,7 @@ export default function Services() {
 
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat 2xl:w-full 2xl:h-[867px] xl:w-[1280px] xl:h-[770.67px] w-[375px] h-[363px]  relative overflow-hidden"
+      className="bg-cover bg-center bg-no-repeat 2xl:w-full 2xl:h-[867px] xl:w-[1280px] xl:h-[770.67px] w-full h-[363px]  relative overflow-hidden"
       style={{ backgroundImage: `url("/Images/background.png")` }}
     >
       <Image

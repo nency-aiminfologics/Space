@@ -20,7 +20,7 @@ export default function Aboutus() {
 
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] 2xl:h-[883px] xl:h-[784.89px] w-[375px] h-[675px] mx-auto "
+      className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] 2xl:h-[883px] xl:h-[784.89px] w-full h-[675px] mx-auto "
       style={{ backgroundImage: `url("/Images/aboutbg.png")` }}
     >
       <div className="flex 2xl:flex-row xl:flex-row flex-col 2xl:gap-[300px]  2xl:ml-[280px] 2xl:pl-0 2xl:w-[1440px] xl:w-[1280px] xl:pl-[65px] 

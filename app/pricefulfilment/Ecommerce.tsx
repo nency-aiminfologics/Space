@@ -4,7 +4,7 @@
 export default function Ecommerce() {
     return (
         <div className="2xl:py-[118px] xl:py-[98px] py-[30px] ">
-      <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px]  mx-auto">
+      <div className="2xl:w-[1440px] xl:w-[1280px] w-full  mx-auto">
         <div className="2xl:w-[1128px] xl:w-[1150px] w-[375px] mx-auto">
           <div className="">
             <h2 className="2xl:text-[48px] xl:text-[42px] text-[20px] w-[202px] xl:w-[745px] 2xl:w-[851px] mx-auto font-bold uppercase 
@@ -75,7 +75,7 @@ export default function Ecommerce() {
           }}>
             <table className="w-full  text-center border-none">
               <thead className="bg-[#0084FF] 2xl:h-[74px] xl:h-[65px] h-[56px] text-white 2xl:rounded-t-[10px] xl:rounded-t-[8.89px]">
-                <tr className="2xl:text-[20px] xl:text-[17.78px] ftext-[14px] font-semibold 2xl:leading-[28px] xl:leading-[28px] leading-[24.89px]">
+                <tr className="2xl:text-[20px] xl:text-[17.78px] text-[14px] font-semibold 2xl:leading-[28px] xl:leading-[28px] leading-[24.89px]">
                   <th className="">Storage</th>
                   <th className="">First Week</th>
                   <th className="">Per Week</th>

@@ -117,7 +117,7 @@ export default function ThirdParty() {
     return (
         <>
 
-            <div className="bg-[#D6D6D64D] xl:h-[972px] 2xl:h-[1043px] py-[40px] 2xl:py-[119px] xl:py-[106px] ">
+            <div className="bg-[#D6D6D64D] xl:h-[972px] 2xl:h-[1043px] py-[40px] 2xl:py-[119px] xl:py-[106px] 2xl:w-[1440px] xl:w-[1280px] w-full">
                   <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px]  mx-auto">
                   <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] mx-auto 2xl:mx-auto xl:mx-[65px]">
                     <div className="flex 2xl:flex-row xl:flex-row flex-col justify-between">

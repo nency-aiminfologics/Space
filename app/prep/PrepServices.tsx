@@ -45,7 +45,7 @@ export default function PrepServices() {
     return (
         <>
 
-            <div className="2xl:w-full xl:w-[1280px] w-[375px]">
+            <div className="2xl:w-full xl:w-[1280px] w-full">
                 <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] pt-[30px]   2xl:py-[127px] xl:py-[90px] mx-auto">
 
                     <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px]  mx-auto">

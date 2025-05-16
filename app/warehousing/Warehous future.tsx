@@ -108,7 +108,7 @@ export default function Warehousfuture() {
 
       {/* Mobile Layout */}
       <div
-        className="bg-cover bg-center bg-no-repeat w-[375px] overflow-hidden mx-auto 2xl:hidden xl:hidden block"
+        className="bg-cover bg-center bg-no-repeat w-full overflow-hidden mx-auto 2xl:hidden xl:hidden block"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
         <div className="w-[325px] py-[40px] mx-auto">

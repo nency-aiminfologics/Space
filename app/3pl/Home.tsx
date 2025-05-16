@@ -25,7 +25,7 @@ export default function Home(){
                     <Image src="/Images/3pl-bg.png" alt=""
                     width={1794}
                     height={650}
-                    className="2xl:h-[750px] 2xl:w-[1794px] xl:w-[1250px] xl:h-[597px] w-[375px] h-[280px]
+                    className="2xl:h-[750px] 2xl:w-[1794px] xl:w-[1250px] xl:h-[597px] w-full h-[280px]
                         2xl:rounded-br-[50px] xl:rounded-br-[50px] " style={{ boxShadow: " 0px 10px 20px #FFFFFF7D" }}/>
                 </div>
                

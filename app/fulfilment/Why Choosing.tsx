@@ -26,7 +26,7 @@ export default function WhyChoosing (){
         </div>
       </div>
 
-      <div className="w-[375px] lg:hidden md:hidden   2xl:hidden xl:hidden block bg-cover bg-center bg-no-repeat"style={{ backgroundImage: `url("/Images/aboutbg.png")` }}>
+      <div className="w-full lg:hidden md:hidden   2xl:hidden xl:hidden block bg-cover bg-center bg-no-repeat"style={{ backgroundImage: `url("/Images/aboutbg.png")` }}>
         <div className="w-[325px] pt-[30px] pb-[30px] mx-auto ">
       <Image src="/Images/why1.png" alt="why1" width={132} height={82} className=" w-[132px] h-[82px]"/>
       <div className=" w-[304px] mt-[24px] mx-auto ">

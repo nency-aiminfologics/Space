@@ -9,7 +9,7 @@ export default function Warehousing() {
         <>
 
             <div>
-                <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px] py-[40px] 2xl:py-[110px] xl:py-[98px]   mx-auto">
+                <div className="2xl:w-[1440px] xl:w-[1280px] w-full py-[40px] 2xl:py-[110px] xl:py-[98px]   mx-auto">
                     <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] mx-auto 2xl:mx-auto xl:mx-[65px] flex flex-col">
                         <div className="flex 2xl:flex-row xl:flex-row flex-col justify-between ">
                             <div className="">

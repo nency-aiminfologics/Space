@@ -1,1 +1,7 @@
-{}
+{
+  "/Faq/page": "app/Faq/page.js",
+  "/pricefulfilment/page": "app/pricefulfilment/page.js",
+  "/pricefba/page": "app/pricefba/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/[id]/page": "app/blog/[id]/page.js"
+}

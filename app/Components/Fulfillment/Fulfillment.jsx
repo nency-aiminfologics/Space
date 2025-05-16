@@ -51,9 +51,9 @@ export default function Fulfillment(){
 
         
        </section>
-       <div className="h-[550px] w-[375px] 2xl:hidden xl:hidden block">
+       <div className="h-[550px] w-full 2xl:hidden xl:hidden block">
        <div
-      className="bg-cover bg-center bg-no-repeat   w-[375px] h-[455px]"
+      className="bg-cover bg-center bg-no-repeat   w-full h-[455px]"
       style={{ backgroundImage: `url("/Images/mobile-home-bg.png")` }}
     >
 

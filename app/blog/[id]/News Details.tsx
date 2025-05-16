@@ -7,7 +7,7 @@ export default function NewsDetails() {
         <>
 
             <div className=" 2xl:py-[70px] xl:py-[70px] py-[28px]">
-                <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px]  mx-auto   ">
+                <div className="2xl:w-[1440px] xl:w-[1280px] w-full  mx-auto   ">
                     <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] mx-auto ">
                         <div className="flex 2xl:flex-row xl:flex-row flex-col justify-between">
                             <div className="2xl:mt-[168px] xl:mt-[138px]">

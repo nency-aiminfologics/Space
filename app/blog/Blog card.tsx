@@ -8,7 +8,7 @@ import { blogData } from "./data/blogdata";
 export default function Blogcard() {
   return (
     <div className=" "> 
-      <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px] 2xl:py-[142px] xl:py-[128px] py-[30px] mx-auto">
+      <div className="2xl:w-[1440px] xl:w-[1280px] w-full 2xl:py-[142px] xl:py-[128px] py-[30px] mx-auto">
         <div className="2xl:w-[1244px] xl:w-[1092px] w-[325px]  mx-auto">
             
           <div className="grid 2xl:grid-cols-3 xl:grid-cols-3 grid-cols-2 2xl:gap-[35px] xl:gap-[30px] gap-[10px]">

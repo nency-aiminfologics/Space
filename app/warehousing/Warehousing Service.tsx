@@ -130,7 +130,7 @@ export default function WarehousingService() {
 
     {/* mobile screen */}
 
-    <div className="w-[375px]  2xl:hidden xl:hidden block">
+    <div className="w-full  2xl:hidden xl:hidden block">
       <div className="w-[325px] mx-auto">
         <div>
           <h1 className="text-[14px] font-normal leading-[25px] text-[#0084FF] mt-[30px]">Services</h1>

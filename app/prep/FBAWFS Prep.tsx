@@ -80,7 +80,7 @@ export default function FBAWFSPrep(){
             },
           },
           {
-            breakpoint: 375,
+            breakpoint: 768,
             settings: {
               slidesToShow: 1,
             },
@@ -91,9 +91,9 @@ export default function FBAWFSPrep(){
     return(
         <>
 
- <div className="bg-[#D6D6D64D] xl:h-[972px] 2xl:h-[1043px] py-[30px] 2xl:py-[119px] xl:py-[106px]  ">
-      <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px]    mx-auto">
-      <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] mx-auto 2xl:mx-auto xl:mx-[65px]">
+ <div className="bg-[#D6D6D64D] xl:h-[972px] 2xl:h-[1043px] py-[30px] 2xl:py-[119px] xl:py-[106px] w-full overflow-hidden">
+      <div className="2xl:w-[1440px] xl:w-[1280px] w-full    mx-auto">
+      <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px]  mx-auto 2xl:mx-auto xl:mx-[65px]">
         <div className="flex 2xl:flex-row xl:flex-row flex-col justify-between ">
 
           <h1 className="uppercase 2xl:text-[48px] xl:text-[42px] text-[20px] w-[285px] text-[#020C12] 

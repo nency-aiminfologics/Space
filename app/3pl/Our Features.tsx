@@ -124,7 +124,7 @@ export default function OurFeatures() {
     </div>
     {/* Mobile Layout */}
           <div
-            className="bg-cover bg-center bg-no-repeat  overflow-hidden w-[375px] mx-auto 2xl:hidden xl:hidden block"
+            className="bg-cover bg-center bg-no-repeat  overflow-hidden w-full mx-auto 2xl:hidden xl:hidden block"
             style={{ backgroundImage: `url("/Images/background.png")` }}
           >
             <div className="w-[325px] py-[40px] mx-auto">
