@@ -8,10 +8,11 @@ import Image from "next/image";
 export default function ContactHome(){
     return(
         <>
-         <div>
-                 <div className=" z-10 absolute 2xl:ml-[330px] 2xl:mt-[283px] xl:mt-[344px] xl:ml-[65px] ml-[24px] mt-[174px]">         
-                <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
-        leading-[100%] tracking-[0px] ">Contact Us</h1>
+        <div className=" w-[325px] 2xl:w-[1244px] xl:w-[1150px] mx-auto">
+                <div className=" z-10 absolute  2xl:mt-[306px] xl:mt-[344px] mt-[174px] ">
+                   
+            <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
+        leading-[100%] tracking-[0px]  ">Contact Us</h1>
                 <div className="2xl:mt-[40px] xl:mt-[41px] mt-[23px] flex 2xl:flex-row xl:flex-row flex-col  2xl:gap-[41px] xl:gap-[41px] gap-[15px]">
                     <div className="2xl:w-[609px] xl:w-[523.86px] 2xl:h-[223px] xl:h-[223px] w-[327.31px] h-[164px] 
                     2xl:rounded-[20px] xl:rounded-[20px] rounded-[20px] bg-[#FFFFFF] relative">
@@ -99,6 +100,7 @@ export default function ContactHome(){
                
 
                 </div>
+                 </div>
                 <div>
                     <Image src="/Images/Contact page-bg.png" alt=""
                     width={1794}
@@ -106,7 +108,7 @@ export default function ContactHome(){
                     className="2xl:h-[758px] xl:h-[758px] h-[610px] w-full  " style={{boxShadow:" 0px 10px 20px #FFFFFF7D"}}/>
                 </div>
                
-                </div>
+               
         </>
     )
 }

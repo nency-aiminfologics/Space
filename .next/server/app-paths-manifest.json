@@ -1,5 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/fulfilment/page": "app/fulfilment/page.js",
-  "/page": "app/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/Faq/page": "app/Faq/page.js",
+  "/page": "app/page.js",
+  "/prep/page": "app/prep/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/fulfilment/page": "app/fulfilment/page.js"
 }

@@ -5,7 +5,7 @@ export default function OurVision(){
     return(
         <>
        <div
-        className="bg-cover bg-center bg-no-repeat 2xl:w-full  xl:w-[1280px] w-[375px] 2xl:py-[108px] xl:py-[108px] py-[40px] overflow-hidden mx-auto" // <- increased height
+        className="bg-cover bg-center bg-no-repeat 2xl:w-full  xl:w-[1280px] w-full 2xl:py-[108px] xl:py-[108px] py-[40px] overflow-hidden mx-auto" // <- increased height
         style={{ backgroundImage: `url("/Images/ourvision-bg.png")` }}
       >
         <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] mx-auto 2xl:mx-[280px] xl:mx-[65px]">

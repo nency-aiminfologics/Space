@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function Homedetails(){
     return(
         <>
-         <div className="">
-                 <div className=" z-10 absolute 2xl:ml-[320px] 2xl:mt-[495px] xl:mt-[380px] 
-                xl:ml-[65px]  mt-[174px] ml-[24px]">         
-                <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
+         <div className=" w-[325px] 2xl:w-[1244px] xl:w-[1150px] mx-auto">
+                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] mt-[140px] ">
+                   
+            <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
         leading-[100%] tracking-[0px]  ">News Details</h1>
 
                 <p className="text-[#FFFFFF] 2xl:text-[20px] xl:text-[20px] text-[14px] font-semibold 
@@ -16,6 +16,7 @@ export default function Homedetails(){
               
 
                 </div>
+                 </div>
                 <div>
                     <Image src="/Images/blog-bg.png" alt=""
                     width={1794}
@@ -24,7 +25,7 @@ export default function Homedetails(){
                         2xl:rounded-br-[50px] xl:rounded-br-[50px]  " style={{ boxShadow: " 0px 10px 20px #FFFFFF7D" }}/>
                 </div>
                
-                </div>
+               
         </>
     )
 }

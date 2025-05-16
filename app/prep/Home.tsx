@@ -6,11 +6,11 @@ import Image from "next/image";
 export default function Home(){
     return(
         <>
-         <div>
-                 <div className=" z-10 absolute 2xl:ml-[320px] 2xl:mt-[495px] xl:mt-[326px] mt-[140px]
-                xl:ml-[65px] ml-[24px] overflow-hidden">         
-                <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
-        leading-[100%] tracking-[0px]">FBA/WFS Prep</h1>
+         <div className=" w-[325px] 2xl:w-[1244px] xl:w-[1150px] mx-auto">
+                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] mt-[140px] ">
+                   
+            <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
+        leading-[100%] tracking-[0px]  ">FBA/WFS Prep</h1>
                 <p className="text-[#FFFFFF] 2xl:text-[20px] xl:text-[20px] text-[14px] font-semibold 
                     leading-[28px] 2xl:mt-[8px] xl:mt-[10px] mt-[6px]">Elevate Your E-Commerce Game</p>
                 <button onClick={() => {
@@ -20,6 +20,7 @@ export default function Home(){
                    tracking-[1px] 2xl:mt-[40px] xl:mt-[25px] mt-[15px]">Get Started</button>
 
                 </div>
+                  </div>
                 <div>
                     <Image src="/Images/prep-bg.png" alt=""
                     width={1794}
@@ -28,7 +29,7 @@ export default function Home(){
                         2xl:rounded-br-[50px] xl:rounded-br-[50px] " style={{boxShadow:" 0px 10px 20px #FFFFFF7D"}}/>
                 </div>
                
-                </div>
+              
         </>
     )
 }

@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function OurComittment(){
     return(
         <>
-        <div  className="bg-cover bg-center bg-no-repeat 2xl:w-full  xl:w-[1280px] w-[375px] py-[40px]  mx-auto 2xl:py-[134px] xl:py-[111px]"
+        <div  className="bg-cover bg-center bg-no-repeat 2xl:w-full  xl:w-[1280px] w-full py-[40px]  mx-auto 2xl:py-[134px] xl:py-[111px]"
       style={{ backgroundImage: `url("/Images/aboutbg.png")` }}>
         <Image src="/Images/plane.svg" alt="plane" width={160.18} height={118} className=" 2xl:w-[160.18px] 2xl:h-[118px] xl:w-[160.18px] xl:h-[118px] w-[82.81px] h-[61px] absolute 
         z-10 2xl:mt-[348px] 2xl:ml-[12.75px] xl:mt-[308.5px] mt-[27px] xl:ml-[11.33px]"/>

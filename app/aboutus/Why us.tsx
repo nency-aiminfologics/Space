@@ -9,7 +9,7 @@ export default function Whyus() {
   return (
     <>
       <div
-        className="bg-cover bg-center bg-no-repeat 2xl:w-full 2xl:h-[867px] xl:h-[771px] w-[375px] h-full  mx-auto xl:w-[1280px] overflow-y-auto scrollbar-hide"
+        className="bg-cover bg-center bg-no-repeat 2xl:w-full 2xl:h-[867px] xl:h-[771px] w-full h-full  mx-auto xl:w-[1280px] overflow-y-auto scrollbar-hide"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
         <div className="2xl:w-[1440px]  xl:w-[1280px] w-[325px] mx-auto xl:mx-auto 2xl:mx-auto">
