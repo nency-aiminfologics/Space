@@ -94,7 +94,7 @@ export default function SimpleCarousel() {
         },
       },
       {
-        breakpoint: 375,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
