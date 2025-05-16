@@ -3,6 +3,20 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IoIosArrowDown } from 'react-icons/io';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from "react-slick";
+
+
+const sliderSettings = {
+  infinite: false,
+  speed: 300,
+  slidesToShow: 2.5,
+  slidesToScroll: 1,
+  arrows: false,
+  swipeToSlide: true,
+};
+
 
 type FAQItem = {
   id: string;
@@ -63,30 +77,30 @@ const allFAQs: FAQItem[] = [
     description: 'Orders go out quickly. Timing depends on the order size and custom needs.',
     category: 'Fulfillment',
   },
-// 3pl faq
-{
+  // 3pl faq
+  {
     id: '9',
     title: 'What is 3PL and how does it help my business?',
     description: '3PL means we handle your storage, shipping, and delivery so you can focus on sales.',
-    category:'3PL',
+    category: '3PL',
   },
   {
     id: '10',
     title: 'Is 3PL only for big companies?',
     description: 'No, we work with businesses of all sizes. Our services grow with you.',
-    category:'3PL',
+    category: '3PL',
   },
   {
     id: '11',
     title: 'Can your system work with how I run my business now?',
     description: 'Yes, our tools connect with your systems easily.',
-    category:'3PL',
+    category: '3PL',
   },
   {
     id: '12',
     title: 'Can I track my inventory anytime?',
     description: 'Yes, you can see your stock levels and order updates in real time.',
-    category:'3PL',
+    category: '3PL',
   },
 
   //FBA/Prep
@@ -94,31 +108,31 @@ const allFAQs: FAQItem[] = [
     id: '13',
     title: 'Why is FBA or Walmart prep needed?',
     description: 'We make sure your products meet Amazon or Walmart rules before shipping.',
-    category:'FBA/Prep',
+    category: 'FBA/Prep',
   },
   {
     id: '14',
     title: 'How do you check for compliance?',
     description: 'We inspect and prepare your products to match the platform guidelines.',
-    category:'FBA/Prep',
+    category: 'FBA/Prep',
   },
   {
     id: '15',
     title: 'Can you do bundling or kitting?',
     description: 'Yes, we can bundle or kit your products as needed.',
-    category:'FBA/Prep',
+    category: 'FBA/Prep',
   },
   {
     id: '16',
     title: 'What if my products are not ready for FBA or Walmart?',
     description: 'We’ll help fix any issues and get them ready for smooth acceptance.',
-    category:'FBA/Prep',
+    category: 'FBA/Prep',
   },
 
 
 ];
 
-const categories = ['All', 'Warehousing', 'Fulfillment','3PL', 'FBA/Prep'] as const;
+const categories = ['All', 'Warehousing', 'Fulfillment', '3PL', 'FBA/Prep'] as const;
 
 type CardProps = {
   item: FAQItem;
@@ -129,10 +143,10 @@ type CardProps = {
 const Card = ({ item, isActive, onClick }: CardProps) => (
   <div
     onClick={onClick}
-    className="cursor-pointer w-full 2xl:max-w-[827px] xl:max-w-[827px] mx-auto bg-white p-5 rounded-[15px] shadow transition-all duration-300"
+    className="cursor-pointer  2xl:max-w-[827px] xl:max-w-[827px] w-full mx-auto bg-white p-5 2xl:rounded-[15px] xl:rounded-[15px] rounded-[8px]  transition-all duration-300"
   >
     <div className="flex justify-between items-center">
-      <h3 className="text-[18px] font-semibold text-[#020C12] text-left leading-[24px]">{item.title}</h3>
+      <h3 className="2xl:text-[18px] xl:text-[18px] text-[14px] font-semibold text-[#020C12] text-left 2xl:leading-[24px] xl:leading-[24px] leading-[21.33px]">{item.title}</h3>
       <motion.span
         animate={{ rotate: isActive ? 180 : 0 }}
         transition={{ duration: 0.3 }}
@@ -149,7 +163,7 @@ const Card = ({ item, isActive, onClick }: CardProps) => (
           animate={{ opacity: 1, height: 'auto' }}
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
-          className="overflow-hidden mt-4 text-[16px] text-[#020C12]"
+          className="overflow-hidden 2xl:mt-4 xl:mt-4 mt-[8px] 2xl:text-[16px] xl:text-[16px] text-[14px] text-[#020C12]"
         >
           {item.description}
         </motion.div>
@@ -172,35 +186,59 @@ export default function Faq() {
       : allFAQs.filter(faq => faq.category === selectedCategory);
 
   return (
-    <div className="bg-[#F5F5F5] 2xl:py-[74px] xl:py-[60px] ">
-      <div className="2xl:max-w-[827px] xl:max-w-[827px] mx-auto ">
-        <h1 className="2xl:text-[48px] xl:text-[48px]  font-extrabold text-[#020C12] uppercase text-center 2xl:leading-[100%] xl:leading-[100%] 2xl:tracking-[1%] xl:tracking-[1%]">
+    <div className="bg-[#F5F5F5] 2xl:py-[74px] xl:py-[60px] py-[40px] ">
+      <div className="2xl:max-w-[827px] xl:max-w-[827px] max-w-[325px] mx-auto ">
+        <h1 className="2xl:text-[48px] xl:text-[48px] text-[20px] w-[215px] 2xl:w-full xl:w-full mx-auto  
+        font-extrabold text-[#020C12] uppercase text-center 
+        2xl:leading-[100%] xl:leading-[100%] 2xl:tracking-[1%] xl:tracking-[1%]">
           Frequently Asked Questions
         </h1>
-        <p className="text-[#020C12] 2xl:text-[20px] xl:text-[20px] font-normal 2xl:leading-[28px] xl:leading-[28px] text-center 2xl:mt-[12px] xl:mt-[12px] 2xl:w-[748px] xl:w-[748px] mx-auto"> 
+        <p className="text-[#020C12] 2xl:text-[20px] xl:text-[20px] text-[12px] font-normal 2xl:leading-[28px] 
+        xl:leading-[28px] text-center 2xl:mt-[12px] xl:mt-[12px] mt-[12px] 2xl:w-[748px] xl:w-[748px] w-[308px] mx-auto">
           These FAQs offer key insights into each of our services, making it easier to understand what we offer.
         </p>
 
         {/* Category Buttons */}
-        <div className="2xl:mt-[30px] xl:mt-[30px] flex flex-wrap justify-center 2xl:gap-[15px] xl:gap-[15px]">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setSelectedCategory(cat)}
-              className={`2xl:h-[48px] xl:h-[48px] 2xl:px-[28px] xl:px-[28px] 2xl:rounded-[30px] xl:rounded-[30px] 2xl:text-[20px] xl:text-[20px]'
-                 2xl:leading-[28px] xl:leading-[28px] font-medium transition-all duration-200 ${
-                selectedCategory === cat
-                  ? 'bg-[#0084FF] text-white'
-                  : 'bg-[#B1B1B140] text-[#020C12]'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
+        <div className="block xl:hidden 2xl:hidden mt-6">
+  <Slider {...sliderSettings}>
+    {categories.map((cat) => (
+      <div key={cat} className="pr-[8px]">
+        <button
+          onClick={() => setSelectedCategory(cat)}
+          className={`h-[38px] px-[15px] rounded-[30px] text-[14px] leading-[100%] font-medium w-full  transition-all duration-200 ${
+            selectedCategory === cat
+              ? 'bg-[#0084FF] text-white'
+              : 'bg-[#B1B1B140] text-[#020C12]'
+          }`}
+        >
+          {cat}
+        </button>
+      </div>
+    ))}
+  </Slider>
+</div>
+
+{/* Category Buttons - Large Screens */}
+<div className="hidden xl:flex 2xl:flex flex-wrap justify-center gap-[15px] mt-[30px]">
+  {categories.map((cat) => (
+    <button
+      key={cat}
+      onClick={() => setSelectedCategory(cat)}
+      className={`2xl:h-[48px] xl:h-[48px] h-[38px] 2xl:px-[28px] xl:px-[28px] px-[15px] 2xl:rounded-[30px] xl:rounded-[30px] rounded-[30px]
+         2xl:text-[20px] xl:text-[20px] text-[14px]
+         2xl:leading-[28px] xl:leading-[28px] leading-[100%] font-medium transition-all duration-200 ${
+        selectedCategory === cat
+          ? 'bg-[#0084FF] text-white'
+          : 'bg-[#B1B1B140] text-[#020C12]'
+      }`}
+    >
+      {cat}
+    </button>
+  ))}
+</div>
 
         {/* FAQ Cards */}
-        <div className="2xl:mt-[40px] xl:mt-[40px] flex flex-col 2xl:gap-[20px] xl:gap-[20px]">
+        <div className="2xl:mt-[40px] xl:mt-[40px] mt-[30px] flex flex-col 2xl:gap-[20px] xl:gap-[20px] gap-[15px]">
           {filteredFAQs.map((item) => (
             <Card
               key={item.id}

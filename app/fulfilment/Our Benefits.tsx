@@ -33,17 +33,17 @@ export default function OurBenefits() {
   return (
     <>
       <div
-  className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px]   
+  className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] w-[375px]  
   mx-auto overflow-y-auto scrollbar-hide"
   style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
 >
   <div>
-  <div className="2xl:pl-[320px] xl:pl-[65px]  flex justify-between min-h-screen">
+  <div className="2xl:pl-[320px] xl:pl-[65px] ml-[24px]  flex xl:flex-row 2xl:flex-row flex-col justify-between min-h-screen">
     
     {/* Sticky Title Section */}
     <div className="relative">
-      <div className="sticky 2xl:top-[100px] xl:top-[89px] ">
-        <h1 className="text-[#020C12] w-full 2xl:text-[48px] xl:text-[42px] font-bold 
+      <div className="sticky 2xl:top-[100px] xl:top-[89px] mt-[40px] ">
+        <h1 className="text-[#020C12] w-full 2xl:text-[48px] xl:text-[42px] text-[20px] font-bold 
         uppercase leading-[100%] tracking-[1px]">
           OUR BENEFITS
         </h1>
@@ -51,24 +51,24 @@ export default function OurBenefits() {
     </div>
 
     {/* Scrollable Benefits */}
-    <div className="2xl:py-[100px] xl:py-[89px]  space-y-[30px] 2xl:h-[890px] xl:h-[791px]  pr-6 ">
+    <div className="2xl:py-[100px] xl:py-[89px] pt-[25px]  space-y-[30px] 2xl:h-[890px] xl:h-[791px]   pr-6 ">
       {slides.map((slide, index) => (
         <div key={index}>
-          <h2 className="text-[#020C12] 2xl:text-[32px] xl:text-[28px] font-bold 2xl:leading-[36px] 
+          <h2 className="text-[#020C12] 2xl:text-[32px] xl:text-[28px] text-[18px] leading-[100%] tracking-[1%] font-bold 2xl:leading-[36px] 
           xl:leading-[32px] 2xl:tracking-[1px] xl:tracking-[0.89px]">
             {slide.title}
           </h2>
-          <p className="text-[#020C12CC] 2xl:text-[18px] xl:text-[18px] 2xl:mt-[18px] 
+          <p className="text-[#020C12CC] 2xl:text-[18px] xl:text-[18px] text-[14px] mt-[10px] 2xl:mt-[18px] 
           xl:mt-[22.11px] leading-[28px] 2xl:w-[641px] xl:w-[617px] font-normal">
             {slide.description}
           </p>
           {index !== slides.length - 1 && (
-      <div className="2xl:w-[788px] xl:w-[700px] bg-[#000000] h-[1px] 2xl:mt-[40px] xl:mt-[36px]"></div>
+      <div className="2xl:w-[788px] xl:w-[700px] w-[325px] bg-[#000000] h-[1px] mt-[20px] 2xl:mt-[40px] xl:mt-[36px]"></div>
     )}
   </div>
        
       ))}
-       <div className="hidden xl:block 2xl:h-[100px] xl:h-[89px]"></div>
+       <div className=" hidden  2xl:h-[100px] xl:h-[89px]"></div>
     </div>
   </div>
   </div>

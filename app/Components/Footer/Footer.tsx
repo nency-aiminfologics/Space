@@ -86,10 +86,10 @@ export default function Footer() {
                   transition={{ duration: 0.3 }}
                   className="overflow-hidden mt-2 space-y-1"
                 >
-                  <Link href="/aboutus"><p>About</p></Link>
-                  <Link href="/blog"><p>Blogs</p></Link>
-                  <Link href="/Faq"><p>Faqs</p></Link>
-                  <Link href="/contactus"><p>Contact</p></Link>
+                  <Link href="/aboutus"><p className='text-[14px]'>About</p></Link>
+                  <Link href="/blog"><p className='text-[14px] mt-1'>Blogs</p></Link>
+                  <Link href="/Faq"><p className='text-[14px] mt-1'>Faqs</p></Link>
+                  <Link href="/contactus"><p className='text-[14px] mt-1'>Contact</p></Link>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -111,10 +111,10 @@ export default function Footer() {
                   transition={{ duration: 0.3 }}
                   className="overflow-hidden mt-2 space-y-1"
                 >
-                  <Link href="/fulfilment"><p>Fulfillment</p></Link>
-                  <Link href="/warehousing"><p>Warehousing</p></Link>
-                  <Link href="/prep"><p>Prep</p></Link>
-                  <Link href="/3pl"><p>3PL</p></Link>
+                  <Link href="/fulfilment"><p className='text-[14px] '>Fulfillment</p></Link>
+                  <Link href="/warehousing"><p className='text-[14px] mt-1'>Warehousing</p></Link>
+                  <Link href="/prep"><p className='text-[14px] mt-1'>Prep</p></Link>
+                  <Link href="/3pl"><p className='text-[14px] mt-1'>3PL</p></Link>
                 </motion.div>
               )}
             </AnimatePresence>

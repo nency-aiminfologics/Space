@@ -5,6 +5,7 @@ import Image from "next/image";
 
 export default function OurFeatures() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [activeMobileIndex, setActiveMobileIndex] = useState<number>(0);
 
   const features = [
     {
@@ -45,10 +46,12 @@ export default function OurFeatures() {
   ];
 
   return (
-    <div
-      className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px]  overflow-hidden mx-auto"
-      style={{ backgroundImage: `url("/Images/background.png")` }}
-    >
+     <>
+      {/* Desktop Layout */}
+      <div
+        className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] overflow-hidden mx-auto 2xl:block xl:block hidden"
+        style={{ backgroundImage: `url("/Images/background.png")` }}
+      >
       <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[120px] xl:py-[106.67px] mx-auto">
         <div className="2xl:w-[1244px] xl:w-[1150px] mx-auto  ">
           <h1 className="2xl:text-[48px] xl:text-[42px] text-[#020C12] font-bold 
@@ -119,5 +122,69 @@ export default function OurFeatures() {
         </div>
       </div>
     </div>
+    {/* Mobile Layout */}
+          <div
+            className="bg-cover bg-center bg-no-repeat  overflow-hidden w-[375px] mx-auto 2xl:hidden xl:hidden block"
+            style={{ backgroundImage: `url("/Images/background.png")` }}
+          >
+            <div className="w-[325px] py-[40px] mx-auto">
+              <div className="w-[325] mx-auto">
+                <h1 className="text-[20px] text-[#020C12] font-extrabold leading-[100%] uppercase tracking-[1%]">
+                  Our Features
+                </h1>
+    
+                <div className="flex flex-col gap-[12px] w-full mx-auto mt-[24px]">
+                  {features.map((feature, index) => {
+                    const isExpanded = activeMobileIndex === index;
+    
+                    return (
+                      <div
+                        key={index}
+                        className={`bg-white rounded-[15px] transition-all duration-500 ease-in-out cursor-pointer overflow-hidden
+                          ${isExpanded ? 'w-[325px] h-auto' : 'w-[325px] h-[70px]'}`}
+                        onClick={() => setActiveMobileIndex(index)} // Set the clicked card as expanded
+                      >
+                        {/* Number Circle (always visible) */}
+                        <div className="flex items-center w-full h-[60px]">
+                          <div className="w-[43px] h-[43px] mt-[12px] ml-[15px] transition-transform duration-500 ease-in-out transform hover:scale-110">
+                            <div className="bg-[#C4F0FF] w-full h-full rounded-full flex items-center justify-center">
+                              <h1 className="text-[#020C12] text-[20px] leading-[16.13px] font-bold">
+                                {feature.number}
+                              </h1>
+                            </div>
+                          </div>
+                        </div>
+    
+                        {/* Expanded Content (visible only when expanded) */}
+                        {isExpanded && (
+                          <div
+                            className="transition-all duration-500 ease-in-out py-[12px]"
+                            style={{ animationDelay: "0.1s" }}
+                          >
+                            <h2 className="text-[16px] ml-[15px] mt-[12px] font-bold text-[#020C12] leading-[24.89px] ">
+                              {feature.title}
+                            </h2>
+                            <p className="text-[14px] ml-[15px] w-[300px] leading-[24px] mt-[8px] font-normal text-[#020C12] ">
+                              {feature.description}
+                            </p>
+                            <Image
+                              src={feature.image}
+                              alt={`Feature ${feature.number}`}
+                              width={297}
+                              height={94}
+                              className="rounded-[8px] mx-auto mt-[14px] w-[297px] h-[94px] "
+                            />
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+    
+         
+        </>
   );
 }
