@@ -1,7 +1,5 @@
 {
-  "/Faq/page": "app/Faq/page.js",
-  "/pricefulfilment/page": "app/pricefulfilment/page.js",
-  "/pricefba/page": "app/pricefba/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/fulfilment/page": "app/fulfilment/page.js",
+  "/page": "app/page.js"
 }
