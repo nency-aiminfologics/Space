@@ -22,7 +22,7 @@ export default function FulfillmentService() {
                                          Space City Prep Fulfillment Services. As experts in logistics, we make the fulfillment 
                                          process simple, fast, and reliable, helping your products reach your customers without delays.</p>
                                   </div>
-                                  <Image src="/Images/fulfillment Service.png" alt="prepbox"
+                                  <Image src="/Images/Fulfillment Service.png" alt="prepbox"
                                       width={524}
                                       height={318} className="2xl:w-[524px] 2xl:h-[318px] xl:w-[466px] xl:h-[282px] 
                                       w-[327px] h-[189px] mt-[20px] 2xl:mt-0 xl:mt-0" />

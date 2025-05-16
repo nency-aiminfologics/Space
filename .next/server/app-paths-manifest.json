@@ -1,8 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/3pl/page": "app/3pl/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/pricefba/page": "app/pricefba/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
-  "/pricefulfilment/page": "app/pricefulfilment/page.js"
+  "/fulfilment/page": "app/fulfilment/page.js",
+  "/page": "app/page.js"
 }
