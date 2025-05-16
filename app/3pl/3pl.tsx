@@ -21,7 +21,7 @@ export default function Pl() {
                                   (3PL) services that redefine how businesses manage their supply chains. As your trusted partner, 
                                   we offer seamless solutions that optimize operations and drive business growth.</p>
                             </div>
-                            <Image src="/Images/prepbox.png" alt="prepbox"
+                            <Image src="/Images/3pl.png" alt="prepbox"
                                 width={524}
                                 height={318} className="2xl:w-[524px] 2xl:h-[318px] xl:w-[466px] xl:h-[282px] 
                                 w-[327px] h-[189px] mt-[20px] 2xl:mt-0 xl:mt-0"/>

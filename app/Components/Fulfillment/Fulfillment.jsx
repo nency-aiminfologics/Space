@@ -83,7 +83,7 @@ export default function Fulfillment(){
                 <Image src="/Images/890 (image).png" alt="Images"
                 width={327}
                 height={214}
-                className="rounded-[20px] w-[327px] h-[214px]  mt-[29px]"/>
+                className="rounded-[20px] w-[327px] h-[218px]  mt-[29px]"/>
             </div>
                 
         </div>

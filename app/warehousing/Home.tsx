@@ -6,7 +6,7 @@ export default function Home(){
     return(
         <>
         <div className=" w-[325px] 2xl:w-[1244px] xl:w-[1150px] mx-auto">
-                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] mt-[140px] ">
+                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] mt-[120px] ">
                    
             <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] font-bold 
         leading-[100%] tracking-[0px]  ">Warehousing</h1>

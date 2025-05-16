@@ -12,33 +12,21 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/aboutus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/aboutus/page.js"
-    ],
-    "/pricefba/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pricefba/page.js"
-    ],
     "/fulfilment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/fulfilment/page.css",
       "static/chunks/app/fulfilment/page.js"
     ],
-    "/prep/page": [
+    "/blog/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/prep/page.css",
-      "static/chunks/app/prep/page.js"
+      "static/chunks/app/blog/page.js"
     ],
-    "/warehousing/page": [
+    "/pricefulfilment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/warehousing/page.css",
-      "static/chunks/app/warehousing/page.js"
+      "static/chunks/app/pricefulfilment/page.js"
     ],
     "/3pl/page": [
       "static/chunks/webpack.js",
@@ -46,25 +34,27 @@
       "static/css/app/3pl/page.css",
       "static/chunks/app/3pl/page.js"
     ],
-    "/pricefulfilment/page": [
+    "/warehousing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/pricefulfilment/page.js"
+      "static/css/app/warehousing/page.css",
+      "static/chunks/app/warehousing/page.js"
     ],
-    "/blog/page": [
+    "/prep/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blog/page.js"
+      "static/css/app/prep/page.css",
+      "static/chunks/app/prep/page.js"
+    ],
+    "/pricefba/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pricefba/page.js"
     ],
     "/blog/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/[id]/page.js"
-    ],
-    "/contactus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contactus/page.js"
     ],
     "/Faq/page": [
       "static/chunks/webpack.js",
@@ -72,10 +62,10 @@
       "static/css/app/Faq/page.css",
       "static/chunks/app/Faq/page.js"
     ],
-    "/_not-found/page": [
+    "/aboutus/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/aboutus/page.js"
     ]
   }
 }

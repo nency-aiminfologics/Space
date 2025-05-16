@@ -25,7 +25,7 @@ export default function BoostYourOnlineSales() {
                                     We understand that smooth Amazon FBA preparation is key to your success. Our services are carefully
                                     designed to meet the strict standards set by Amazon and Walmart.</p>
                             </div>
-                            <Image src="/Images/3pl.png" alt="prepbox"
+                            <Image src="/Images/prepbox.png" alt="prepbox"
                                 width={524}
                                 height={318} className="2xl:w-[524px] 2xl:h-[318px] xl:w-[466px] xl:h-[282px] 
                                 w-[327px] h-[189px] mt-[20px] 2xl:mt-0 xl:mt-0" />

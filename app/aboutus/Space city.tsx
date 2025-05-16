@@ -10,7 +10,7 @@ export default function Spacecity(){
                 <Image src="/Images/About space.png" alt="space"
                 width={612}
                 height={468} className="2xl:w-[612px] 2xl:h-[468px] xl:w-[544px] xl:h-[416px] 
-                w-[325px] h-[189px] absolute z-20 2xl:my-[122px] xl:my-[109px] 2xl:ml-[1124px] xl:ml-[652px] mt-[299px] 2xl:mt-0 xl:mt-0"/>
+                w-[325px] h-[192px] absolute z-20 2xl:my-[122px] xl:my-[109px] 2xl:ml-[1124px] xl:ml-[652px] mt-[299px] 2xl:mt-0 xl:mt-0"/>
             </div>
         <div className="flex 2xl:flex-row xl:flex-row flex-col gap-[30px] 2xl:justify-between xl:justify-between justify-between 2xl:mt-[63px]  
             xl:mt-[50px] h-[563px]  xl:h-[625px] 2xl:h-[700px]   w-full b">

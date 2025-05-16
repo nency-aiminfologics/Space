@@ -160,7 +160,7 @@ export default function SimpleCarousel() {
         {slides.map((slide, index) => {
   const isActive = index === currentSlide;
   const containerHeight = isActive ? "2xl:h-[602px] xl:h-[535px] h-[200px]" : "2xl:h-[303px] xl:h-[269px] h-[200px]";
-  const containerWidth = isActive ? "2xl:w-[380px] xl:w-[338px] w-[325px]" : "2xl:w-[390px] xl:w-[356px] w-[327px]";
+  const containerWidth = isActive ? "2xl:w-[380px] xl:w-[338px] w-full" : "2xl:w-[390px] xl:w-[356px] w-full";
 
   return (
     <div key={index} className="2xl:mt-[84px] xl:mt-[75px] mt-[20px]">

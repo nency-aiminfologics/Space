@@ -38,7 +38,7 @@ export default function PrepServices() {
         infinite: true,
         speed: 500,
         
-        slidesToShow: 1,
+        slidesToShow: 1.5,
         slidesToScroll: 1
     };
 
@@ -64,7 +64,7 @@ export default function PrepServices() {
                                 curated bundles and sets, and smooth box forwarding services. We aim to make your shipping and f
                                 ulfillment experience easy and stress-free.</p>
                         </div>
-                        <div className="2xl:w-[925px] xl:w-[821px]  mx-auto mt-[57px] flex 2xl:gap-[25px] xl:gap-[23px] flex-row  2xl:flex xl:flex hidden">
+                        <div className="2xl:w-[925px] xl:w-[821px]  mx-auto mt-[57px]  2xl:gap-[25px] xl:gap-[23px] flex-row  2xl:flex xl:flex hidden">
 
                             {/* first card */}
 
@@ -164,32 +164,32 @@ export default function PrepServices() {
 
             </div>
              {/* mobile screen */}
-            <div className="w-full max-w-[375px] mx-auto mt-[40px] 2xl:hidden xl:hidden pb-[30px]">
+            <div className="w-full max-w-[375px]  mt-[40px] 2xl:hidden xl:hidden pb-[30px] ">
                 <Slider ref={sliderRef} {...settings}>
                     {mobileServices.map((service, index) => (
-                        <div key={index} className="px-4">
-                            <div className="bg-gradient-to-b from-[#D6D6D6] to-[#FFFFFF] rounded-[20px] p-4">
+                        <div key={index} className="">
+                            <div className="bg-gradient-to-b w-[222px] h-[327px] from-[#D6D6D6] to-[#FFFFFF] rounded-[20px] p-[18px]">
                                 <Image
                                     src={service.image}
                                     alt={service.title}
                                     width={186}
                                     height={129}
-                                    className="w-[186px] h-[129px] rounded-[20px] mx-auto"
+                                    className="w-[186px] h-[129px] rounded-[15px] mx-auto"
                                 />
-                                <h1 className="text-[#000000] text-[16px] font-semibold leading-[24.89px] mt-[15px] text-center">
+                                <h1 className="text-[#000000] text-[16px] font-semibold leading-[24.89px] mt-[15px] ">
                                     {service.title}
                                 </h1>
-                                <p className="text-[#606060] text-[14px] font-normal mt-[4px] leading-[21.33px] text-center">
+                                <p className="text-[#606060] text-[14px] font-normal mt-[4px] leading-[21.33px] ">
                                     Started From
                                 </p>
-                                <p className="text-[#000000] text-[20px] leading-[35px] font-bold mt-[4px] text-center">
+                                <p className="text-[#000000] text-[20px] leading-[35px] font-bold mt-[4px] ">
                                     {service.price}
                                 </p>
                                 <button
                                     onClick={() => {
                                         document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
                                     }}
-                                    className="w-full h-[44px] mt-[15px] border border-[#020C12] rounded-[30px] text-[#020C12] text-[16px] font-semibold"
+                                    className="w-[186px] h-[44px] mt-[15px] border border-[#020C12] rounded-[30px] text-[#020C12] text-[16px] font-semibold"
                                     style={{ boxShadow: "0px 5.33px 26.67px #FFFFFF7D" }}
                                 >
                                     Get Started

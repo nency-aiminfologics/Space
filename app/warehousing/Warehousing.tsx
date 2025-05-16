@@ -10,7 +10,7 @@ export default function Warehousing() {
 
             <div>
                 <div className="2xl:w-[1440px] xl:w-[1280px] w-full py-[40px] 2xl:py-[110px] xl:py-[98px]   mx-auto">
-                    <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] mx-auto 2xl:mx-auto xl:mx-[65px] flex flex-col">
+                    <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px]  mx-auto 2xl:mx-auto xl:mx-[65px] flex flex-col">
                         <div className="flex 2xl:flex-row xl:flex-row flex-col justify-between ">
                             <div className="">
                                 <h1 className="text-[#020C12] 2xl:text-[48px] xl:text-[42px] text-[20px] 
@@ -27,7 +27,7 @@ export default function Warehousing() {
                             <Image src="/Images/warehousebox.png" alt="prepbox"
                                 width={524}
                                 height={318} className="2xl:w-[524px] 2xl:h-[318px] xl:w-[466px] xl:h-[282px] 
-                                w-[327px] h-[189px] mt-[20px] 2xl:mt-0 xl:mt-0" />
+                                w-[325px] h-[189px] mt-[20px] 2xl:mt-0 xl:mt-0 " />
                         </div>
 
 

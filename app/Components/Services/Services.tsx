@@ -38,7 +38,7 @@ export default function Services() {
       group: "/Images/Group 14.png",
       description:
         "Enjoy Hassle-Free Order Fulfillment With Our All-In-One Services, Including Order Processing, Picking And Packing, Shipping, And Returns Handling.",
-      readMoreLink: "/fulfillment",
+      readMoreLink: "/fulfilment",
       hoverImage: "/Images/fulfilmentcard.jpg",
       description1: "Enjoy Hassle-Free Order Fulfillment With Our All-In-One Services, In..",
     },

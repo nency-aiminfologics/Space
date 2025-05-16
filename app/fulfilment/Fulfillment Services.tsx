@@ -7,7 +7,7 @@ export default function FulfillmentServices() {
     return (
         <>
             <div>
-                <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px]  mx-auto">
+                <div className="2xl:w-[1440px] xl:w-[1280px] w-full  mx-auto">
                     <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] mx-auto py-[40px] 2xl:py-[100px] xl:py-[90px] 2xl:mx-auto xl:mx-[65px]">
                         <h1 className="text-[#020C12] font-bold  uppercase 2xl:text-[48px] xl:text-[42px] text-[20px] leading-[100%] tracking-[1px]">Fulfillment Services</h1>
                         <div className="2xl:w-[1239px] 2xl:h-[410px] xl:h-[364px] xl:w-[1101px]  2xl:mt-[93px] xl:mt-[82px] mt-[30px]
@@ -121,17 +121,22 @@ export default function FulfillmentServices() {
 
                             </div>
                         </div>
-                        <div className="">
-                            <h1 className="leaading-[36px] tracking-[1%] mt-[25px] text-center text-[18px] font-bold text-[#020C12]">Discounted Shipping Rates</h1>
-                            <p className="text-[#020C12]  text-center font-normal leading-[21px] mt-[10px]  w-[304px] text-[14px]
+                        <div className="2xl:w-[640px] xl:w-[569px] mx-auto">
+                            <h1 className="leaading-[36px] tracking-[1%] 2xl:mt-[84px] xl:mt-[75px] mt-[25px] 
+                            text-center text-[18px] 2xl:text-[32px] xl:text-[28px] font-bold text-[#020C12]">Discounted Shipping Rates</h1>
+                            <p className="text-[#020C12]  text-center font-normal 2xl:leading-[28px] leading-[21px] mt-[10px] 2xl:mt-[25px] xl:mt-[22px]
+                             w-[304px] 2xl:w-[640px] xl:w-[569px]
+                             text-[14px] 2xl:text-[18px] xl:text-[18px] xl:leading-[24.89px]
                            ">We help you save money by offering bulk discounted shipping rates. Thanks to
                                 our partnerships with many small businesses, you enjoy lower shipping
                                 costs with no extra fees, just honest savings passed directly to you.</p>
 
                             <Link href="/pricefulfilment">
-                                <div className="flex  gap-[10px] mt-[35px] justify-center 2xl:hidden xl:hidden">
-                                    <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} className=" w-[43px] h-[29px]" />
-                                    <span className="text-[14px] text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold  mt-2">
+                                <div className="flex  gap-[10px] xl:gap-[13.97px] 2xl:gap-[15px] 2xl:mt-[34px] mt-[35px] xl:mt-[30px] justify-center ">
+                                    <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} className=" 2xl:w-[68px] 2xl:h-[45px]
+                                    xl:w-[60.31px] xl:h-[40px] w-[43px] h-[29px]" />
+                                    <span className="text-[14px] 2xl:text-[20px] xl:text-[18px]  text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold
+                                      mt-2 2xl:mt-3 xl:mt-3">
                                         See All Prices
                                     </span>
                                 </div>
