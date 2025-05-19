@@ -16,28 +16,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/aboutus/page.js"
-    ],
-    "/pricefulfilment/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/pricefulfilment/page.js"
-    ],
-    "/prep/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/prep/page.css",
-      "static/chunks/app/prep/page.js"
-    ],
-    "/3pl/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/3pl/page.css",
-      "static/chunks/app/3pl/page.js"
-    ],
-    "/contactus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contactus/page.js"
     ]
   }
 }
