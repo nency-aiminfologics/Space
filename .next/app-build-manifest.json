@@ -16,6 +16,18 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/aboutus/page.js"
+    ],
+    "/prep/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/prep/page.css",
+      "static/chunks/app/prep/page.js"
+    ],
+    "/warehousing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/warehousing/page.css",
+      "static/chunks/app/warehousing/page.js"
     ]
   }
 }

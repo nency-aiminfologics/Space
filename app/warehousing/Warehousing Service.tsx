@@ -47,7 +47,7 @@ export default function WarehousingService() {
           infinite: true,
           speed: 500,
           
-          slidesToShow: 1.3,
+          slidesToShow: 1.6,
           slidesToScroll: 1
       };
   return (
@@ -131,8 +131,8 @@ export default function WarehousingService() {
     {/* mobile screen */}
 
     <div className="w-full  2xl:hidden xl:hidden block">
-      <div className="w-[325px] mx-auto">
-        <div>
+      <div className=" ">
+        <div className=" w-[325px] mx-[24px]">
           <h1 className="text-[14px] font-normal leading-[25px] text-[#0084FF] mt-[30px]">Services</h1>
           <h1 className="text-[#020C12] font-extrabold text-[20px] leading-[100%] tracking-[1%] mt-[5px] uppercase">Services We Offer</h1>
           <p className="w-[300px] text-[#020C12] leading-[21px] font-normal mt-[15px] text-[14px]">At Space City Prep, we offer a complete range of services including FBA prep solutions, 
@@ -140,7 +140,7 @@ export default function WarehousingService() {
             professionally curated bundles and sets, and smooth box forwarding services. We aim to 
             make your shipping and fulfillment experience easy and stress-free.</p>
         </div>
-        <div className="w-full max-w-[375px]  mt-[40px] 2xl:hidden xl:hidden pb-[30px]">
+        <div className="w-full  mt-[40px] 2xl:hidden xl:hidden pb-[30px]">
                 <Slider ref={sliderRef} {...settings}>
                     {services.map((service, index) => (
                         <div key={index} className="">
