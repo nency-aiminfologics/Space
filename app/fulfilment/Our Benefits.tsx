@@ -33,7 +33,7 @@ export default function OurBenefits() {
   return (
     <>
       <div
-  className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] w-full 
+  className="bg-cover bg-center bg-no-repeat  w-full 
   mx-auto overflow-y-auto scrollbar-hide"
   style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
 >

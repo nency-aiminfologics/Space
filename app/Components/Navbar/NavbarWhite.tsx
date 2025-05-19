@@ -37,7 +37,7 @@ export default function NavbarWhite() {
 
   return (
     <section className={`z-50 w-full transition-all duration-300  ${isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'}`}>
-      <div className="max-w-[375px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1440px] mx-auto px-4 lg:px-8 xl:px-[50px] 2xl:px-[80px]">
+      <div className="max-w-[375px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1440px]  mx-auto px-4 lg:px-8 xl:px-[50px] 2xl:px-[80px]">
         <div className="flex justify-between items-center py-4 lg:py-6 xl:py-[34px]">
           {/* Logo */}
           <Link href="/">
@@ -46,13 +46,13 @@ export default function NavbarWhite() {
               alt="Logo"
               width={180}
               height={40}
-              className="w-[180px] lg:w-[220px] xl:w-[243px] 2xl:w-[291.5px]"
+              className="w-[180px] xl:w-[243px] 2xl:w-[291.5px] lg:w-[215px]"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-6 lg:gap-8 xl:gap-10">
-            <ul className={`text-[16px] lg:text-[17px] xl:text-[18px] ${isScrolled ? "text-[#020C12]" : "text-white"} font-normal tracking-[1px] font-sora flex gap-4 lg:gap-5 xl:gap-6`}>
+          <div className="hidden lg:flex items-center gap-6 lg:gap-[58px] xl:gap-10">
+            <ul className={`text-[16px]  xl:text-[18px] lg:text-[15px] ${isScrolled ? "text-[#020C12]" : "text-white"} font-normal tracking-[1px] font-sora flex gap-4 lg:gap-5 xl:gap-6`}>
               <li><Link href="/aboutus" className={pathname === "/aboutus" ? "font-semibold" : ""}>About us</Link></li>
 
               <li className="relative">

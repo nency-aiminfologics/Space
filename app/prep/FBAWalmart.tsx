@@ -31,14 +31,14 @@ const slides = [
 export default function FBAWalmart() {
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] w-full 
+      className="bg-cover bg-center bg-no-repeat  w-full 
   mx-auto overflow-y-auto scrollbar-hide"
       style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
     >
       <div className="2xl:pl-[320px] xl:pl-[65px] w-[325px] mx-auto 2xl:w-full xl:w-full  flex xl:flex-row 2xl:flex-row flex-col justify-between min-h-screen">
         <div className="relative">
           <div className="sticky 2xl:top-[100px] xl:top-[89px] mt-[40px]">
-            <h1 className="text-[#020C12] w-full 2xl:text-[48px] xl:text-[42px] text-[20px] font-bold 
+            <h1 className="text-[#020C12] 2xl:w-[406px] xl:w-[348px] w-[304px] 2xl:text-[48px] xl:text-[42px] text-[20px] font-bold 
         uppercase leading-[100%] tracking-[1px]">
               FBA/Walmart Prep Service includes
             </h1>

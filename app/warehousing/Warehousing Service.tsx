@@ -52,7 +52,7 @@ export default function WarehousingService() {
       };
   return (
     <>
-    <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[127px] xl:py-[113px]  mx-auto 2xl:block xl:block hidden">
+    <div className="w-full 2xl:py-[127px] xl:py-[113px]  mx-auto 2xl:block xl:block hidden">
       <div className="2xl:w-[1244px] xl:w-[1150px] mx-auto">
         <div className="2xl:w-[871px] xl:w-[730px]  mx-auto">
           <h1 className="text-[#0084FF] 2xl:text-[20px] xl:text-[18px] font-semibold 2xl:leading-[28px] xl:leading-[24.89px]  text-center">
@@ -69,7 +69,7 @@ export default function WarehousingService() {
           </p>
         </div>
 
-        <div className="2xl:w-[1241px] xl:w-[1150px]   mt-[57px] flex gap-[25px] flex-row mx-auto">
+        <div className="2xl:w-[1241px] xl:w-[1150px]    mt-[57px] flex gap-[25px] flex-row mx-auto">
           {services.map((service, index) => (
             <div
               key={index}

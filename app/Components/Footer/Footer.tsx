@@ -13,45 +13,55 @@ export default function Footer() {
   return (
     <>
       {/* === Desktop Layout (xl and up) === */}
-      <div className="hidden xl:block 2xl:block">
-        <div className="2xl:w-[1440px] 2xl:h-[412px] 2xl:mt-[59px] xl:w-[1280px] xl:h-[362px] xl:mt-[52.45px] mx-auto">
-          <div className='flex justify-between 2xl:w-[1247px] xl:w-[1130px] mx-auto'>
+      <div className="hidden xl:block 2xl:block lg:block">
+        <div className="  2xl:py-[59px] xl:w-[1280px] w-full xl:py-[52.45px] lg:py-[42px] mx-auto">
+          <div className='flex justify-between 2xl:w-[1247px] xl:w-[1130px] lg:w-[904px] mx-auto '>
             <div>
               <Image src='/Images/Logo.png' alt='logo'
                 width={291.5}
                 height={65}
-                className='2xl:w-[291.px] 2xl:h-[65px] xl:w-[243px] xl:h-[54.19px]'
+                className='2xl:w-[291.px] 2xl:h-[65px] xl:w-[243px] xl:h-[54.19px] lg:w-[224px] lg:h-[49px]'
               />
             </div>
-            <div className='flex justify-between 2xl:w-[575px] xl:w-[511px]'>
-              <ul className='text-[#020C12] 2xl:text-[16px] xl:text-[16px] 2xl:leading-[24px] xl:leading-[21.33px]'>
+            <div className='flex justify-between 2xl:w-[575px] xl:w-[511px] lg:w-[400px] '>
+              <ul className='text-[#020C12] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] 2xl:leading-[24px] xl:leading-[21.33px] lg:leading-[17.07px]'>
                 <li className='font-semibold'>Company</li>
-                <Link href="/aboutus"><li className='2xl:mt-[8px] xl:mt-[10px]'>About</li></Link>
-                <Link href="/blog"><li className='2xl:mt-[8px] xl:mt-[10px]'>Blogs</li></Link>
-                <Link href="/Faq"><li className='2xl:mt-[8px] xl:mt-[10px]'>Faqs</li></Link>
-                <Link href="/contactus"><li className='2xl:mt-[8px] xl:mt-[10px]'>Contact</li></Link>
+                <Link href="/aboutus"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>About</li></Link>
+                <Link href="/blog"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>Blogs</li></Link>
+                <Link href="/Faq"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>Faqs</li></Link>
+                <Link href="/contactus"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>Contact</li></Link>
               </ul>
-              <ul className='text-[#020C12] text-[16px] leading-[24px]'>
+              <ul className='text-[#020C12] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] 2xl:leading-[24px] xl:leading-[21.33px] lg:leading-[17.07px]'>
                 <li className='font-semibold'>Services</li>
-                <Link href="/fulfilment"><li className='2xl:mt-[8px] xl:mt-[10px]'>Fulfillment</li></Link>
-                <Link href="/warehousing"><li className='2xl:mt-[8px] xl:mt-[10px]'>Warehousing</li></Link>
-                <Link href="/prep"><li className='2xl:mt-[8px] xl:mt-[10px]'>Prep</li></Link>
-                <Link href="/3pl"><li className='2xl:mt-[8px] xl:mt-[10px]'>3PL</li></Link>
+                <Link href="/fulfilment"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>Fulfillment</li></Link>
+                <Link href="/warehousing"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>Warehousing</li></Link>
+                <Link href="/prep"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>Prep</li></Link>
+                <Link href="/3pl"><li className='2xl:mt-[8px] xl:mt-[10px] lg:mt-[10px]'>3PL</li></Link>
               </ul>
               <ul>
-                <li className='font-semibold'>Social links</li>
-                <div className='2xl:w-[144px] xl:w-[128px] grid grid-cols-3 2xl:mt-[15px] xl:mt-[10px]'>
-                  <Image src="/Images/Small-components/Icons/insta.svg" alt='insta' width={40} height={40} />
-                  <Image src="/Images/Small-components/Icons/linkedin.svg" alt='linkedin' width={40} height={40} />
-                  <Image src="/Images/Small-components/Icons/twitter.svg" alt='twitter' width={40} height={40} />
-                  <Image src="/Images/Small-components/Icons/tiktok.svg" alt='tiktok' width={40} height={40} className='2xl:mt-[10px] xl:mt-[10px]' />
-                  <Image src="/Images/Small-components/Icons/facebook.svg" alt='facebook' width={40} height={40} className='2xl:mt-[10px] xl:mt-[10px]' />
+                <li className='font-semibold text-[#020C12] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] 2xl:leading-[24px] xl:leading-[21.33px] lg:leading-[17.07px]'>Social links</li>
+                <div className='2xl:w-[144px] xl:w-[128px] lg:w-[102.4px] grid grid-cols-3 2xl:mt-[15px] xl:mt-[10px] lg:mt-[10px]'>
+                  <Image src="/Images/Small-components/Icons/insta.svg" alt='insta' width={40} height={40} 
+                   className='2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[28px] lg:h-[28px]'/>
+
+                  <Image src="/Images/Small-components/Icons/linkedin.svg" alt='linkedin' width={40} height={40}
+                  className='2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[28px] lg:h-[28px]' />
+
+                  <Image src="/Images/Small-components/Icons/twitter.svg" alt='twitter' width={40} height={40} 
+                  className='2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[28px] lg:h-[28px]'/>
+
+                  <Image src="/Images/Small-components/Icons/tiktok.svg" alt='tiktok' width={40} height={40} 
+                  className='2xl:mt-[10px] xl:mt-[10px] lg:mt-[10px] 2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[28px] lg:h-[28px]' />
+                  
+                  <Image src="/Images/Small-components/Icons/facebook.svg" alt='facebook' width={40} height={40} 
+                  className='2xl:mt-[10px] xl:mt-[10px] lg:mt-[10px] 2xl:w-[40px] 2xl:h-[40px] xl:w-[40px] xl:h-[40px] lg:w-[28px] lg:h-[28px]' />
                 </div>
               </ul>
             </div>
           </div>
-          <div className='2xl:w-[1247px] xl:w-[1130px] h-[1px] bg-[#000000] mx-auto mt-[68px]'></div>
-          <div className='2xl:w-[1247px] xl:w-[1130px] mx-auto text-[#020C12] 2xl:text-[16px] xl:text-[16px] flex justify-between 2xl:mt-[30px] xl:mt-[28px] 2xl:leading-[24px] xl:leading-[21.33px] tracking-[0px]'>
+          <div className='2xl:w-[1247px] xl:w-[1130px] lg:w-[904px] h-[1px] bg-[#000000] mx-auto mt-[68px]'></div>
+          <div className='2xl:w-[1247px] xl:w-[1130px] lg:w-[904px] mx-auto text-[#020C12] 2xl:text-[16px] xl:text-[16px] lg:text-[14px]
+           flex justify-between 2xl:mt-[30px] xl:mt-[28px] lg:mt-[23px] lg:leading-[17px] 2xl:leading-[24px] xl:leading-[21.33px] tracking-[0px]'>
             <p>© 2025 Space City Prep </p>
             <ul className='flex 2xl:gap-[25px] xl:gap-[23px]'>
               <li>Terms & conditions</li>
@@ -63,7 +73,7 @@ export default function Footer() {
       </div>
 
       {/* === Mobile Layout (375px) === */}
-      <div className="block xl:hidden 2xl:hidden w-[375px] h-[401px] mx-auto ">
+      <div className="block xl:hidden 2xl:hidden lg:hidden w-[375px] h-[401px] mx-auto ">
         <div className='w-[330px] mx-auto'>
         <div className="flex justify-center mt-[24px]">
           <Image src='/Images/Logo.png' alt='logo' width={190} height={34} />

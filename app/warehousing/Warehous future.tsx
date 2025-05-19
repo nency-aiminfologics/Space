@@ -42,7 +42,7 @@ export default function Warehousfuture() {
     <>
       {/* Desktop Layout */}
       <div
-        className="bg-cover bg-center bg-no-repeat 2xl:w-full xl:w-[1280px] overflow-hidden mx-auto 2xl:block xl:block hidden"
+        className="bg-cover bg-center bg-no-repeat w-full  overflow-hidden mx-auto 2xl:block xl:block hidden"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
         <div className="2xl:w-[1440px] xl:w-[1280px] 2xl:py-[120px] xl:py-[106.67px] mx-auto">
