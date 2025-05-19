@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     // Function to check screen size
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 1280); // Use 1280px as the breakpoint (matches xl:)
+      setIsMobile(window.innerWidth < 768); // Use 1280px as the breakpoint (matches xl:)
     };
 
     // Run on initial load
@@ -33,9 +33,9 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="bg-[#ffffff]" id="#">
-      <div className="2xl:h-[1078px] xl:h-[965px]">
-        {isMobile ? <NavbarWhite /> : <Navbar />} {/* Conditionally render Navbar or NavbarWhite */}
+    <section className="bg-[#ffffff] overflow-hidden" id="#" >
+      <div className="2xl:h-[1078px] xl:h-[965px] lg:h-[768px] ">
+        {isMobile ? <NavbarWhite /> : <Navbar />} 
         <Fulfillment />
       </div>
       <Services />

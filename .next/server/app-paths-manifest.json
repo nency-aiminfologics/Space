@@ -1,7 +1,5 @@
 {
-  "/warehousing/page": "app/warehousing/page.js",
-  "/aboutus/page": "app/aboutus/page.js",
   "/page": "app/page.js",
-  "/3pl/page": "app/3pl/page.js",
-  "/fulfilment/page": "app/fulfilment/page.js"
+  "/pricefulfilment/page": "app/pricefulfilment/page.js",
+  "/aboutus/page": "app/aboutus/page.js"
 }

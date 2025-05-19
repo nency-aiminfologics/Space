@@ -5,6 +5,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 
 export default function Services() {
   const [isMobile, setIsMobile] = useState<null | boolean>(null);
@@ -90,7 +91,7 @@ export default function Services() {
 
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat 2xl:w-full 2xl:h-[867px] xl:w-[1280px] xl:h-[770.67px] w-full h-[363px]  relative overflow-hidden"
+      className="bg-cover bg-center bg-no-repeat  w-full  2xl:py-[127px] xl:py-[113px] lg:py-[90px] py-[24px] relative overflow-hidden"
       style={{ backgroundImage: `url("/Images/background.png")` }}
     >
       <Image
@@ -98,17 +99,18 @@ export default function Services() {
         alt="fba"
         width={223}
         height={223}
-        className="absolute 2xl:mt-[600px] 2xl:ml-[1430px] z-20 2xl:w-[223px] 2xl:h-[223px] xl:w-[180px] xl:h-[180px] 
-        xl:mt-[560px] xl:ml-[1080px] w-[93px] h-[93px] mt-[280px] ml-[278px]"
+        className="absolute 2xl:mt-[500px] 2xl:ml-[1430px] z-20 2xl:w-[223px] 2xl:h-[223px] xl:w-[180px] xl:h-[180px] 
+        xl:mt-[460px] xl:ml-[1080px] w-[93px] h-[93px] mt-[250px] ml-[278px] lg:w-[144px] lg:h-[144px] lg:mt-[360.4px] lg:ml-[838.4px]"
       />
-      <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px] mx-auto">
-        <div className="2xl:mx-[80px] xl:mx-[0px] 2xl:pt-[127px] xl:pt-[113px] pt-[24px]">
-          <div className="2xl:w-[513px] xl:w-[499px] w-[214px] mx-auto text-[#020c12] font-sora font-semibold">
-            <h1 className="2xl:tracking-[1%] xl:tracking-[1%] tracking-[0px] 2xl:leading-[100%] xl:leading-[100%] leading-[24.89px] 2xl:text-[20px] 
-            xl:text-[18px] text-[14px] text-center text-[#0084FF]">
+      <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[904px] w-[375px] mx-auto ">
+        <div className="2xl:mx-[80px] xl:mx-[0px] ">
+          <div className="2xl:w-[513px] xl:w-[499px] lg:w-[363px] w-[214px] mx-auto text-[#020c12] font-sora font-semibold">
+            <h1 className="2xl:tracking-[1%] xl:tracking-[1%] tracking-[0px] 2xl:leading-[100%] xl:leading-[100%] leading-[24.89px] lg:leading-[19.91px] 2xl:text-[20px] 
+            xl:text-[18px] lg:text-[16px] text-[14px] text-center text-[#0084FF]">
               Services
             </h1>
-            <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] font-extrabold mt-[5px] tracking-[1%] leading-[100%] 2xl:mt-[12px] xl:mt-[12px] text-center">
+            <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[34px] font-extrabold mt-[5px] 
+            tracking-[1%] leading-[100%] 2xl:mt-[12px] lg:mt-[10px] xl:mt-[12px] text-center">
               Services We Offer
             </h1>
           </div>
@@ -159,11 +161,11 @@ export default function Services() {
               </Slider>
             </div>
           ) : (
-            <div className="mt-[50px] flex 2xl:mx-0 xl:pl-[65px] 2xl:pl-[0px] 2xl:gap-[36px] xl:gap-[37px] flex-wrap bg-cover">
+            <div className="2xl:mt-[50px] xl:mt-[50px] lg:mt-[35px] flex 2xl:mx-0 xl:pl-[65px] 2xl:pl-[0px] 2xl:gap-[36px] xl:gap-[37px] lg:gap-[25px] flex-wrap bg-cover">
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className={`2xl:w-[291px] 2xl:h-[400px] xl:w-[258px] xl:h-[355px] rounded-[20px] overflow-hidden relative group ${
+                  className={`2xl:w-[291px] 2xl:h-[400px] xl:w-[258px] xl:h-[355px] lg:w-[206.4px] lg:h-[284px]  rounded-[20px] overflow-hidden relative group ${
                     index === 0 || index === 3 ? "mt-[50px]" : "mt-[90px]"
                   }`}
                 >
@@ -174,9 +176,11 @@ export default function Services() {
                       alt="icon"
                       width={100}
                       height={100}
-                      className="absolute 2xl:mt-[39.07px] 2xl:ml-[32.93px] 2xl:w-[100px] 2xl:h-[100px] xl:w-[88.66px] xl:h-[88.66px] xl:mt-[26.67px] xl:ml-[26.6px]"
+                      className="absolute 2xl:mt-[39.07px] 2xl:ml-[32.93px] 2xl:w-[100px] 2xl:h-[100px] xl:w-[88.66px] xl:h-[88.66px] xl:mt-[26.67px] xl:ml-[26.6px]
+                      lg:w-[70.93px] lg:h-[70.93px] lg:ml-[21.28px] lg:mt-[21.33px]"
                     />
-                    <h1 className="2xl:text-[20px] xl:text-[18px] leading-[28px] font-bold font-sora 2xl:mt-[165px] 2xl:ml-[30px] xl:ml-[26.67px] xl:mt-[146.67px]">
+                    <h1 className="2xl:text-[20px] xl:text-[18px] lg:text-[16px] 2xl:leading-[28px] xl:leading-[28px] lg:leading-[19.91px] font-bold font-sora 
+                    2xl:mt-[165px] 2xl:ml-[30px] xl:ml-[26.67px] lg:ml-[21.33px] lg:mt-[117.33px] xl:mt-[146.67px]">
                       {service.title}
                     </h1>
                     <Image
@@ -184,7 +188,8 @@ export default function Services() {
                       alt="group"
                       width={180.3}
                       height={173}
-                      className="2xl:mt-[43px] 2xl:ml-[153.35px] 2xl:w-[180.3px] 2xl:h-[173px] xl:w-[160.26px] xl:h-[153.78px] xl:mt-[44.33px] xl:ml-[136.71px]"
+                      className="2xl:mt-[43px] 2xl:ml-[153.35px] 2xl:w-[180.3px] 2xl:h-[173px] xl:w-[160.26px] xl:h-[153.78px]
+                      lg:w-[128.21px] lg:h-[123.02px] lg:mt-[35.47px] lg:ml-[109.05px] xl:mt-[44.33px] xl:ml-[136.71px]"
                     />
                   </div>
 
@@ -202,22 +207,23 @@ export default function Services() {
                           alt="icon"
                           width={94.14}
                           height={81.86}
-                          className="mb-[20px]"
+                          className="mb-[20px] xl:w-[88.66px] xl:h-[88.66px]  lg:w-[70.93px] lg:h-[70.93px]"
                         />
-                        <h1 className="text-[20px] leading-[28px] font-extrabold font-sora text-white">
+                        <h1 className="2xl:text-[20px] xl:text-[18px] lg:text-[16px] 2xl:leading-[28px] xl:leading-[28px] lg:leading-[19.91px]
+                         font-extrabold font-sora text-white">
                           {service.title}
                         </h1>
                         <p className="text-[16px] w-[247px] leading-[22px] text-white mt-[10px]">
                           {service.description}
                         </p>
                       </div>
-                      <a
+                      <Link
                         href={service.readMoreLink}
                         className="text-white text-[16px] font-semibold flex items-center gap-[11px] leading-[24px]"
                       >
                         Read More
                         <Image src="/Images/vuesax/outline/arrow-right.svg" alt="arrow right" width={24} height={24} />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

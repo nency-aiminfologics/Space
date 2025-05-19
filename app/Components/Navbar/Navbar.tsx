@@ -33,12 +33,12 @@ export default function Navbar() {
 
   return (
     <section
-      className={`w-full z-50 transition-all duration-300 ${
+      className={`w-full z-50 transition-all duration-300   ${
         isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'
       }`}
     >
       <div className="max-w-[375px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1440px] mx-auto">
-        <div className="flex justify-between items-center mx-4 lg:mx-8 xl:mx-[50px] 2xl:mx-[80px] my-4 lg:my-6 xl:my-[34px] 2xl:my-[30px]">
+        <div className="flex justify-between  items-center mx-4 lg:mx-8 xl:mx-[50px] 2xl:mx-[80px] my-4 lg:my-6 xl:my-[34px] 2xl:my-[30px]">
           {/* Logo */}
           <Link href="#">
             <Image
@@ -51,8 +51,8 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-6 lg:gap-8 xl:gap-24 2xl:gap-24">
-            <ul className="flex gap-4 lg:gap-5 xl:gap-6 text-[#020c12] font-normal text-[16px] lg:text-[17px] xl:text-[18px]">
+          <div className="hidden lg:flex 2xl:flex xl:flex items-center gap-6 lg:gap-[58px] xl:gap-[118px] 2xl:gap-[119px] ">
+            <ul className="flex gap-4 lg:gap-[18px] xl:gap-6 text-[#020c12] font-normal text-[16px] lg:text-[15px] xl:text-[18px]">
               <li>
                 <Link href="/aboutus">About us</Link>
               </li>
@@ -106,7 +106,7 @@ export default function Navbar() {
             </ul>
             <Link href="/contactus">
               <button
-                className={`w-[160px] lg:w-[180px] xl:w-[194px] h-[50px] lg:h-[55px] xl:h-[61px] rounded-[35px] font-semibold text-[16px] lg:text-[17px] xl:text-[18px] ${
+                className={`w-[160px] lg:w-[174px] xl:w-[194px] h-[50px] lg:h-[56px] xl:h-[61px] rounded-[35px] font-semibold text-[16px] lg:text-[18px] xl:text-[18px] ${
                   isScrolled
                     ? 'bg-[#0084FF] text-white shadow-md'
                     : 'bg-white text-[#020C12] shadow-[0px_10px_20px_#ffffff49]'
@@ -118,7 +118,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden">
+          <div className="lg:hidden ">
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
               {isMobileMenuOpen ? <IoMdClose size={28} /> : <HiOutlineMenuAlt3 size={28} />}
             </button>

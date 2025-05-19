@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 export default function Spacecityprep() {
   return (
-    <div className="">
+    <div className="w-full">
       <div className="2xl:w-[1440px] 2xl:h-[1052px] xl:w-[1280px] xl:h-[840.11px] w-[375px] h-[380px] mx-auto  relative">
-        <div className="2xl:w-[1097.22px] xl:w-[975.3px] w-[330px]  mx-auto 2xl:mt-[100px] xl:mt-[90px] mt-[40px]">
+        <div className="2xl:w-[1097.22px] xl:w-[975.3px] w-[325px]  mx-auto 2xl:mt-[100px] xl:mt-[90px] mt-[40px]">
           <h1 className="text-[#020C12] 2xl:text-[48px] xl:text-[42px] text-[20px] font-bold leading-[100%] 
           2xl:tracking-[1px] tracking-[1%] xl:tracking-[0.89px] text-center">
             Space city prep

@@ -36,7 +36,7 @@ export default function NavbarWhite() {
   }, []);
 
   return (
-    <section className={`z-50 w-full transition-all duration-300 ${isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'}`}>
+    <section className={`z-50 w-full transition-all duration-300  ${isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'}`}>
       <div className="max-w-[375px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1440px] mx-auto px-4 lg:px-8 xl:px-[50px] 2xl:px-[80px]">
         <div className="flex justify-between items-center py-4 lg:py-6 xl:py-[34px]">
           {/* Logo */}

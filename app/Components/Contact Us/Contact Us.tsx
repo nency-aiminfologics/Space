@@ -5,9 +5,9 @@ import Image from 'next/image'
 export default function ContactUs() {
     return (
         <>
-            <div className="2xl:w-full 2xl:h-[639px] xl:w-[1280px] w-full bg-[url('/Images/contact-bg.png')] bg-cover bg-center ">
+            <div className="w-full 2xl:py-[91px] xl:py-[75px] py-[40px]  bg-[url('/Images/contact-bg.png')] bg-cover bg-center ">
                 <div className='2xl:w-[1440px] xl:w-[1280px] w-[375px] mx-auto '>
-                    <div className='xl:w-[1130px] 2xl:w-[1244px] w-[330px]  mx-auto 2xl:py-[91px] xl:py-[75px] py-[40px]
+                    <div className='xl:w-[1130px] 2xl:w-[1244px] w-[325px]  mx-auto 
                      flex 2xl:flex-row xl:flex-row flex-col xl:justify-between 2xl:justify-between'>
                         <div className='2xl:w-[536px] xl:w-[476.44px] w-[275px] '>
                             <h1 className='2xl:text-[48px] xl:text-[42px] text-[20px] font-bold text-[#FFFFFF] 2xl:leading-[70px] xl:leading-[62.22px] xl:tracking-[-0.62px] 
