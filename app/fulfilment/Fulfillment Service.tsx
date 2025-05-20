@@ -36,7 +36,8 @@ export default function FulfillmentService() {
                 alt="main"
                 width={1244}
                 height={198}
-                className="w-full 2xl:h-[198px] xl:h-[176px] h-[77px] lg:w-[904px] lg:h-[144px] 2xl:rounded-[40px] xl:rounded-[40px] rounded-[10px]"
+                className="w-full 2xl:h-[198px] xl:h-[176px] h-[77px] lg:w-[904px] 
+                lg:h-[144px] 2xl:rounded-[40px] xl:rounded-[40px] rounded-[10px]"
               />
             </div>
 

@@ -146,7 +146,8 @@ const Card = ({ item, isActive, onClick }: CardProps) => (
     className="cursor-pointer  2xl:max-w-[827px] xl:max-w-[827px] w-full mx-auto bg-white p-5 2xl:rounded-[15px] xl:rounded-[15px] rounded-[8px]  transition-all duration-300"
   >
     <div className="flex justify-between items-center">
-      <h3 className="2xl:text-[18px] xl:text-[18px] text-[14px] font-semibold text-[#020C12] text-left 2xl:leading-[24px] xl:leading-[24px] leading-[21.33px]">{item.title}</h3>
+      <h3 className="2xl:text-[18px] xl:text-[18px] text-[14px] lg:text-[18px]
+      font-semibold text-[#020C12] text-left 2xl:leading-[24px] xl:leading-[24px] lg:leading-[24px] leading-[21.33px]">{item.title}</h3>
       <motion.span
         animate={{ rotate: isActive ? 180 : 0 }}
         transition={{ duration: 0.3 }}
@@ -163,7 +164,7 @@ const Card = ({ item, isActive, onClick }: CardProps) => (
           animate={{ opacity: 1, height: 'auto' }}
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
-          className="overflow-hidden 2xl:mt-4 xl:mt-4 mt-[8px] 2xl:text-[16px] xl:text-[16px] text-[14px] text-[#020C12]"
+          className="overflow-hidden 2xl:mt-4 xl:mt-4 mt-[8px] lg:mt-[16px] 2xl:text-[16px] xl:text-[16px] lg:text-[16px] text-[14px] text-[#020C12]"
         >
           {item.description}
         </motion.div>
@@ -186,20 +187,20 @@ export default function Faq() {
       : allFAQs.filter(faq => faq.category === selectedCategory);
 
   return (
-    <div className="bg-[#F5F5F5] 2xl:py-[74px] xl:py-[60px] py-[40px] ">
-      <div className="2xl:max-w-[827px] xl:max-w-[827px] max-w-[325px] mx-auto ">
-        <h1 className="2xl:text-[48px] xl:text-[48px] text-[20px] w-[215px] 2xl:w-full xl:w-full mx-auto  
+    <div className="bg-[#F5F5F5] 2xl:py-[74px] xl:py-[60px] py-[40px] lg:py-[90px]">
+      <div className="2xl:max-w-[827px] xl:max-w-[827px] max-w-[325px] lg:max-w-[827px] mx-auto ">
+        <h1 className="2xl:text-[48px] xl:text-[48px] text-[20px] w-[215px] 2xl:w-full xl:w-full lg:w-full mx-auto  
         font-extrabold text-[#020C12] uppercase text-center 
-        2xl:leading-[100%] xl:leading-[100%] 2xl:tracking-[1%] xl:tracking-[1%]">
+        2xl:leading-[100%] xl:leading-[100%] lg:leading-[100%] 2xl:tracking-[1%] xl:tracking-[1%] lg:tracking-[0.8px]">
           Frequently Asked Questions
         </h1>
-        <p className="text-[#020C12] 2xl:text-[20px] xl:text-[20px] text-[12px] font-normal 2xl:leading-[28px] 
-        xl:leading-[28px] text-center 2xl:mt-[12px] xl:mt-[12px] mt-[12px] 2xl:w-[748px] xl:w-[748px] w-[308px] mx-auto">
-          These FAQs offer key insights into each of our services, making it easier to understand what we offer.
+        <p className="text-[#020C12] 2xl:text-[20px] xl:text-[20px] text-[12px] lg:text-[18px] font-normal 2xl:leading-[28px] 
+        xl:leading-[28px] text-center 2xl:mt-[12px] xl:mt-[12px] mt-[12px] lg:mt-[20px] 2xl:w-[748px] xl:w-[748px] w-[308px] lg:w-[748px] mx-auto ">
+         These FAQs offer key insights into each of our services, making it easier for clients to understand the features and advantages of partnering with Space City Prep.
         </p>
 
         {/* Category Buttons */}
-        <div className="block xl:hidden 2xl:hidden mt-6">
+        <div className="block xl:hidden 2xl:hidden lg:hidden mt-6">
   <Slider {...sliderSettings}>
     {categories.map((cat) => (
       <div key={cat} className="pr-[8px]">
@@ -219,14 +220,15 @@ export default function Faq() {
 </div>
 
 {/* Category Buttons - Large Screens */}
-<div className="hidden xl:flex 2xl:flex flex-wrap justify-center gap-[15px] mt-[30px]">
+<div className="hidden xl:flex 2xl:flex lg:flex flex-wrap justify-center gap-[15px] 2xl:mt-[30px] xl:mt-[30px] lg:mt-[50px]">
   {categories.map((cat) => (
     <button
       key={cat}
       onClick={() => setSelectedCategory(cat)}
-      className={`2xl:h-[48px] xl:h-[48px] h-[38px] 2xl:px-[28px] xl:px-[28px] px-[15px] 2xl:rounded-[30px] xl:rounded-[30px] rounded-[30px]
-         2xl:text-[20px] xl:text-[20px] text-[14px]
-         2xl:leading-[28px] xl:leading-[28px] leading-[100%] font-medium transition-all duration-200 ${
+      className={`2xl:h-[48px] xl:h-[48px] h-[38px] lg:h-[48px] 
+        2xl:px-[28px] xl:px-[28px] px-[15px] lg:px-[28px] 2xl:rounded-[30px] xl:rounded-[30px] rounded-[30px] lg:rounded-[30px]
+         2xl:text-[20px] xl:text-[20px] text-[14px] lg:text-[20px]
+         2xl:leading-[28px] xl:leading-[28px] leading-[100%] lg:leading-[28px] font-medium transition-all duration-200 ${
         selectedCategory === cat
           ? 'bg-[#0084FF] text-white'
           : 'bg-[#B1B1B140] text-[#020C12]'

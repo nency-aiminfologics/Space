@@ -143,22 +143,25 @@ export default function FulfillmentServices() {
 
                             </div>
                         </div>
-                        <div className="2xl:w-[640px] xl:w-[569px] mx-auto">
-                            <h1 className="leaading-[36px] tracking-[1%] 2xl:mt-[84px] xl:mt-[75px] mt-[25px] 
-                            text-center text-[18px] 2xl:text-[32px] xl:text-[28px] font-bold text-[#020C12]">Discounted Shipping Rates</h1>
-                            <p className="text-[#020C12]  text-center font-normal 2xl:leading-[28px] leading-[21px] mt-[10px] 2xl:mt-[25px] xl:mt-[22px]
-                             w-[304px] 2xl:w-[640px] xl:w-[569px]
-                             text-[14px] 2xl:text-[18px] xl:text-[18px] xl:leading-[24.89px]
+                        <div className="2xl:w-[640px] xl:w-[569px] lg:w-[569px] mx-auto">
+                            <h1 className="leaading-[36px] tracking-[1%] 2xl:mt-[84px] xl:mt-[75px] mt-[25px] lg:mt-[50px] 
+                            text-center text-[18px] 2xl:text-[32px] xl:text-[28px] lg:text-[26px] font-bold text-[#020C12]">Discounted Shipping Rates</h1>
+
+                            <p className="text-[#020C12]  text-center font-normal 2xl:leading-[28px] leading-[21px] lg:leading-[24.89px]
+                             mt-[10px] 2xl:mt-[25px] xl:mt-[22px] lg:mt-[16px]
+                             w-[304px] 2xl:w-[640px] xl:w-[569px] lg:w-[569px]
+                             text-[14px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] xl:leading-[24.89px]
                            ">We help you save money by offering bulk discounted shipping rates. Thanks to
                                 our partnerships with many small businesses, you enjoy lower shipping
                                 costs with no extra fees, just honest savings passed directly to you.</p>
 
                             <Link href="/pricefulfilment">
-                                <div className="flex  gap-[10px] xl:gap-[13.97px] 2xl:gap-[15px] 2xl:mt-[34px] mt-[35px] xl:mt-[30px] justify-center ">
+                                <div className="flex  gap-[10px] xl:gap-[13.97px] lg:gap-[13.97px] 2xl:gap-[15px] 
+                                2xl:mt-[34px] mt-[35px] xl:mt-[30px] lg:mt-[45px] justify-center ">
                                     <Image src="/Images/lefticon.png" alt="icon" width={68} height={45} className=" 2xl:w-[68px] 2xl:h-[45px]
-                                    xl:w-[60.31px] xl:h-[40px] w-[43px] h-[29px]" />
-                                    <span className="text-[14px] 2xl:text-[20px] xl:text-[18px]  text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold
-                                      mt-2 2xl:mt-3 xl:mt-3">
+                                    xl:w-[60.31px] xl:h-[40px] w-[43px] h-[29px] lg:w-[60.31px] lg:h-[40px]" />
+                                    <span className="text-[14px] 2xl:text-[20px] xl:text-[18px] lg:text-[18px]  text-[#0084FF] leading-[100%] tracking-[1%] font-sora font-bold
+                                      mt-2 2xl:mt-3 xl:mt-3 lg:mt-[10px]">
                                         See All Prices
                                     </span>
                                 </div>
