@@ -8,9 +8,10 @@ export default function OurVision(){
         className="bg-cover bg-center bg-no-repeat  w-full 2xl:py-[108px] xl:py-[108px] py-[40px] lg:py-[62px] overflow-hidden mx-auto" // <- increased height
         style={{ backgroundImage: `url("/Images/ourvision-bg.png")` }}
       >
-        <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] lg:w-[904px]  mx-auto 2xl:mx-[280px] xl:mx-[65px]">
+        <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] lg:w-[904px]  mx-auto 2xl:mx-auto xl:mx-auto ">
+            <div className="xl:w-[1150px] 2xl:w-[1350px] w-[325px] lg:w-[904px] mx-auto ">
             
-            <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col justify-between  xl:w-[1150px] 2xl:w-[1350px] w-[325px] lg:w-[904px] ">
+            <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col justify-between  ">
 
                 <h1 className="uppercase text-[#020C12] 2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px]
                  font-bold 2xl:leading-[100%] xl:leading-[100%] leading-[28px] 2xl:tracking-[1px] xl:tracking-[0.89px] lg:tracking-[0.71px]">Our Vision</h1>
@@ -37,10 +38,10 @@ export default function OurVision(){
             width={1350}
             height={370}
             className=" 2xl:mt-[64px] xl:mt-[64px] mt-[32px] lg:mt-[47px]
-            2xl:w-[1350px] 2xl:h-[370px] xl:w-[1150px] xl:h-[328px] w-[327px] h-[128px] lg:w-[904px] lg:h-[262px]"/>
+            2xl:w-full 2xl:h-[370px] xl:w-full xl:h-[328px] w-full h-[128px] lg:w-full lg:h-[262px]"/>
 
         </div>
-       
+       </div>
       </div>
         </>
     )

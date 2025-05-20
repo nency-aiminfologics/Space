@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function OurComittment(){
     return(
         <>
-        <div  className="bg-cover bg-center bg-no-repeat w-full  lg:py-[88px] py-[40px]  mx-auto 2xl:py-[134px] xl:py-[111px]"
+        <div  className="bg-cover bg-center bg-no-repeat w-full  lg:py-[88px] py-[40px]  2xl:py-[134px] xl:py-[111px]"
       style={{ backgroundImage: `url("/Images/aboutbg.png")` }}>
         <Image src="/Images/plane.svg" alt="plane" width={160.18} height={118} className=" 2xl:w-[160.18px] 2xl:h-[118px] xl:w-[160.18px] xl:h-[118px]
          w-[82.81px] h-[61px] lg:w-[133.33px] lg:h-[98.22px] absolute 
@@ -18,7 +18,8 @@ export default function OurComittment(){
         w-[66px] h-[41px] absolute lg:w-[149px] lg:h-[93px] z-10 2xl:mt-[19px] 
         2xl:ml-[1710px] xl:ml-[1093px] xl:mt-[42px] mt-[385px] ml-[303px] lg:mt-[40px] lg:ml-[874px]"/>
 
-            <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] lg:w-[904px]  mx-auto">
+            <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px] lg:w-[1024px]  mx-auto ">
+                <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] w-[325px] mx-auto">
                 <div className="2xl:w-[829px] xl:w-[786px] w-[325px] lg:w-[629px] mx-auto  ">
                     <div>
                    <Image src="/Images/logo our comittment.svg" alt=""
@@ -46,6 +47,7 @@ export default function OurComittment(){
                         helping your business run smoother every step of the way.</p>
                    </div>
 
+                </div>
                 </div>
 
             </div>

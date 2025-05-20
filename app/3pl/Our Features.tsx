@@ -53,8 +53,8 @@ export default function OurFeatures() {
          2xl:block xl:block lg:block hidden "
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
-        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] lg:py-[75px] 2xl:py-[120px] xl:py-[106.67px] mx-auto">
-          <div className="2xl:w-[1244px] xl:w-[1150px] lg:w-[904px] mx-auto">
+        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] lg:py-[75px] 2xl:py-[120px] xl:py-[106.67px] mx-auto ">
+          <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto ">
             <h1 className="2xl:text-[48px] xl:text-[42px] lg:text-[32px]  text-[#020C12] font-bold 
           leading-[100%] uppercase tracking-[1px]">
               Our Features
@@ -62,7 +62,7 @@ export default function OurFeatures() {
 
             <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col 
             2xl:gap-[35px] xl:gap-[31.11px] lg:gap-[25px]
-            2xl:mt-[90px] xl:mt-[80.33px] lg:mt-[50px] 2xl:w-[1060px] xl:w-[940px] lg:w-[904px]  mx-auto">
+            2xl:mt-[90px] xl:mt-[80.33px] lg:mt-[50px] 2xl:w-[1247px] xl:w-[1109px] lg:w-[895px]   mx-auto">
               {features.map((feature, index) => {
                 const isExpanded =
                   hoveredIndex === index || (hoveredIndex === null && index === 0);

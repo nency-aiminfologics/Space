@@ -5,7 +5,8 @@ export default function Ecommerce() {
     return (
         <div className="2xl:py-[118px] xl:py-[98px] py-[30px] lg:py-[94px] ">
       <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-full  mx-auto">
-        <div className="2xl:w-[1128px] xl:w-[1150px] lg:w-[904px]  w-[375px] mx-auto">
+        <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px]  w-[375px] mx-auto">
+          
           <div className="">
             <h2 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px]
              w-[202px] xl:w-[745px] 2xl:w-[851px] lg:w-[571px] mx-auto font-bold uppercase 
@@ -20,7 +21,7 @@ export default function Ecommerce() {
           </div>
   
           {/* Fulfillment Table */}
-          <div className="2xl:w-[1128px] xl:w-[1003px] 2xl:h-[384px] xl:h-[346px] w-[375px] h-[256px] lg:w-[904px] lg:h-[341px]
+          <div className="2xl:w-[1128px] xl:w-[1003px] 2xl:h-[384px] xl:h-[346px] w-[375px] h-[256px] lg:w-[904px] lg:h-[341px] 
           2xl:mt-[30px] xl:mt-[31px] mt-[29px] lg:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] lg:rounded-[8.89px] mx-auto "
           style={{
             boxShadow: "0px 4px 6px #020C120F",

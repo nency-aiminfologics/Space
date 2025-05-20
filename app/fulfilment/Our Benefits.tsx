@@ -37,8 +37,8 @@ export default function OurBenefits() {
   mx-auto overflow-y-auto scrollbar-hide"
   style={{ backgroundImage: `url("/Images/Benefits-bg.png")` }}
 >
-  <div>
-  <div className="2xl:pl-[320px] xl:pl-[65px] w-[325px] lg:w-[904px]   mx-auto   2xl:w-full xl:w-full 
+  <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-[375px] mx-auto ">
+  <div className=" w-[325px] lg:w-[904px]   mx-auto   2xl:w-[1350px] xl:w-[1150px] 
    flex xl:flex-row 2xl:flex-row lg:flex-row flex-col justify-between ">
     
     {/* Sticky Title Section */}

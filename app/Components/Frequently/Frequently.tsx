@@ -96,7 +96,7 @@ export default function Frequently() {
 
   return (
     <div className="w-full lg:h-[500px] 2xl:h-[691px] xl:h-[570px] h-[700px] bg-[url('/Images/Frequently_bg.png')] bg-cover bg-center ">
-      <div className="w-[325px]  xl:w-[1280px] 2xl:w-[1440px] lg:w-[904px] mx-auto 2xl:py-[111px] xl:py-[99px] py-[40px] lg:py-[79px]">
+      <div className="w-[375px]  xl:w-[1280px] 2xl:w-[1440px] lg:w-[1024px] mx-auto 2xl:py-[111px] xl:py-[99px] py-[40px] lg:py-[79px]">
         <div className="w-[325px]  xl:w-[1130px] 2xl:w-[1272px] lg:w-[904px] mx-auto">
           <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px] w-[215px] lg:w-[552px]  xl:w-[724px] 2xl:w-[827px] mx-auto font-bold text-center text-[#020C12]">
             FREQUENTLY ASKED QUESTIONS

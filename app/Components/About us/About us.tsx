@@ -23,8 +23,9 @@ export default function Aboutus() {
       className="bg-cover bg-center bg-no-repeat lg:py-[115px] xl:py-[143px] 2xl:py-[160px] py-[40px]   w-full  mx-auto "
       style={{ backgroundImage: `url("/Images/aboutbg.png")` }}
     >
-      <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col 2xl:gap-[300px] lg:gap-[115px]  2xl:ml-[280px] 2xl:pl-0 2xl:w-[1440px] xl:w-[1280px] xl:pl-[65px] 
-      xl:ml-0 xl:gap-[160.24px] w-[325px] lg:w-[904px] mx-auto ">
+      <div className='2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] mx-auto '>
+      <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col  justify-between   2xl:w-[1350px]  xl:w-[1150px]  
+       w-[325px] lg:w-[904px] mx-auto ">
         <div className="relative   xl:flex 2xl:flex lg:flex hidden " ref={ref}>
           {/* Blue Rotating Background Div */}
           <motion.div
@@ -90,6 +91,7 @@ export default function Aboutus() {
   
 </div>
 
+      </div>
       </div>
     </div>
   );

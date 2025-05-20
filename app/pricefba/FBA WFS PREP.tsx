@@ -5,7 +5,7 @@ export default function FbaWfsPrep() {
     return (
         <div className="2xl:py-[118px] xl:py-[98px] py-[30px] lg:py-[86px]">
             <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-full  mx-auto">
-                <div className="2xl:w-[1128px] xl:w-[1150px] w-[375px] lg:w-[904px] mx-auto">
+                <div className="2xl:w-[1350px] xl:w-[1150px] w-[375px] lg:w-[904px] mx-auto">
                     <div className="">
                         <h2 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px] font-bold uppercase leading-[100%] 
             2xl:tracking-[1px] xl:tracking-[0.89px] lg:tracking-[0.8px] tracking-[1%] text-center text-[#020C12]">

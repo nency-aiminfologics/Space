@@ -15,7 +15,7 @@ export default function Whyus() {
         <div className="2xl:w-[1440px]  xl:w-[1280px] w-[325px] lg:w-[904px] mx-auto ">
          
           <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col justify-between xl:w-[1150px] 2xl:w-[1350px] lg:w-[904px] w-[325px]
-           lg:mx-auto mx-auto 2xl:mx-auto xl:mx-[65px] ">
+           lg:mx-auto mx-auto 2xl:mx-auto xl:mx-auto ">
             {/* Left Side Title */}
             <div className=" 2xl:w-[594px] xl:w-[528px] w-[216px] lg:w-[316px] relative">
               <div className="sticky 2xl:top-[93px] xl:top-[83px] lg:top-[66px] pt-[30px]">

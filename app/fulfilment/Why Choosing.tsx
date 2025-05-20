@@ -7,7 +7,8 @@ export default function WhyChoosing (){
         <div  className="bg-cover bg-center bg-no-repeat w-full 2xl:h-[605px] xl:h-[538px] lg:h-[500px]  hidden 2xl:block xl:block lg:block  mx-auto "
       style={{ backgroundImage: `url("/Images/aboutbg.png")` }}>
        
-        <div className="2xl:w-[1440px] xl:w-[1150px] lg:w-[904px]  mx-auto 2xl:mx-auto xl:mx-[65px]  ">
+        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px]  mx-auto   ">
+          <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
         <Image src="/Images/why1.png" alt="why1" width={212} height={148} className="absolute 2xl:mt-[78px] 2xl:ml-[200px] 
         xl:mt-[50px] xl:ml-[150px] lg:mt-[85px] lg:ml-[80px]
          2xl:w-[212px] 2xl:h-[148px] xl:w-[212px] xl:h-[148px] lg:w-[188px] lg:h-[109px]"/>
@@ -30,12 +31,14 @@ export default function WhyChoosing (){
 
                 
             </div>
+            </div>
 
         </div>
       </div>
 
       <div className="w-full lg:hidden md:hidden   2xl:hidden xl:hidden block bg-cover bg-center bg-no-repeat"style={{ backgroundImage: `url("/Images/aboutbg.png")` }}>
-        <div className="w-[325px] pt-[30px] pb-[30px] mx-auto ">
+        <div className="w-[375px] pt-[30px] pb-[30px] mx-auto ">
+          <div className="w-[325px] mx-auto">
       <Image src="/Images/why1.png" alt="why1" width={132} height={82} className=" w-[132px] h-[82px]"/>
       <div className=" w-[304px] mt-[24px] mx-auto ">
                     <h1 className="text-center text-[#020C12] text-[20px]  font-extrabold uppercase leading-[100%] tracking-[1px] ">Why Choosing Us?</h1>
@@ -50,7 +53,7 @@ export default function WhyChoosing (){
             <div className="flex justify-end">
             <Image src="/Images/why2.png" alt="why2" width={132} height={82} className=" w-[132px] h-[82px] mt-[24px]"/>
             </div>
-
+</div>
       </div>
       </div>
         </>

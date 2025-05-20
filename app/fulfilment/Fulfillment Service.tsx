@@ -7,8 +7,8 @@ export default function FulfillmentService() {
     <>
       {/* Desktop Layout */}
       <div className="w-full">
-        <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px] lg:w-[1024px] lg:py-[64px] py-[40px] 2xl:py-[110px] xl:py-[98px]  mx-auto">
-          <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] lg:w-[904px]  mx-auto 2xl:mx-auto xl:mx-[65px] ">
+        <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px] lg:w-[1024px] lg:py-[64px] py-[40px] 2xl:py-[110px] xl:py-[98px]  mx-auto ">
+          <div className="2xl:w-[1350px] xl:w-[1150px] w-[325px] lg:w-[904px]  mx-auto  ">
 
             <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col justify-between  ">
               <div className="">
@@ -36,8 +36,8 @@ export default function FulfillmentService() {
                 alt="main"
                 width={1244}
                 height={198}
-                className="w-full 2xl:h-[198px] xl:h-[176px] h-[77px] lg:w-[904px] 
-                lg:h-[144px] 2xl:rounded-[40px] xl:rounded-[40px] rounded-[10px]"
+                className="w-full 2xl:h-[220px] xl:h-[190px] h-[77px] 
+                lg:h-[144px] 2xl:rounded-[40px] xl:rounded-[40px] rounded-[10px] "
               />
             </div>
 

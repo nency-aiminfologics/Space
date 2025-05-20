@@ -45,8 +45,8 @@ export default function Warehousfuture() {
         className="bg-cover bg-center bg-no-repeat w-full  overflow-hidden mx-auto 2xl:block xl:block lg:block hidden"
         style={{ backgroundImage: `url("/Images/background.png")` }}
       >
-        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] lg:py-[75px] 2xl:py-[120px] xl:py-[106.67px] mx-auto">
-          <div className="2xl:w-[1244px] xl:w-[1150px] lg:w-[904px] mx-auto">
+        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] lg:py-[75px] 2xl:py-[120px] xl:py-[106.67px] mx-auto ">
+          <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
             <h1 className="2xl:text-[48px] xl:text-[42px] lg:text-[32px]
              text-[#020C12] font-bold leading-[100%] uppercase tracking-[1px]">
               Our Features

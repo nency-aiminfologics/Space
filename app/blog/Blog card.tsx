@@ -7,9 +7,11 @@ import { blogData } from "./data/blogdata";
 
 export default function Blogcard() {
   return (
-    <div className=" "> 
-      <div className=" w-full 2xl:py-[142px] xl:py-[128px] py-[30px] lg:py-[82px]">
-        <div className="2xl:w-[1244px] xl:w-[1092px] w-[325px] lg:w-[904px]  mx-auto">
+    <div className=" w-full"> 
+      <div className=" 2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-[375px] mx-auto
+       2xl:py-[142px] xl:py-[128px] py-[30px] lg:py-[82px] ">
+        <div className="2xl:w-[1350px] xl:w-[1150px] w-[325px] lg:w-[904px]  mx-auto ">
+          <div className="2xl:w-[1245px] xl:w-[1090px] mx-auto ">
             
           <div className="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 
           2xl:gap-[35px] xl:gap-[30px] gap-[10px] lg:gap-[20.7px]">
@@ -59,7 +61,7 @@ export default function Blogcard() {
               </Link>
             ))}
           </div>
-          
+          </div>
         </div>
       </div>
     </div>

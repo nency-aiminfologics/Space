@@ -46,9 +46,9 @@ export default function PrepServices() {
         <>
 
             <div className="  w-full">
-                <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] lg:w-[1024px] lg:py-[90px] pt-[30px]   2xl:py-[127px] xl:py-[90px] mx-auto">
+                <div className="2xl:w-[1440px] xl:w-[1280px] w-[325px] lg:w-[1024px] lg:py-[90px] pt-[30px]  2xl:py-[127px] xl:py-[90px] mx-auto">
 
-                    <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] lg:w-[904px]  mx-auto">
+                    <div className="2xl:w-[1350px] xl:w-[1150px] w-[325px] lg:w-[904px]  mx-auto">
 
                         <div className="2xl:w-[683px] xl:w-[714px] w-[325px] lg:w-[714px] mx-auto ">
 

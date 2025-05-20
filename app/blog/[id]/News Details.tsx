@@ -6,9 +6,9 @@ export default function NewsDetails() {
     return (
         <>
 
-            <div className=" 2xl:py-[70px] xl:py-[70px] py-[28px] lg:py-[70px]">
-                <div className="w-full  mx-auto   ">
-                    <div className="2xl:w-[1244px] xl:w-[1150px] lg:w-[904px] w-[325px] mx-auto ">
+            <div className=" w-full 2xl:py-[70px] xl:py-[70px] py-[28px] lg:py-[70px] border border-black">
+                <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-[375px] border border-black mx-auto   ">
+                    <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] w-[325px] border border-black mx-auto ">
                         <div className="flex 2xl:flex-row xl:flex-row lg:flex-row flex-col justify-between">
 
                             <div className="2xl:mt-[168px] xl:mt-[138px] lg:mt-[98px]">

@@ -7,8 +7,8 @@ export default function FulfillmentServices() {
     return (
         <>
             <div className="w-full">
-                <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px]  mx-auto">
-                    <div className="2xl:w-[1244px] xl:w-[1150px] w-[325px] lg:w-[904px] mx-auto 
+                <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-[375px]  mx-auto ">
+                    <div className="2xl:w-[1350px] xl:w-[1150px] w-[325px] lg:w-[904px] mx-auto 
                     py-[40px] 2xl:py-[100px] lg:py-[60px] xl:py-[90px] 2xl:mx-auto xl:mx-[65px]">
 
                         <h1 className="text-[#020C12] font-bold  uppercase 

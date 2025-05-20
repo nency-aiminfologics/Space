@@ -10,10 +10,10 @@ export default function Getintouch() {
     <>
       <div className="w-full">
 
-        <div className="  2xl:py-[95px] xl:py-[93px] py-[35px] lg:py-[60px]">
-          <div className="2xl:w-[1440px] xl:w-[1280px] w-[375px]  lg:w-[1024px]  mx-auto ">
-            <div className="2xl:w-[1244px] xl:w-[1089px] w-[325px] lg:w-[904px]  mx-auto 2xl:gap-[35px] 
-                    xl:gap-[65px] gap-[35px] lg:gap-[20px] flex 2xl:flex-row lg:flex-row xl:flex-row flex-col  ">
+        <div className=" 2xl:w-[1440px] xl:w-[1280px] w-[375px] mx-auto lg:w-[1024px]  2xl:py-[95px] xl:py-[93px] py-[35px] lg:py-[60px] ">
+          
+            <div className="2xl:w-[1350px] xl:w-[1150px] w-[325px] lg:w-[904px]  mx-auto 2xl:gap-[35px] 
+                    justify-between flex 2xl:flex-row lg:flex-row xl:flex-row flex-col  ">
 
               <div className=" 2xl:h-[506px] 2xl:w-[615px] xl:w-[500px] xl:h-[457px] w-[325px[ h-[524px] lg:w-[464px] lg:h-[430px] ">
 
@@ -95,7 +95,7 @@ export default function Getintouch() {
                   className=" 2xl:h-[357px] 2xl:w-[561.99px] xl:w-[479.86px] xl:h-[304.79px] w-[325px] h-[224px] lg:w-[379px] lg:h-[240.73px]
                                 xl:my-[75px] xl:mx-[20px]  2xl:my-[75px] 2xl:mx-[24px] lg:my-[94px] lg:mx-[20px]"
                 />
-                <div className="absolute 2xl:left-[1237px] 2xl:top-[1160px] xl:top-[1117px] xl:left-[873px] top-[1365px] left-[144px] lg:top-[946px] lg:left-[703px]">
+                <div className="absolute 2xl:left-[1274px] 2xl:top-[1160px] xl:top-[1117px] xl:left-[905px] top-[1365px] left-[144px] lg:top-[946px] lg:left-[703px]">
 
                   <div className="relative bg-white 2xl:w-[107px] 2xl:h-[41px] xl:w-[107px] xl:h-[41px] w-[93px] h-[36px] lg:w-[107px] lg:h-[41px]
                                 2xl:px-4 2xl:py-2 xl:px-4 xl:py-2 px-[7px] py-[6px] lg:px-[7px] lg:py-[7px]
@@ -117,7 +117,7 @@ export default function Getintouch() {
             </div>
           </div>
         </div>
-      </div>
+      
 
     </>
   )

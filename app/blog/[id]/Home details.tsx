@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Homedetails(){
     return(
         <>
-         <div className=" w-[325px] 2xl:w-[1244px] xl:w-[1150px] lg:w-[904px] mx-auto">
+         <div className=" w-[325px] 2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
                 <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] mt-[174px] lg:mt-[435px] ">
                    
             <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] text-[24px] lg:text-[42px] font-bold 

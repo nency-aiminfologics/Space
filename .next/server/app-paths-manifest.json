@@ -1,8 +1,8 @@
 {
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/3pl/page": "app/3pl/page.js",
+  "/prep/page": "app/prep/page.js",
   "/Faq/page": "app/Faq/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
-  "/pricefba/page": "app/pricefba/page.js",
-  "/pricefulfilment/page": "app/pricefulfilment/page.js",
-  "/contactus/page": "app/contactus/page.js"
+  "/warehousing/page": "app/warehousing/page.js",
+  "/fulfilment/page": "app/fulfilment/page.js"
 }

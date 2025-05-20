@@ -187,7 +187,9 @@ export default function Faq() {
       : allFAQs.filter(faq => faq.category === selectedCategory);
 
   return (
-    <div className="bg-[#F5F5F5] 2xl:py-[74px] xl:py-[60px] py-[40px] lg:py-[90px]">
+    <div className="bg-[#F5F5F5] w-full">
+      <div className='2xl:py-[74px] xl:py-[60px] py-[40px] lg:py-[90px] 2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] w-[375px] mx-auto'>
+        <div className='2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] w-[325px] mx-auto '>
       <div className="2xl:max-w-[827px] xl:max-w-[827px] max-w-[325px] lg:max-w-[827px] mx-auto ">
         <h1 className="2xl:text-[48px] xl:text-[48px] text-[20px] w-[215px] 2xl:w-full xl:w-full lg:w-full mx-auto  
         font-extrabold text-[#020C12] uppercase text-center 
@@ -251,6 +253,8 @@ export default function Faq() {
           ))}
         </div>
       </div>
+      </div>
+    </div>
     </div>
   );
 }

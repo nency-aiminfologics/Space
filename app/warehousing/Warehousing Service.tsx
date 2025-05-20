@@ -53,8 +53,9 @@ export default function WarehousingService() {
   return (
     <>
       <div className="w-full 2xl:py-[127px] xl:py-[113px] lg:py-[72px]  mx-auto 2xl:block xl:block lg:block hidden">
-        <div className="2xl:w-[1244px] xl:w-[1150px] lg:w-[904px] mx-auto">
-          <div className="2xl:w-[871px] xl:w-[730px] lg:w-[714px]  mx-auto">
+        <div className="2xl:w-[1440px] xl:w-[1280px] lg:w-[1024px] mx-auto ">
+        <div className="2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto ">
+          <div className="2xl:w-[871px] xl:w-[730px] lg:w-[714px]  mx-auto ">
             <h1 className="text-[#0084FF] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] 
           font-semibold 2xl:leading-[28px] xl:leading-[24.89px] lg:leading-[24.89px]  text-center">
               Services
@@ -73,9 +74,10 @@ export default function WarehousingService() {
               more inventory can be stored at a lower cost
             </p>
           </div>
+          <div className=""></div>
 
-          <div className="2xl:w-[1241px] xl:w-[1150px] lg:w-[904px]    2xl:mt-[57px] xl:mt-[57px] lg:mt-[50px]
-         flex 2xl:gap-[25px] xl:gap-[25px] lg:gap-[20px] flex-row mx-auto">
+          <div className="2xl:w-[1241px] xl:w-[1109px] lg:w-[904px]    2xl:mt-[57px] xl:mt-[57px] lg:mt-[50px]
+         flex 2xl:gap-[25px] xl:gap-[25px] lg:gap-[14px] flex-row mx-auto">
             {services.map((service, index) => (
               <div
                 key={index}
@@ -149,6 +151,7 @@ export default function WarehousingService() {
             </Link>
           </div>
         </div>
+      </div>
       </div>
 
       {/* mobile screen */}
