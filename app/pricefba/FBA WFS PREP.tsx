@@ -72,7 +72,7 @@ export default function FbaWfsPrep() {
                         <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px] font-bold uppercase leading-[100%] 
                          2xl:tracking-[1px] xl:tracking-[0.89px] lg:tracking-[0.8px] tracking-[1%] text-center text-[#020C12]">RECEIVING</h1>
 
-                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[350px]  w-[375px] h-[256px] lg:w-[904px] lg:h-[341px]
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[390px] xl:h-[350px]  w-[375px] h-[256px] lg:w-[904px] lg:h-[341px]
                           2xl:mt-[30px] xl:mt-[30px] mt-[20px] lg:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] lg:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
@@ -112,13 +112,13 @@ export default function FbaWfsPrep() {
 
                     {/* BOX FORWARDING table */}
 
-                    <div className="2xl:w-[1128px] 2xl:h-[480px] xl:w-[1003px] xl:h-[430px] w-[375px] h-[301px] lg:w-[904px] lg:h-[355px]
+                    <div className="2xl:w-[1128px] 2xl:h-[412px] xl:w-[1003px] xl:h-[360px]  w-[375px] h-[261px] lg:w-[904px] lg:h-[355px]
                     mx-auto  2xl:mt-[70px] xl:mt-[70px] mt-[35px] lg:mt-[45px]">
 
                         <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px] font-bold uppercase leading-[100%] 
                          2xl:tracking-[1px] xl:tracking-[0.89px] lg:tracking-[0.8px] tracking-[1%] text-center text-[#020C12]">BOX FORWARDING</h1>
 
-                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[350px]  w-[375px] h-[256px] lg:w-[904px] lg:h-[285px]
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[322px] xl:h-[286px]   w-[375px] h-[216px] lg:w-[904px] lg:h-[285px]
                           2xl:mt-[30px] xl:mt-[30px] mt-[20px] lg:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] lg:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
@@ -159,13 +159,13 @@ export default function FbaWfsPrep() {
 
                     {/* SETS TABLE  */}
 
-                    <div className="2xl:w-[1128px] 2xl:h-[480px] xl:w-[1003px] xl:h-[430px] w-[375px] h-[301px] lg:w-[904px] lg:h-[355px]
+                    <div className="2xl:w-[1128px] 2xl:h-[412px] xl:w-[1003px] xl:h-[360pxpx] w-[375px] h-[261px] lg:w-[904px] lg:h-[355px]
                     mx-auto  2xl:mt-[70px] xl:mt-[70px] mt-[35px] lg:mt-[45px]">
 
                         <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px] font-bold uppercase leading-[100%] 
                          2xl:tracking-[1px] xl:tracking-[0.89px] lg:tracking-[0.8px] tracking-[1%] text-center text-[#020C12]">SETS</h1>
 
-                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[350px]  w-[375px] h-[256px] lg:w-[904px] lg:h-[285px]
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[322px] xl:h-[286px]  w-[375px] h-[216px] lg:w-[904px] lg:h-[285px]
                           2xl:mt-[30px] xl:mt-[30px] mt-[20px] lg:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] lg:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",
@@ -207,13 +207,13 @@ export default function FbaWfsPrep() {
 
 
 
-                    <div className="2xl:w-[1128px] 2xl:h-[480px] xl:w-[1003px] xl:h-[430px] w-[375px] h-[301px] lg:w-[904px] lg:h-[300px]
+                    <div className="2xl:w-[1128px] 2xl:h-[356px] xl:w-[1003px] xl:h-[313px] w-[375px]  h-[221px] lg:w-[904px] lg:h-[300px]
                     mx-auto  2xl:mt-[70px] xl:mt-[70px] mt-[35px] lg:mt-[45px]">
 
                         <h1 className="2xl:text-[48px] xl:text-[42px] text-[20px] lg:text-[32px] font-bold uppercase leading-[100%] 
                          2xl:tracking-[1px] xl:tracking-[0.89px] lg:tracking-[0.8px] tracking-[1%] text-center text-[#020C12]">BUYBACK FROM US SUPPLIERS</h1>
 
-                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[480px] xl:h-[350px]  w-[375px] h-[256px] lg:w-[904px] lg:h-[230px]
+                        <div className=" 2xl:w-[1128px] xl:w-[1003px] 2xl:h-[266px] xl:h-[240px]  w-[375px] h-[176px] lg:w-[904px] lg:h-[230px]
                           2xl:mt-[30px] xl:mt-[30px] mt-[20px] lg:mt-[30px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] lg:rounded-[8.89px] mx-auto"
                             style={{
                                 boxShadow: "0px 4px 6px #020C120F",

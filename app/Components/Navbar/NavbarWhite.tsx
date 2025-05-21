@@ -36,8 +36,9 @@ export default function NavbarWhite() {
   }, []);
 
   return (
-    <section className={`z-50 w-full transition-all duration-300  ${isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'}`}>
-      <div className="max-w-[375px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1440px]  mx-auto px-4 lg:px-8 xl:px-[50px] 2xl:px-[80px]">
+    <section className={`z-50 w-full transition-all duration-300   ${isScrolled ? 'fixed top-0 bg-white shadow-[0_4px_20px_#B1B1B133]' : 'absolute'}`}>
+       <div className="max-w-[375px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1440px] mx-auto ">
+        <div className='w-[325px] lg:w-[904px] xl:w-[1150px] 2xl:w-[1350px] mx-auto '>
         <div className="flex justify-between items-center py-4 lg:py-6 xl:py-[34px]">
           {/* Logo */}
           <Link href="/">
@@ -91,13 +92,17 @@ export default function NavbarWhite() {
               <li><Link href="/blog" className={pathname === "/blog" ? "font-semibold" : ""}>Blog</Link></li>
               <li><Link href="/contactus" className={pathname === "/contactus" ? "font-semibold" : ""}>Contact us</Link></li>
             </ul>
-            <Link href="/contactus">
-              <button className={`w-[160px] lg:w-[180px] xl:w-[194px] h-[50px] lg:h-[55px] xl:h-[61px] rounded-[35px] font-semibold text-[16px] lg:text-[17px] xl:text-[18px] transition-all duration-300 ${isScrolled ? "bg-[#0084FF] text-white" : "bg-white text-[#020C12]"}`}>
+            
+          </div>
+          <div className="hidden lg:block">
+          <Link href="/contactus">
+              <button className={`w-[160px] lg:w-[180px] xl:w-[194px] h-[50px] lg:h-[55px] xl:h-[61px] rounded-[35px]
+                 font-semibold text-[16px] lg:text-[17px] xl:text-[18px] transition-all duration-300
+                  ${isScrolled ? "bg-[#0084FF] text-white" : "bg-white text-[#020C12]"}`}>
                 Get Started
               </button>
             </Link>
           </div>
-
           {/* Mobile Menu Button */}
           <div className="lg:hidden">
             <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
@@ -108,7 +113,8 @@ export default function NavbarWhite() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden fixed top-0 right-0 h-full w-[80%] bg-white/95 backdrop-blur-sm z-40 px-6 py-8 flex flex-col space-y-6 text-[#020C12] shadow-[-4px_0_20px_rgba(0,0,0,0.1)]">
+          <div className="lg:hidden fixed top-0 right-0 h-full w-[80%] bg-white/95 backdrop-blur-sm z-40 px-6 py-8 
+          flex flex-col space-y-6 text-[#020C12] shadow-[-4px_0_20px_rgba(0,0,0,0.1)]">
             <div className="flex justify-end items-center mb-4">
               <button onClick={() => setIsMobileMenuOpen(false)}>
                 <IoMdClose size={28} color="#020C12" />
@@ -206,6 +212,7 @@ export default function NavbarWhite() {
             </Link>
           </div>
         )}
+      </div>
       </div>
     </section>
   );

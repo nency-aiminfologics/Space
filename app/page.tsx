@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     // Function to check screen size
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768); // Use 1280px as the breakpoint (matches xl:)
+      setIsMobile(window.innerWidth < 1024); // Use 1280px as the breakpoint (matches xl:)
     };
 
     // Run on initial load

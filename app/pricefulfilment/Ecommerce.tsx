@@ -77,7 +77,7 @@ export default function Ecommerce() {
   
           {/* Storage Table */}
         
-          <div className="2xl:w-[1128px] xl:w-[1003px] 2xl:h-[384px] xl:h-[286px] w-[375px] h-[216px] lg:w-[904px] lg:h-[285px]
+          <div className="2xl:w-[1128px] xl:w-[1003px] 2xl:h-[322px] xl:h-[286px] w-[375px] h-[216px] lg:w-[904px] lg:h-[285px]
           2xl:mt-[30px] xl:mt-[60px] mt-[30px] lg:mt-[40px] overflow-hidden 2xl:rounded-[10px] xl:rounded-[8.89px] lg:rounded-[8.89px] mx-auto  "
           style={{
             boxShadow: "0px 4px 6px #020C120F",
