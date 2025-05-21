@@ -7,13 +7,13 @@ export default function Home() {
         <>
         <div className="w-full">
             <div className=" w-[325px] 2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
-                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] lg:mt-[374px] mt-[140px] ">
+                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] lg:mt-[374px] mt-[120px] ">
 
                     <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] le:text-[42px] text-[24px] font-bold 
         leading-[100%] tracking-[0px]  ">Specialized 3PL Software</h1>
 
                     <p className="text-[#FFFFFF] 2xl:text-[20px] xl:text-[20px] text-[14px] lg:text-[18px] font-semibold 
-                    leading-[28px] 2xl:mt-[8px] xl:mt-[10px] mt-[6px] lg:mt-[8px]">Smarter operations start here with powerful 3PL software</p>
+                    leading-[28px] 2xl:mt-[8px] xl:mt-[10px] mt-[6px] lg:mt-[8px] w-[276px] 2xl:w-full xl:w-full lg:w-full">Smarter operations start here with powerful 3PL software</p>
 
                     <button onClick={() => {
                         document.getElementById("contact-us")?.scrollIntoView({ behavior: "smooth" });
