@@ -7,13 +7,13 @@ export default function Home(){
         <>
         <div className="w-full">
         <div className=" w-[325px] 2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
-                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] lg:mt-[374px] mt-[140px] ">
+                <div className=" z-10 absolute  2xl:mt-[30%] xl:mt-[326px] lg:mt-[300px] mt-[130px] ">
                    
             <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] le:text-[42px] text-[24px] font-bold 
         leading-[100%] tracking-[0px]  ">Warehousing</h1>
 
                 <p className="text-[#FFFFFF] 2xl:text-[20px] xl:text-[20px] text-[14px] lg:text-[18px] font-semibold 
-                    leading-[28px] 2xl:mt-[8px] xl:mt-[10px] mt-[6px] lg:mt-[8px]">
+                    leading-[28px] 2xl:mt-[8px] xl:mt-[10px] mt-[6px] lg:mt-[8px] w-[276px] 2xl:w-full xl:w-ful lg:w-full">
                         Elevate Your Logistics with Our Warehouse Services</p>
 
                 <button onClick={() => {
@@ -30,8 +30,9 @@ export default function Home(){
                     <Image src="/Images/warehouse-bg.png" alt=""
                     width={1794}
                     height={650}
-                    className="2xl:h-[750px] 2xl:w-[1794px] xl:w-[1250px] xl:h-[597px] w-full  h-[280px] lg:w-[1000px] lg:h-[587px]
-                        2xl:rounded-br-[50px] xl:rounded-br-[50px] lg:rounded-br-[50px] " style={{ boxShadow: " 0px 10px 20px #FFFFFF7D" }}/>
+                   className="2xl:w-[97%] xl:w-[97%] lg:w-[97%]  w-[100%] h-[33vh] 2xl:h-auto xl:h-auto lg:h-auto
+                        2xl:rounded-br-[50px] xl:rounded-br-[50px] lg:rounded-br-[50px] " 
+                        style={{ boxShadow: " 0px 10px 20px #FFFFFF7D" }} />
                 
                </div>
                 </div>

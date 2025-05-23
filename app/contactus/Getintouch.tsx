@@ -97,21 +97,7 @@ export default function Getintouch() {
                 />
                 <div className="absolute 2xl:left-[1274px] 2xl:top-[1160px] xl:top-[1117px] xl:left-[905px] top-[1365px] left-[144px] lg:top-[946px] lg:left-[703px]">
 
-                  <div className="relative bg-white 2xl:w-[107px] 2xl:h-[41px] xl:w-[107px] xl:h-[41px] w-[93px] h-[36px] lg:w-[107px] lg:h-[41px]
-                                2xl:px-4 2xl:py-2 xl:px-4 xl:py-2 px-[7px] py-[6px] lg:px-[7px] lg:py-[7px]
-                                rounded-lg shadow-md flex items-center 2xl:gap-[3px] xl:gap-[3px] gap-[6px] lg:gap-[5px] z-10">
-                    <Image
-                      src="/Images/flag.svg"
-                      alt="Texas flag"
-                      width={21}
-                      height={21}
-                      className="2xl:w-[21px] 2xl:h-[21px] xl:w-[21px] xl:h-[21px] w-[24px] h-[17px] lg:w-[26px] lg:h-[17px]" />
-                    <span className="2xl:text-[14px] xl:text-[14px] text-[12px] lg:text-[14px] font-normal">Houston</span>
-
-                    {/* Triangle pointer */}
-                    <div className="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-[10px] border-r-[10px] 
-                                    border-t-[10px] border-l-transparent border-r-transparent border-t-white" />
-                  </div>
+                 
                 </div>
               </div>
             </div>

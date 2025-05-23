@@ -7,7 +7,7 @@ export default function Home() {
         <>
         <div className="w-full">
             <div className=" w-[325px] 2xl:w-[1350px] xl:w-[1150px] lg:w-[904px] mx-auto">
-                <div className=" z-10 absolute  2xl:mt-[495px] xl:mt-[326px] lg:mt-[374px] mt-[120px] ">
+                <div className=" z-10 absolute  2xl:mt-[30%] xl:mt-[326px] lg:mt-[300px] mt-[120px] ">
 
                     <h1 className="text-[#ffffff] 2xl:text-[64px] xl:text-[56px] le:text-[42px] text-[24px] font-bold 
         leading-[100%] tracking-[0px]  ">Specialized 3PL Software</h1>
@@ -29,8 +29,9 @@ export default function Home() {
                 <Image src="/Images/3pl-bg.png" alt=""
                     width={1794}
                     height={650}
-                    className="2xl:h-[750px] 2xl:w-[1794px] xl:w-[1250px] xl:h-[597px] w-full  h-[280px] lg:w-[1000px] lg:h-[587px]
-                        2xl:rounded-br-[50px] xl:rounded-br-[50px] lg:rounded-br-[50px] " style={{ boxShadow: " 0px 10px 20px #FFFFFF7D" }} />
+                 className="2xl:w-[97%] xl:w-[97%] lg:w-[97%] w-[100%] h-[33vh] 2xl:h-auto xl:h-auto lg:h-auto
+                        2xl:rounded-br-[50px] xl:rounded-br-[50px] lg:rounded-br-[50px] " 
+                        style={{ boxShadow: " 0px 10px 20px #FFFFFF7D" }} />
 
 </div>
             </div>
