@@ -18,17 +18,10 @@
       "static/css/app/prep/page.css",
       "static/chunks/app/prep/page.js"
     ],
-    "/warehousing/page": [
+    "/aboutus/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/warehousing/page.css",
-      "static/chunks/app/warehousing/page.js"
-    ],
-    "/3pl/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/3pl/page.css",
-      "static/chunks/app/3pl/page.js"
+      "static/chunks/app/aboutus/page.js"
     ]
   }
 }
