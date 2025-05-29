@@ -134,8 +134,8 @@ export default function ThirdParty() {
 
             </div>
 
-            <div className="2xl:mt-[438px] 2xl:ml-[425px] xl:mt-[378px] xl:ml-[400px] lg:ml-[310px] lg:mt-[250px] absolute 
-                  z-10 2xl:w-[810px] xl:w-[740px] lg:w-[590px] mt-[20px] hidden xl:block 2xl:block lg:block ">
+            <div className="2xl:mt-[438px] 2xl:ml-[480px] xl:mt-[378px] xl:ml-[400px] lg:ml-[320px] lg:mt-[250px] absolute 
+      z-10 2xl:w-[810px] xl:w-[740px] lg:w-[590px] mt-[20px] hidden xl:block 2xl:block lg:block ">
             
                     <div className="2xl:h-[203px] xl:h-[180px] lg:h-[180px]">
                     <div className="flex justify-between">
