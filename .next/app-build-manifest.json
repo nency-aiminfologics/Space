@@ -12,6 +12,23 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
+    "/aboutus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aboutus/page.js"
+    ],
+    "/fulfilment/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/fulfilment/page.css",
+      "static/chunks/app/fulfilment/page.js"
+    ],
+    "/prep/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/prep/page.css",
+      "static/chunks/app/prep/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
